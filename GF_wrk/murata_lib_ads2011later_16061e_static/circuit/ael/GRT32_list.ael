@@ -1,0 +1,48 @@
+create_constant_form("GRT32EC81H475KE01","0:GRT32EC81H475KE01, Infortainment for Automotive, X6S(-55to105[deg]), 50[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:0",68,"0","GRT32EC81H475KE01");
+create_constant_form("GRT32ER61H475KE01","1:GRT32ER61H475KE01, Infortainment for Automotive, X5R(-55to85[deg]), 50[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:1",68,"1","GRT32ER61H475KE01");
+create_constant_form("GRT32DC81A106KE01","2:GRT32DC81A106KE01, Infortainment for Automotive, X6S(-55to105[deg]), 10[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:2",68,"2","GRT32DC81A106KE01");
+create_constant_form("GRT32DC81C106KE01","3:GRT32DC81C106KE01, Infortainment for Automotive, X6S(-55to105[deg]), 16[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:3",68,"3","GRT32DC81C106KE01");
+create_constant_form("GRT32DC81E106KE01","4:GRT32DC81E106KE01, Infortainment for Automotive, X6S(-55to105[deg]), 25[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:4",68,"4","GRT32DC81E106KE01");
+create_constant_form("GRT32DR61C106KE01","5:GRT32DR61C106KE01, Infortainment for Automotive, X5R(-55to85[deg]), 16[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:5",68,"5","GRT32DR61C106KE01");
+create_constant_form("GRT32DR61E106KE01","6:GRT32DR61E106KE01, Infortainment for Automotive, X5R(-55to85[deg]), 25[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:6",68,"6","GRT32DR61E106KE01");
+create_constant_form("GRT32DR61E106ME01","7:GRT32DR61E106ME01, Infortainment for Automotive, X5R(-55to85[deg]), 25[V], 10000000[pF], +/-20[%], 100[Hz]-6[GHz]:7",68,"7","GRT32DR61E106ME01");
+create_constant_form("GRT32EC81A226ME13","8:GRT32EC81A226ME13, Infortainment for Automotive, X6S(-55to105[deg]), 10[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:8",68,"8","GRT32EC81A226ME13");
+create_constant_form("GRT32ER61C226ME13","9:GRT32ER61C226ME13, Infortainment for Automotive, X5R(-55to85[deg]), 16[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:9",68,"9","GRT32ER61C226ME13");
+create_constant_form("GRT32ER61E226KE13","10:GRT32ER61E226KE13, Infortainment for Automotive, X5R(-55to85[deg]), 25[V], 22000000[pF], +/-10[%], 100[Hz]-6[GHz]:10",68,"10","GRT32ER61E226KE13");
+
+create_form_set("GRT32_list" 
+,"GRT32EC81H475KE01"
+,"GRT32ER61H475KE01"
+,"GRT32DC81A106KE01"
+,"GRT32DC81C106KE01"
+,"GRT32DC81E106KE01"
+,"GRT32DR61C106KE01"
+,"GRT32DR61E106KE01"
+,"GRT32DR61E106ME01"
+,"GRT32EC81A226ME13"
+,"GRT32ER61C226ME13"
+,"GRT32ER61E226KE13"
+);
+
+create_compound_form("GRT32_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"GRT32_list",-1,prm("GRT32EC81H475KE01")),
+create_parm("MIN","Minimum",32,"GRT32_list",-1,prm("GRT32EC81H475KE01")),
+create_parm("MAX","Maximum",32,"GRT32_list",-1,prm("GRT32ER61E226KE13")));
+
+create_form_set("GRT32_list_opt","NULL" 
+,"GRT32EC81H475KE01"
+,"GRT32ER61H475KE01"
+,"GRT32DC81A106KE01"
+,"GRT32DC81C106KE01"
+,"GRT32DC81E106KE01"
+,"GRT32DR61C106KE01"
+,"GRT32DR61E106KE01"
+,"GRT32DR61E106ME01"
+,"GRT32EC81A226ME13"
+,"GRT32ER61C226ME13"
+,"GRT32ER61E226KE13"
+,"GRT32_compound"
+);
+
+
+

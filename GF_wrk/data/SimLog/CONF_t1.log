@@ -1,0 +1,505 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Resistor `X1.X2.R2' is shorted.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Capacitor `X1.X2.C8' is shorted.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 5
+
+
+CT Sweep1[1] <GF_lib:CONF_t1:schematic>   pavs=28
+
+HB Sweep1[1].HB1[1/1] <GF_lib:CONF_t1:schematic>  pavs=28  RF=(400e-03->2.4)
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 2035.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__0.Gap5'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__0.Gap4'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__0.Gap6'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__0.Gap1'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    In component `I__0.Tee4':W_widest > 5.0* W_narrowest
+
+    RF=400e-03        0.00% 1/21
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	2.86085 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	5.186 A     	 25.0             
+2.0*	2.11073 A   	 12.5             
+3.0*	1.79593 A   	 25.0             
+4.0*	1.06639 A   	 50.0             
+5.0 	506.49 mA   	100.0             
+5.1 	206.394 mA  	 50.0             
+5.2 	200.569 mA  	 25.0             
+5.3*	64.8987 mA  	 50.0             
+6.0 	31.9685 mA  	100.0             
+6.1 	1.40842 mA  	100.0             
+6.2 	98.8118 uA  	100.0             
+6.3 	6.86035 uA  	100.0             
+6.4 	477.716 nA  	100.0	1.61301 uV   
+    RF=500e-03        5.00% 2/21
+0.0 	8.51324 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	12.8471 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	1.16418 GA  	 25.0             
+2.0*	6.38493 A   	 50.0             
+3.0*	3.19246 A   	100.0             
+4.0 	1.82149 A   	 50.0             
+4.1 	815.639 mA  	  6.3             
+4.2 	765.161 mA  	100.0             
+        Samanskii-Newton iteration failed
+4.3*	1.39196 A   	100.0             
+5.0 	294.214 mA  	 50.0             
+5.1 	131.456 mA  	100.0             
+5.2 	73.1398 mA  	 50.0             
+5.3 	78.2982 mA  	100.0             
+5.4*	58.3499 mA  	100.0             
+6.0 	35.789 mA   	100.0             
+6.1 	26.8825 mA  	100.0             
+6.2 	15.3764 mA  	100.0             
+6.3 	8.05197 mA  	100.0             
+6.4 	4.0201 mA   	100.0             
+6.5 	1.95244 mA  	100.0             
+6.6 	932.626 uA  	100.0             
+6.7 	440.986 uA  	100.0             
+6.8 	207.219 uA  	100.0             
+6.9 	97.0169 uA  	100.0             
+6.10 	45.3116 uA  	100.0             
+6.11 	21.1314 uA  	100.0             
+6.12 	9.84589 uA  	100.0             
+6.13 	4.58507 uA  	100.0             
+6.14 	2.1345 uA   	100.0	7.29717 uV   
+
+    RF=600e-03       10.00% 3/21
+0.0 	13.3601 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	34.8186 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	19.1758 GA  	 25.0             
+2.0*	10.0201 A   	  6.3             
+3.0*	9.39384 A   	 12.5             
+4.0*	8.21961 A   	  6.3             
+5.0*	7.70589 A   	 12.5             
+6.0*	6.74265 A   	 25.0             
+7.0*	5.05699 A   	 50.0             
+8.0*	2.59298 A   	100.0             
+9.0 	5.76145 A   	 25.0             
+9.1 	3.48008 A   	 50.0             
+9.2 	2.01874 A   	100.0             
+9.3 	1.25568 A   	 12.5             
+9.4 	975.541 mA  	100.0             
+        Samanskii-Newton iteration failed
+9.5*	1.19322 A   	 25.0             
+10.0 	760.857 mA  	100.0             
+        Samanskii-Newton iteration failed
+10.1*	1.4383 A    	 25.0             
+11.0*	525.613 mA  	 50.0             
+12.0*	278.527 mA  	100.0             
+13.0 	70.9158 mA  	100.0             
+13.1 	12.7852 mA  	100.0             
+13.2 	3.75358 mA  	100.0             
+13.3 	1.10175 mA  	100.0             
+13.4 	284.725 uA  	100.0             
+13.5 	89.5769 uA  	100.0             
+13.6 	24.1758 uA  	100.0             
+13.7 	7.4138 uA   	100.0             
+13.8 	2.07578 uA  	100.0	8.00875 uV   
+
+    RF=700e-03       15.00% 4/21
+0.0 	8.85335 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	16.5751 A   	100.0             
+1.0*	1.86651 A   	100.0             
+        Newton iteration failed, damping activated
+2.0*	3.22272 A   	 25.0             
+3.0*	1.58078 A   	 50.0             
+4.0*	1.54179 A   	100.0             
+5.0*	389.606 mA  	100.0             
+6.0 	164.372 mA  	100.0             
+6.1 	107.533 mA  	100.0             
+6.2 	64.1407 mA  	100.0             
+6.3 	41.2255 mA  	100.0             
+6.4 	25.4916 mA  	100.0             
+6.5 	16.1919 mA  	100.0             
+6.6 	10.1239 mA  	100.0             
+6.7 	6.39569 mA  	100.0             
+6.8 	4.0149 mA   	100.0             
+6.9 	2.5306 mA   	100.0             
+6.10 	1.59102 mA  	100.0             
+6.11 	1.00189 mA  	100.0             
+6.12 	630.276 uA  	100.0             
+6.13 	396.75 uA   	100.0             
+6.14 	249.649 uA  	100.0             
+6.15 	157.127 uA  	100.0             
+6.16 	98.879 uA   	100.0             
+6.17 	62.2301 uA  	100.0             
+6.18 	39.1624 uA  	100.0             
+6.19 	24.6465 uA  	100.0             
+6.20 	15.5107 uA  	100.0             
+6.21 	9.76142 uA  	100.0             
+6.22 	6.14315 uA  	100.0             
+6.23 	3.86609 uA  	100.0             
+6.24 	2.43305 uA  	100.0	7.27106 uV   
+
+    RF=800e-03       20.00% 5/21
+0.0 	4.75349 A   	100.0             
+0.1 	4.26993 A   	100.0             
+        Samanskii-Newton iteration failed
+0.2*	4.07507 A   	100.0             
+1.0 	641.686 mA  	100.0             
+1.1 	628.662 mA  	100.0             
+1.2*	610.287 mA  	100.0             
+2.0 	110.246 mA  	100.0             
+2.1 	45.313 mA   	100.0             
+2.2 	20.7441 mA  	100.0             
+2.3 	9.86869 mA  	100.0             
+2.4 	4.7772 mA   	100.0             
+2.5 	2.33081 mA  	100.0             
+2.6 	1.14157 mA  	100.0             
+2.7 	560.14 uA   	100.0             
+2.8 	275.096 uA  	100.0             
+2.9 	135.166 uA  	100.0             
+2.10 	66.4265 uA  	100.0             
+2.11 	32.6485 uA  	100.0             
+2.12 	16.0475 uA  	100.0             
+2.13 	7.88796 uA  	100.0             
+2.14 	3.87726 uA  	100.0             
+2.15 	1.90585 uA  	100.0	6.77704 uV   
+
+    RF=900e-03       25.00% 6/21
+0.0 	8.56719 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	96.0716 MA  	100.0             
+1.0*	222.515 mA  	100.0             
+2.0 	62.3009 mA  	100.0             
+2.1 	16.8801 mA  	100.0             
+2.2 	7.11012 mA  	100.0             
+2.3 	2.62771 mA  	100.0             
+2.4 	1.03802 mA  	100.0             
+2.5 	400.072 uA  	100.0             
+2.6 	157.054 uA  	100.0             
+2.7 	60.9003 uA  	100.0             
+2.8 	23.8534 uA  	100.0             
+2.9 	9.28143 uA  	100.0             
+2.10 	3.62745 uA  	100.0             
+2.11 	1.41345 uA  	100.0	6.47101 uV   
+
+    RF=1             30.00% 7/21
+0.0 	3.13765 A   	100.0             
+0.1 	2.68942 A   	100.0             
+        Samanskii-Newton iteration failed
+0.2*	3.57625 A   	100.0             
+1.0 	16.0526 mA  	100.0             
+1.1 	2.15887 mA  	100.0             
+1.2 	424.569 uA  	100.0             
+1.3 	79.6771 uA  	100.0             
+1.4 	14.7112 uA  	100.0             
+1.5 	2.60933 uA  	100.0	7.13503 uV   
+
+    RF=1.1           35.00% 8/21
+0.0 	4.33667 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	11.5865 A   	100.0             
+1.0*	343.645 mA  	100.0             
+2.0 	45.0786 mA  	100.0             
+2.1 	12.6664 mA  	100.0             
+2.2 	3.7999 mA   	100.0             
+2.3 	1.15484 mA  	100.0             
+2.4 	351.163 uA  	100.0             
+2.5 	106.469 uA  	100.0             
+2.6 	32.1565 uA  	100.0             
+2.7 	9.67319 uA  	100.0             
+2.8 	2.89816 uA  	100.0	5.91242 uV   
+
+    RF=1.2           40.00% 9/21
+0.0 	2.24124 A   	100.0             
+0.1 	1.07105 A   	100.0             
+0.2 	958.206 mA  	100.0             
+0.3*	960.731 mA  	100.0             
+1.0 	6.85409 mA  	100.0             
+1.1 	924.033 uA  	100.0             
+1.2 	129.572 uA  	100.0             
+1.3 	18.2801 uA  	100.0             
+1.4 	2.55245 uA  	100.0	11.893 uV    
+
+    RF=1.3           45.00% 10/21
+0.0 	6.38042 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	11.927 A    	100.0             
+1.0*	303.634 mA  	100.0             
+2.0 	62.6521 mA  	100.0             
+2.1 	25.21 mA    	100.0             
+2.2 	11.1203 mA  	100.0             
+2.3 	5.03821 mA  	100.0             
+2.4 	2.2991 mA   	100.0             
+2.5 	1.05371 mA  	100.0             
+2.6 	484.011 uA  	100.0             
+2.7 	222.567 uA  	100.0             
+2.8 	102.397 uA  	100.0             
+2.9 	47.1214 uA  	100.0             
+2.10 	21.6869 uA  	100.0             
+2.11 	9.98157 uA  	100.0             
+2.12 	4.5942 uA   	100.0             
+2.13 	2.11459 uA  	100.0	19.9166 uV   
+
+    RF=1.4           50.00% 11/21
+0.0 	7.21379 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	17.3263 A   	100.0             
+1.0*	160.123 mA  	100.0             
+2.0 	14.3999 mA  	100.0             
+2.1 	2.80573 mA  	100.0             
+2.2 	594.889 uA  	100.0             
+2.3 	129.424 uA  	100.0             
+2.4 	28.4348 uA  	100.0             
+2.5 	6.27375 uA  	100.0             
+2.6 	1.38694 uA  	100.0	7.1168 uV    
+
+    RF=1.5           55.00% 12/21
+0.0 	2.43212 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	2.61787 A   	100.0             
+1.0*	38.6928 mA  	100.0             
+2.0 	1.37285 mA  	100.0             
+2.1 	95.6627 uA  	100.0             
+2.2 	6.51238 uA  	100.0             
+2.3 	437.091 nA  	100.0	2.38417 uV   
+
+    RF=1.6           60.00% 13/21
+0.0 	1.28873 A   	100.0             
+0.1 	571.931 mA  	100.0             
+        Samanskii-Newton iteration failed
+0.2*	1.24938 A   	100.0             
+1.0 	52.7025 mA  	100.0             
+1.1 	12.8713 mA  	100.0             
+1.2 	4.45752 mA  	100.0             
+1.3 	1.16216 mA  	100.0             
+1.4 	378.057 uA  	100.0             
+1.5 	104.057 uA  	100.0             
+1.6 	32.4495 uA  	100.0             
+1.7 	9.31201 uA  	100.0             
+1.8 	2.82423 uA  	100.0	26.7989 uV   
+1.9 	832.736 nA  	100.0	9.0998 uV    
+
+    RF=1.7           65.00% 14/21
+Warning detected by hpeesofsim during HB analysis 'HB1'.
+    In component `I__0.Tee4': (freq*H) > 0.4*Z_LOWEST (GHz*mm)
+
+0.0 	3.04891 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	5.90109 A   	100.0             
+1.0*	198.755 mA  	100.0             
+2.0 	19.7874 mA  	100.0             
+2.1 	4.08205 mA  	100.0             
+2.2 	869.694 uA  	100.0             
+2.3 	184.54 uA   	100.0             
+2.4 	39.5798 uA  	100.0             
+2.5 	8.71551 uA  	100.0             
+2.6 	1.99761 uA  	100.0	24.0169 uV   
+
+    RF=1.8           70.00% 15/21
+0.0 	30.7289 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	57.9436 GA  	100.0             
+1.0*	18.5559 A   	100.0             
+2.0 	4.81948 A   	100.0             
+        Samanskii-Newton iteration failed
+2.1*	24.4414 MA  	100.0             
+        Newton iteration failed, damping activated
+3.0*	3.40159 GA  	 25.0             
+4.0*	4.24416 A   	 50.0             
+5.0*	3.67934 A   	 25.0             
+6.0*	2.94233 A   	 50.0             
+7.0*	2.57418 A   	 12.5             
+8.0*	1.97384 A   	  6.3             
+9.0*	1.86603 A   	 12.5             
+10.0*	1.68295 A   	 25.0             
+11.0*	1.21569 A   	 50.0             
+12.0*	814.764 mA  	 50.0             
+13.0*	508.114 mA  	 25.0             
+14.0 	516.599 mA  	100.0             
+        Samanskii-Newton iteration failed
+14.1*	1.34999 A   	 12.5             
+15.0*	525.031 mA  	 25.0             
+16.0*	506.113 mA  	 50.0             
+17.0*	276.169 mA  	100.0             
+18.0 	32.1066 mA  	100.0             
+18.1 	19.7182 mA  	100.0             
+18.2 	11.0241 mA  	100.0             
+18.3 	4.83074 mA  	100.0             
+18.4 	1.82883 mA  	100.0             
+18.5 	621.745 uA  	100.0             
+18.6 	194.789 uA  	100.0             
+18.7 	57.1773 uA  	100.0             
+18.8 	15.7257 uA  	100.0             
+18.9 	4.02502 uA  	100.0             
+18.10 	941.005 nA  	100.0	17.0453 uV   
+
+    RF=1.9           75.00% 16/21
+0.0 	2.11741 A   	100.0             
+0.1 	1.72001 A   	100.0             
+        Samanskii-Newton iteration failed
+0.2*	1.77857 A   	100.0             
+1.0 	182.389 mA  	100.0             
+1.1 	115.498 mA  	100.0             
+1.2 	70.0488 mA  	100.0             
+1.3 	44.9273 mA  	100.0             
+1.4 	27.3281 mA  	100.0             
+1.5 	17.2284 mA  	100.0             
+1.6 	10.621 mA   	100.0             
+1.7 	6.61957 mA  	100.0             
+1.8 	4.10085 mA  	100.0             
+1.9 	2.54754 mA  	100.0             
+1.10 	1.58057 mA  	100.0             
+1.11 	981.038 uA  	100.0             
+1.12 	608.894 uA  	100.0             
+1.13 	377.863 uA  	100.0             
+1.14 	234.538 uA  	100.0             
+1.15 	145.548 uA  	100.0             
+1.16 	90.3385 uA  	100.0             
+1.17 	56.0632 uA  	100.0             
+1.18 	34.7963 uA  	100.0             
+1.19 	21.5948 uA  	100.0             
+1.20 	13.4028 uA  	100.0             
+1.21 	8.31799 uA  	100.0             
+1.22 	5.16247 uA  	100.0             
+1.23 	3.20397 uA  	100.0	25.7636 uV   
+
+    RF=2             80.00% 17/21
+0.0 	11.1689 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	1.27645 GA  	100.0             
+1.0*	1.99131 A   	100.0             
+2.0 	1.65114 A   	100.0             
+2.1*	1.52776 A   	100.0             
+        Newton iteration failed, damping activated
+3.0*	2.29203 A   	 50.0             
+4.0*	596.51 mA   	100.0             
+5.0 	176.967 mA  	100.0             
+5.1 	112.923 mA  	100.0             
+5.2 	65.3676 mA  	100.0             
+5.3 	40.1026 mA  	100.0             
+5.4 	23.4008 mA  	100.0             
+5.5 	13.9069 mA  	100.0             
+5.6 	8.08821 mA  	100.0             
+5.7 	4.72638 mA  	100.0             
+5.8 	2.73685 mA  	100.0             
+5.9 	1.58566 mA  	100.0             
+5.10 	915.032 uA  	100.0             
+5.11 	527.777 uA  	100.0             
+5.12 	303.844 uA  	100.0             
+5.13 	174.824 uA  	100.0             
+5.14 	100.494 uA  	100.0             
+5.15 	57.741 uA   	100.0             
+5.16 	33.1596 uA  	100.0             
+5.17 	19.0372 uA  	100.0             
+5.18 	10.9263 uA  	100.0             
+5.19 	6.26991 uA  	100.0             
+5.20 	3.59728 uA  	100.0             
+5.21 	2.06368 uA  	100.0	13.8795 uV   
+
+    RF=2.1           85.00% 18/21
+0.0 	4.45089 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	15.2736 A   	100.0             
+1.0*	223.327 mA  	100.0             
+2.0 	11.422 mA   	100.0             
+2.1 	1.72398 mA  	100.0             
+2.2 	268.275 uA  	100.0             
+2.3 	41.6425 uA  	100.0             
+2.4 	6.4526 uA   	100.0             
+2.5 	999.326 nA  	100.0	2.7353 uV    
+
+    RF=2.2           90.00% 19/21
+0.0 	3.13064 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	4.91337 A   	100.0             
+1.0*	143.435 mA  	100.0             
+2.0 	5.14967 mA  	100.0             
+2.1 	528.746 uA  	100.0             
+2.2 	55.7102 uA  	100.0             
+2.3 	5.83721 uA  	100.0             
+2.4 	609.042 nA  	100.0	2.74123 uV   
+
+    RF=2.3           95.00% 20/21
+0.0 	4.21753 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	5.72066 A   	100.0             
+1.0*	320.145 mA  	100.0             
+2.0 	28.7089 mA  	100.0             
+2.1 	6.42324 mA  	100.0             
+2.2 	1.5401 mA   	100.0             
+2.3 	375.093 uA  	100.0             
+2.4 	91.708 uA   	100.0             
+2.5 	22.4398 uA  	100.0             
+2.6 	5.49006 uA  	100.0             
+2.7 	1.34257 uA  	100.0	6.3759 uV    
+
+    RF=2.4          100.00% 21/21
+0.0 	6.10049 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	12.5901 A   	100.0             
+1.0*	220.958 mA  	100.0             
+2.0 	48.1723 mA  	100.0             
+2.1 	9.85591 mA  	100.0             
+2.2 	4.44441 mA  	100.0             
+2.3 	1.93076 mA  	100.0             
+2.4 	906.668 uA  	100.0             
+2.5 	430.992 uA  	100.0             
+2.6 	208.449 uA  	100.0             
+2.7 	101.647 uA  	100.0             
+2.8 	49.8876 uA  	100.0             
+2.9 	24.5852 uA  	100.0             
+2.10 	12.1508 uA  	100.0             
+2.11 	6.01703 uA  	100.0             
+2.12 	2.98359 uA  	100.0	27.6067 uV   
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              8.238e-02       >       2.044e-05
+X1.X2._net502           8.238e-02       >       2.044e-05
+X1.X2._net615           7.340e-03       >       1.177e-06
+X1.X2.vd1g              7.318e-03       >       1.166e-06
+X1.X2._net642           7.250e-03       >       3.380e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 8.238e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.044e-05 for this waveform.
+o A time-domain plot of the N__15 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+Resource usage:
+  Total stopwatch time     =     1.98 seconds.
+

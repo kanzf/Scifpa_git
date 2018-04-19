@@ -1,0 +1,16 @@
+#Momentum: B.12.00.024 (*) built: Jan 14 2016 
+#Momentum Date and Time: Wed Dec 06 17:47:02 2017
+
+Overall database status : 1 (file present and valid)
+
+Frequency range : from 0.009244492989 GHz to 10 GHz.
+
+Requested frequency range : from 0.4 GHz to 7.2 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 1
+ Substrates match        : 1
+ Frequency-range matches : 1
+
+Corresponding potentialpath : C:\Users\KZF/
+Corresponding potentialname : C:\Users\KZF\\substrates\0000.sdb

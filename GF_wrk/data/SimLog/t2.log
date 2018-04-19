@@ -1,0 +1,49 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 2
+
+
+SP SP1[1] <GF_lib:t2:schematic>   freq=(500 MHz->6 GHz)
+.Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.003000) < MinRecommendValue(0.000305) OR UserValue > MaxRecommendValue(0.001905) for 'W3' in `Cros1'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.002000) < MinRecommendValue(0.000305) OR UserValue > MaxRecommendValue(0.001905) for 'W4' in `Cros1'
+
+.......................................................
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression ` PDC=Is_l*Vs_l+Is_h*Vs_h+1e-20'
+        Is_high.i
+        Is_low.i
+        Vs_high
+        Vs_low
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression `Is_l=real(Is_low.i[0])'
+        Is_low.i
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression `Vs_l=real(Vs_low[0])'
+        Vs_low
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression `Is_h=real(Is_high.i[0])'
+        Is_high.i
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression `Vs_h=real(Vs_high[0])'
+        Vs_high
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression ` Pin_dBm=10*log10(Pin_W)+30'
+        I_input.i
+        Vinput
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression `Gp=P_out_dBm-Pin_dBm'
+        I_input.i
+        Iload.i
+        Vinput
+        Vload
+
+Resource usage:
+  Total stopwatch time     =     0.51 seconds.
+

@@ -1,0 +1,288 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in LinearCollapse '_2_' during analysis.
+    LinearCollapse is disabled because there is 'HB' analysis present.
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+CT Sweep1[1] <GF_lib:DPA_T:schematic>   z2=50
+
+HB Sweep1[1].HB1[1/1] <GF_lib:DPA_T:schematic>  z2=50  pavs=(1->28)
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 2035.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    In component `Tee4':W_widest > 5.0* W_narrowest
+
+    pavs=1              0.00% 1/28
+Warning detected by hpeesofsim during HB analysis 'HB1'.
+    In component `Tee4': (freq*H) > 0.4*Z_LOWEST (GHz*mm)
+
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	57.3386 mA  	100.0             
+1.0 	25.5581 uA  	100.0             
+1.1 	23.4881 nA  	100.0	17.1518 nV   
+    pavs=2              3.70% 2/28
+0.0 	823.949 uA  	100.0             
+0.1 	99.9623 uA  	100.0             
+0.2 	353.586 nA  	100.0             
+
+    pavs=3              7.41% 3/28
+0.0 	1.0547 mA   	100.0             
+0.1 	127.88 uA   	100.0             
+0.2 	494.282 nA  	100.0             
+
+    pavs=4             11.11% 4/28
+0.0 	1.35267 mA  	100.0             
+0.1 	163.969 uA  	100.0             
+0.2 	686.149 nA  	100.0             
+0.3 	11.9605 nA  	100.0             
+
+    pavs=5             14.81% 5/28
+0.0 	1.73851 mA  	100.0             
+0.1 	210.814 uA  	100.0             
+0.2 	958.298 nA  	100.0             
+0.3 	20.8935 nA  	100.0             
+
+    pavs=6             18.52% 6/28
+0.0 	2.24045 mA  	100.0             
+0.1 	272.002 uA  	100.0             
+0.2 	1.41825 uA  	100.0             
+0.3 	36.9223 nA  	100.0             
+
+    pavs=7             22.22% 7/28
+0.0 	2.89663 mA  	100.0             
+0.1 	352.572 uA  	100.0             
+0.2 	2.15552 uA  	100.0             
+0.3 	78.37 nA    	100.0             
+
+    pavs=8             25.93% 8/28
+0.0 	3.75994 mA  	100.0             
+0.1 	459.889 uA  	100.0             
+0.2 	4.04893 uA  	100.0             
+0.3 	183.187 nA  	100.0             
+
+    pavs=9             29.63% 9/28
+0.0 	4.90717 mA  	100.0             
+0.1 	605.488 uA  	100.0             
+0.2 	9.56727 uA  	100.0             
+0.3 	429.119 nA  	100.0             
+
+    pavs=10            33.33% 10/28
+0.0 	6.45322 mA  	100.0             
+0.1 	808.942 uA  	100.0             
+0.2 	22.2151 uA  	100.0             
+0.3 	1.04034 uA  	100.0             
+
+    pavs=11            37.04% 11/28
+0.0 	8.58455 mA  	100.0             
+0.1 	1.10781 mA  	100.0             
+0.2 	52.1721 uA  	100.0             
+0.3 	2.63147 uA  	100.0             
+
+    pavs=12            40.74% 12/28
+0.0 	11.638 mA   	100.0             
+0.1 	1.73651 mA  	100.0             
+0.2 	124.594 uA  	100.0             
+0.3 	6.9389 uA   	100.0             
+
+    pavs=13            44.44% 13/28
+0.0 	17.6459 mA  	100.0             
+0.1 	3.7732 mA   	100.0             
+0.2 	320.188 uA  	100.0             
+0.3 	19.8038 uA  	100.0             
+0.4 	977.523 nA  	100.0             
+
+    pavs=14            48.15% 14/28
+0.0 	36.9869 mA  	100.0             
+0.1 	9.09603 mA  	100.0             
+0.2 	876.048 uA  	100.0             
+0.3 	61.0488 uA  	100.0             
+0.4 	3.47603 uA  	100.0             
+
+    pavs=15            51.85% 15/28
+0.0 	82.0513 mA  	100.0             
+0.1 	20.9533 mA  	100.0             
+0.2 	2.24997 mA  	100.0             
+0.3 	188.737 uA  	100.0             
+0.4 	12.2038 uA  	100.0             
+
+    pavs=16            55.56% 16/28
+0.0 	85.9247 mA  	100.0             
+0.1 	15.0965 mA  	100.0             
+0.2 	1.15435 mA  	100.0             
+0.3 	80.3831 uA  	100.0             
+0.4 	5.11235 uA  	100.0             
+
+    pavs=17            59.26% 17/28
+0.0 	63.3274 mA  	100.0             
+0.1 	7.51723 mA  	100.0             
+0.2 	354.651 uA  	100.0             
+0.3 	11.5351 uA  	100.0             
+
+    pavs=18            62.96% 18/28
+0.0 	63.3627 mA  	100.0             
+0.1 	7.29859 mA  	100.0             
+0.2 	161.965 uA  	100.0             
+0.3 	6.65161 uA  	100.0             
+
+    pavs=19            66.67% 19/28
+0.0 	63.9465 mA  	100.0             
+0.1 	8.27517 mA  	100.0             
+0.2 	426.981 uA  	100.0             
+0.3 	18.5599 uA  	100.0             
+0.4 	945.317 nA  	100.0             
+
+    pavs=20            70.37% 20/28
+0.0 	108.28 mA   	100.0             
+0.1 	17.8517 mA  	100.0             
+0.2 	1.33654 mA  	100.0             
+0.3 	83.1433 uA  	100.0             
+0.4 	5.69815 uA  	100.0             
+
+    pavs=21            74.07% 21/28
+0.0 	114.286 mA  	100.0             
+0.1 	12.0699 mA  	100.0             
+0.2 	244.636 uA  	100.0             
+0.3 	10.5768 uA  	100.0             
+0.4 	1.06558 uA  	100.0             
+
+    pavs=22            77.78% 22/28
+0.0 	137.775 mA  	100.0             
+0.1 	11.4798 mA  	100.0             
+0.2 	1.676 mA    	100.0             
+0.3 	374.549 uA  	100.0             
+0.4 	83.9163 uA  	100.0             
+0.5 	17.8081 uA  	100.0             
+0.6 	3.6471 uA   	100.0             
+
+    pavs=23            81.48% 23/28
+0.0 	173.431 mA  	100.0             
+0.1 	27.1364 mA  	100.0             
+0.2 	27.821 mA   	100.0             
+0.3*	13.3977 mA  	100.0             
+1.0 	99.8708 uA  	100.0             
+1.1 	1.31487 uA  	100.0	3.77769 uV   
+
+    pavs=24            85.19% 24/28
+0.0 	178.494 mA  	100.0             
+0.1 	35.477 mA   	100.0             
+0.2 	28.0408 mA  	100.0             
+0.3 	16.0311 mA  	100.0             
+0.4 	10.0926 mA  	100.0             
+0.5 	5.68036 mA  	100.0             
+0.6 	3.23492 mA  	100.0             
+0.7 	1.73453 mA  	100.0             
+0.8 	914.179 uA  	100.0             
+0.9 	463.551 uA  	100.0             
+0.10 	228.826 uA  	100.0             
+0.11 	109.136 uA  	100.0             
+0.12 	50.274 uA   	100.0             
+0.13 	22.3992 uA  	100.0             
+0.14 	9.59092 uA  	100.0             
+0.15 	3.84441 uA  	100.0             
+
+    pavs=25            88.89% 25/28
+0.0 	176.963 mA  	100.0             
+0.1 	32.2908 mA  	100.0             
+0.2 	16.9891 mA  	100.0             
+0.3 	9.43442 mA  	100.0             
+0.4 	5.08076 mA  	100.0             
+0.5 	2.73752 mA  	100.0             
+0.6 	1.4519 mA   	100.0             
+0.7 	765.667 uA  	100.0             
+0.8 	399.86 uA   	100.0             
+0.9 	207.527 uA  	100.0             
+0.10 	106.981 uA  	100.0             
+0.11 	54.862 uA   	100.0             
+0.12 	27.9983 uA  	100.0             
+0.13 	14.2324 uA  	100.0             
+0.14 	7.21018 uA  	100.0             
+0.15 	3.64266 uA  	100.0             
+0.16 	1.8362 uA   	100.0             
+
+    pavs=26            92.59% 26/28
+0.0 	147.232 mA  	100.0             
+0.1 	38.5249 mA  	100.0             
+0.2 	12.1076 mA  	100.0             
+0.3 	5.86435 mA  	100.0             
+0.4 	2.81018 mA  	100.0             
+0.5 	1.35165 mA  	100.0             
+0.6 	647.569 uA  	100.0             
+0.7 	310.144 uA  	100.0             
+0.8 	148.245 uA  	100.0             
+0.9 	70.7887 uA  	100.0             
+0.10 	33.7614 uA  	100.0             
+0.11 	16.0883 uA  	100.0             
+0.12 	7.66058 uA  	100.0             
+0.13 	3.64552 uA  	100.0             
+0.14 	1.734 uA    	100.0             
+
+    pavs=27            96.30% 27/28
+0.0 	235.659 mA  	100.0             
+0.1 	102.461 mA  	100.0             
+0.2 	9.53564 mA  	100.0             
+0.3 	4.23287 mA  	100.0             
+0.4 	1.02117 mA  	100.0             
+0.5 	418.575 uA  	100.0             
+0.6 	139.045 uA  	100.0             
+0.7 	48.9861 uA  	100.0             
+0.8 	16.73 uA    	100.0             
+0.9 	5.73645 uA  	100.0             
+0.10 	1.95388 uA  	100.0             
+
+    pavs=28           100.00% 28/28
+0.0 	391.065 mA  	100.0             
+0.1 	98.271 mA   	100.0             
+0.2 	6.81262 mA  	100.0             
+0.3 	3.35659 mA  	100.0             
+0.4 	1.11631 mA  	100.0             
+0.5 	418.506 uA  	100.0             
+0.6 	158.428 uA  	100.0             
+0.7 	60.3731 uA  	100.0             
+0.8 	22.9198 uA  	100.0             
+0.9 	8.71132 uA  	100.0             
+0.10 	3.34881 uA  	100.0             
+0.11 	1.37539 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              3.040e-02       >       1.925e-05
+X1.X2._net502           3.040e-02       >       1.925e-05
+X1.X2.vg1               3.389e-03       >       2.640e-06
+X1.X2._net628           3.335e-03       >       2.683e-06
+X1.X2._net660           3.335e-03       >       2.683e-06
+
+o Number of waveforms violating the HB truncation error check:
+        9 out of 11 waveforms.
+o Estimated max HB truncation error: 3.040e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.925e-05 for this waveform.
+o A time-domain plot of the N__32 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+SP SP1[1] <GF_lib:DPA_T:schematic>   freq=(400 MHz->2.4 GHz)
+.....................
+
+Resource usage:
+  Total stopwatch time     =     0.63 seconds.
+

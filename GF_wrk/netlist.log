@@ -1,0 +1,317 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="GF_lib:F:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+define F_thridoca ( P1  V_load  P3  P4  P5  P6  P7  P6__P8  P9  P10  P11  P12  P13  P14  P15  P16  P17  P20  P19  P20__P20  P21  P22 ) 
+;parameters 
+Short:I_low  P3 V_low Mode=0 SaveCurrent=no
+MLIN2:TL14  N__26 N__30 Subst="MSub1" W=s14 mm L=l14 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+Short:I_in  P1 V_in Mode=0 SaveCurrent=no
+MGAP:Gap3  P13 P14 Subst="MSub1" W=8 mm S=6 mm 
+MLIN2:TL2  N__47 N__48 Subst="MSub1" W=s3 mm L=l3 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTEE_ADS:Tee1  N__46 N__47 N__50 Subst="MSub1" W1=s5 mm W2=s3 mm W3=s2 mm 
+MLIN2:TL30  P16 N__51 Subst="MSub1" W=s23 mm L=l23 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTEE_ADS:Tee4  N__29 N__36 N__30 Subst="MSub1" W1=s11 mm W2=s10 mm W3=s14 mm 
+MLOC2:TL3  N__50 Subst="MSub1" W=s2 mm L=l2 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+Short:I_high  P4 V_high Mode=0 SaveCurrent=no
+
+s1=3.4 tune{ 0.6 to 15 by 0.2 }
+s23=2.4 tune{ 0.6 to 15 by 0.2 }
+s24=2.8 tune{ 0.6 to 15 by 0.2 }
+s2=5 tune{ 0.6 to 15 by 0.2 }
+s3=2.4 tune{ 0.5 to 15 by 0.2 }
+s4=4.8 tune{ 0.5 to 15 by 0.2 }
+s5=2.8 tune{ 0.5 to 15 by 0.2 }
+s6=1 tune{ 0.5 to 15 by 0.2 }
+s7=3 tune{ 0.5 to 15 by 0.2 }
+s8=3 tune{ 0.5 to 15 by 0.2 }
+MTEE_ADS:Tee3  N__34 N__43 N__45 Subst="MSub1" W1=s1 mm W2=s5 mm W3=s6 mm 
+
+l1=2.8 tune{ 0.5 to 15 by 0.2 }
+l23=3 tune{ 0.5 to 15 by 0.2 }
+l24=4.6 tune{ 0.5 to 15 by 0.2 }
+l25=7.6 tune{ 0.5 to 15 by 0.2 }
+l2=3.2 tune{ 0.5 to 15 by 0.2 }
+l3=6 tune{ 0.5 to 15 by 0.2 }
+l4=1.4 tune{ 0.5 to 15 by 0.2 }
+l5=5 tune{ 0.5 to 15 by 0.2 }
+l6=15.4 tune{ 10 to 32 by 0.2 }
+l7=2 tune{ 1 to 32 by 0.1 }
+l8=3 tune{ 1 to 32 by 0.1 }
+MLOC2:TL4  N__49 Subst="MSub1" W=s4 mm L=l4 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+
+l9=4.2 tune{ 0.5 to 15 by 0.2 }
+l10=3 tune{ 0.5 to 15 by 0.2 }
+l11=2.6 tune{ 0.5 to 15 by 0.2 }
+l12=7 tune{ 0.5 to 15 by 0.2 }
+l13=6 tune{ 0.5 to 15 by 0.2 }
+l14=5 tune{ 5 to 32 by 0.2 }
+l15=3 tune{ 1 to 32 by 0.2 }
+l16=3 tune{ 1 to 32 by 0.1 }
+l26=5 tune{ 1 to 32 by 0.1 }
+
+s9=8 tune{ 0.6 to 15 by 0.2 }
+s10=8 tune{ 0.6 to 15 by 0.2 }
+s11=2.8 tune{ 0.5 to 15 by 0.2 }
+s12=2.4 tune{ 0.5 to 15 by 0.2 }
+s13=3 tune{ 0.5 to 15 by 0.2 }
+s14=1.8 tune{ 0.5 to 15 by 0.2 }
+s15=2 tune{ 0.4 to 15 by 0.2 }
+s16=2 tune{ 0.5 to 15 by 0.2 }
+Short:I_load  N__51 V_load Mode=0 SaveCurrent=no
+model MSub1 MSUB H=30 mil Er=3.48 Mur=1 Cond=1.0E+50 Hu=3.9e+034 mil T=0.035 mm TanD=0 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL16  N__38 V_low Subst="MSub1" W=s15 mm L=l16 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL15  N__39 N__40 Subst="MSub1" W=s15 mm L=l15 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL13  V_in P9 Subst="MSub1" W=s13 mm L=l13 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL28  N__56 N__24 Subst="MSub1" W=s6 mm L=l25 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL11  N__25 N__29 Subst="MSub1" W=s11 mm L=l11 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL10  N__36 P11 Subst="MSub1" W=s10 mm L=l10 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL9  P12 P13 Subst="MSub1" W=s9 mm L=l9 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL12  P10 N__25 Subst="MSub1" W=s12 mm L=l12 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL29  N__37 P22 Subst="MSub1" W=s14 mm L=l26 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL1  N__41 N__34 Subst="MSub1" W=s1 mm L=l1 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL6  N__31 N__45 Subst="MSub1" W=s6 mm L=l6 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL8  N__53 V_high Subst="MSub1" W=s7 mm L=l8 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL7  N__55 N__54 Subst="MSub1" W=s7 mm L=l7 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL5  N__43 N__46 Subst="MSub1" W=s5 mm L=l5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL27  P14 N__41 Subst="MSub1" W=s24 mm L=l24 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MGAP:Gap5  P21 P22 Subst="MSub1" W=2 mm S=1.8 mm 
+MTEE_ADS:Tee8  N__54 N__53 P17 Subst="MSub1" W1=s7 mm W2=s7 mm W3=1.2 mm 
+MTEE_ADS:Tee6  N__38 N__40 P5 Subst="MSub1" W1=s15 mm W2=s15 mm W3=1.2 mm 
+MTEE_ADS:Tee2  N__48 P15 N__49 Subst="MSub1" W1=s3 mm W2=s23 mm W3=s4 mm 
+MTEE_ADS:Tee5  N__39 P21 P7 Subst="MSub1" W1=s15 mm W2=s14 mm W3=1.2 mm 
+MTEE_ADS:Tee7  N__56 N__55 P19 Subst="MSub1" W1=s7 mm W2=s7 mm W3=1.2 mm 
+MGAP:Gap4  P15 P16 Subst="MSub1" W=3 mm S=1.5 mm 
+MGAP:Gap2  P11 P12 Subst="MSub1" W=8 mm S=1.8 mm 
+MGAP:Gap1  P9 P10 Subst="MSub1" W=3 mm S=1.5 mm 
+aele StabFact1=stab_fact(S);
+MCURVE:Curve2  N__26 N__37 Subst="MSub1" W=s14 mm Angle=90 Radius=s14 mm 
+MCURVE:Curve1  N__24 N__31 Subst="MSub1" W=s6 mm Angle=90 Radius=s6 mm 
+Short:PinShort__P8  P6__P8 P6 Mode=0 SaveCurrent=no
+Short:PinShort__P20  P20__P20 P20 Mode=0 SaveCurrent=no
+end F_thridoca
+GRM21:C58  0 N__25 PartNumber=364 
+Short:I_in  V_in N__34 Mode=0 SaveCurrent=yes 
+Port:PORT3  V_in 0 Num=1 Z=50 Ohm P[1]=dbmtow(pavs) Freq[1]=RF GHz    Noise=yes Pac=polar(dbmtow(0),0) 
+Short:I_low  N__21 V_low Mode=0 SaveCurrent=yes 
+V_Source:SRC2  N__21 0 Type="V_DC" Vdc=-2.8 V SaveCurrent=1 
+Short:I_load  N__31 V_load Mode=0 SaveCurrent=yes 
+Port:Term1  V_load 0 Num=2 Z=50 Ohm Noise=yes 
+Short:I_high  V_high N__46 Mode=0 SaveCurrent=yes 
+V_Source:SRC1  V_high 0 Type="V_DC" Vdc=28 V SaveCurrent=1 
+R:R4  N__47 N__48 R=r1 Ohm Noise=yes 
+GRM21:C39  N__4 N__12 PartNumber=364 
+GRM21:C41  0 N__5 PartNumber=310 
+#uselib "CGH40_r6" , "CGH40010F_r6_CGH40_r6"
+"CGH40010F_r6_CGH40_r6":X1  N__19 N__6 0 0 tcase=25 crth=5.0 
+GRM21:C55  N__37 N__2 PartNumber=0 
+R:R3  N__2 N__37 R=r1 Ohm Noise=yes 
+GRM21:C54  N__44 N__45 PartNumber=2 
+GRM21:C56  N__15 N__32 PartNumber=0 
+
+SweepPlan:SwpPlan2 SweepPlan[1]="SwpPlan2_seg1" 
+SweepPlan:SwpPlan2_seg1 Start=10 Stop=40 Lin=31 
+HB:HB1 MaxOrder=4 Freq[1]=RF GHz Order[1]=5 StatusLevel=2 Restart=no SweepVar="pavs" SweepPlan="SwpPlan4" OutputPlan="HB1_Output" 
+
+OutputPlan:HB1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+Tran:HB1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+Freq[1]=RF GHz Order[1]=5 
+
+Component:tahb_HB1 Module="ATAHB" Type="ModelExtractor" \ 
+ Tran_Analysis="HB1_tran" HB_Analysis="HB1" 
+
+ParamSweep:Sweep1 SimInstanceName[1]="HB1" StatusLevel=2 SweepVar="RF" SweepPlan="SwpPlan3" 
+
+
+c3=110 tune{ 0.5 to 150 by 5 }
+r1=6.4 tune{ 0.5 to 15 by 0.2 }
+c5=10.5 tune{ 0.5 to 20 by 0.1 }
+c4=20 tune{ 0.5 to 150 by 5 }
+
+c6=14 tune{ 0.5 to 15 by 0.1 }
+c7=20 tune{ 0.1 to 150 by 5 }
+
+c1=150 tune{ 5 to 500 by 5 }
+c2=50 tune{ 0.5 to 500 by 5 }
+
+pavs=2
+RF=2
+
+SweepPlan:SwpPlan1 SweepPlan[1]="SwpPlan1_seg1" 
+SweepPlan:SwpPlan1_seg1 Pt=1.7 
+
+SweepPlan:SwpPlan3 SweepPlan[1]="SwpPlan3_seg1" 
+SweepPlan:SwpPlan3_seg1 Start=0.4 Stop=3.2 Lin=57 
+
+SweepPlan:SwpPlan4 SweepPlan[1]="SwpPlan4_seg1" 
+SweepPlan:SwpPlan4_seg1 Pt=28 
+aele Pdel_W=0.5*real(V_load[1]*conj(I_load.i[1]));DE=100*(Pdel_W/Pdc);Pdc=real(V_high[0]*I_high.i[0]+V_low[0]*I_low.i[0]);Pdel_dBm=10*log10(Pdel_W)+30;Pin_W=0.5*real(V_in[1]*conj(I_in.i[1]))+1e-20;PAE=100*((Pdel_W-Pin_W)/Pdc);Pin_dBm=10*log10(Pin_W)+30;
+model MSub1 MSUB H=30 mil Er=3.48 Mur=1 Cond=1.0E+50 Hu=3.9e+034 mil T=0.035 mm TanD=0 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+
+#ifndef muRataLibWeb
+#define muRataLibWeb
+; models
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/ZRB18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/ZRB15.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW2UAS_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW2BAS_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW2BAN_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW21HN_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW18CN_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW18AN_8Z.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW18AN_80.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW18AN_1Z.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW18AN_10.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW18AN_0Z.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW18AN_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW15CN_10.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW15CN_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW15CA_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW15AN_8Z.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW15AN_80.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW15AN_1Z.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW15AN_10.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW15AN_0Z.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW15AN_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW04CA_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW04AN_10.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW04AN_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQW03AW_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP15MN_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP03TQ_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP03TN_Z2.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP03TN_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP03TG_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP03PN_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP03HQ_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP02TQ_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP02TN_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQP02HQ_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQG18HN_00.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQG15WZ_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQG15WH_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQG15HZ_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQG15HS_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQG15HN_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LQG15HH_02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LLR18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LLL31.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LLL21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LLL1U.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LLL18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/LLL15.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/KRM55.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/KRM31.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/KRM21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/KR355.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/KCM55.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/KC355.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRT32.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRT31.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRT21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRT18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRT15.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRT03.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM55.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM43.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM42.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM32.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM31.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM15.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM03.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRM01.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRJ55.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRJ43.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRJ32.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRJ31.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRJ21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRJ18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GRJ15.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR731.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR721.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR455.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR443.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR442.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR355.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR343.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR332.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR331.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GR321.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GQM22.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GQM21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GQM18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GQM15.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GJM15.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GJM03.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GJM02.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GJ832.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GJ831.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GJ821.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GJ431.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCM55.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCM43.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCM32.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCM31.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCM21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCM18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCM15.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCM03.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCJ55.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCJ43.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCJ32.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCJ31.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCJ21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCJ18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCE21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCE18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCD21.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GCD18.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GC355.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GC343.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GC332.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GC331.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GC321.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GA355.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GA352.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GA343.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GA342.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GA255.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GA243.net"
+#include "C:/Users/KZF/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/circuit/models/GA242.net"
+#endif
+
+
+F_thridoca:I__36  N__34 N__31 V_low N__46 N__12 0 N__5 N__4 N__45 N__44 N__2 N__37 N__19 N__6 N__32 N__15 N__9 0 N__25 N__35 N__47 N__48 
+GRM21:C59  N__35 N__9 PartNumber=310 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=0.4 GHz Stop=3.4 GHz Step=0.01 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2

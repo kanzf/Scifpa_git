@@ -1,0 +1,251 @@
+;;****************************************************************************
+;; File:        LQW18AN_8Z.net
+;; Description: LQW18AN_8Z model file
+;; Author:      Agilent Technologies Japan, Ltd. 
+;; Created:     2016.06.24 11:21:00
+;; Language:    ADSsim
+;; (C) Copyright 2005, Agilent Technologies Japan, all rights reserved.
+;;****************************************************************************
+
+
+define LQW18AN_8Z ( _net1  _net2 )
+parameters PartNumber=0
+
+DAC:DAC1  File="$muRataLibWeb_CIRCUIT_MODEL_DIR/LQW18AN_8Z.dat" Type="dscr" InterpMode="index_lookup" InterpDom="ri" ExtrapMode="interpMode" iVar1="INDEX" iVal1=PartNumber
+
+
+M01=file{DAC1, "M01"}
+L01=file{DAC1, "L01"}
+K01=file{DAC1, "K01"}
+M02=file{DAC1, "M02"}
+L02=file{DAC1, "L02"}
+K02=file{DAC1, "K02"}
+M03=file{DAC1, "M03"}
+L03=file{DAC1, "L03"}
+K03=file{DAC1, "K03"}
+M04=file{DAC1, "M04"}
+L04=file{DAC1, "L04"}
+K04=file{DAC1, "K04"}
+M05=file{DAC1, "M05"}
+L05=file{DAC1, "L05"}
+K05=file{DAC1, "K05"}
+M06=file{DAC1, "M06"}
+L06=file{DAC1, "L06"}
+K06=file{DAC1, "K06"}
+M07=file{DAC1, "M07"}
+L07=file{DAC1, "L07"}
+K07=file{DAC1, "K07"}
+M08=file{DAC1, "M08"}
+L08=file{DAC1, "L08"}
+K08=file{DAC1, "K08"}
+M09=file{DAC1, "M09"}
+L09=file{DAC1, "L09"}
+K09=file{DAC1, "K09"}
+M10=file{DAC1, "M10"}
+L10=file{DAC1, "L10"}
+K10=file{DAC1, "K10"}
+M11=file{DAC1, "M11"}
+L11=file{DAC1, "L11"}
+K11=file{DAC1, "K11"}
+M12=file{DAC1, "M12"}
+L12=file{DAC1, "L12"}
+K12=file{DAC1, "K12"}
+M13=file{DAC1, "M13"}
+L13=file{DAC1, "L13"}
+K13=file{DAC1, "K13"}
+M14=file{DAC1, "M14"}
+L14=file{DAC1, "L14"}
+K14=file{DAC1, "K14"}
+M15=file{DAC1, "M15"}
+L15=file{DAC1, "L15"}
+K15=file{DAC1, "K15"}
+M16=file{DAC1, "M16"}
+L16=file{DAC1, "L16"}
+K16=file{DAC1, "K16"}
+
+
+Z_Port:Z1P01  _net1 _net2 Z[1,1]=if freq==0 or K01==0 then (j*2*pi*freq*L01)+M01 else 1/(j*2*pi*freq*K01)+(j*2*pi*freq*L01)+M01 endif
+Z_Port:Z1P02  _net1 _net2 Z[1,1]=if freq==0 or K02==0 then (j*2*pi*freq*L02)+M02 else 1/(j*2*pi*freq*K02)+(j*2*pi*freq*L02)+M02 endif
+Z_Port:Z1P03  _net1 _net2 Z[1,1]=if freq==0 or K03==0 then (j*2*pi*freq*L03)+M03 else 1/(j*2*pi*freq*K03)+(j*2*pi*freq*L03)+M03 endif
+Z_Port:Z1P04  _net1 _net2 Z[1,1]=if freq==0 or K04==0 then (j*2*pi*freq*L04)+M04 else 1/(j*2*pi*freq*K04)+(j*2*pi*freq*L04)+M04 endif
+Z_Port:Z1P05  _net1 _net2 Z[1,1]=if freq==0 or K05==0 then (j*2*pi*freq*L05)+M05 else 1/(j*2*pi*freq*K05)+(j*2*pi*freq*L05)+M05 endif
+Z_Port:Z1P06  _net1 _net2 Z[1,1]=if freq==0 or K06==0 then (j*2*pi*freq*L06)+M06 else 1/(j*2*pi*freq*K06)+(j*2*pi*freq*L06)+M06 endif
+Z_Port:Z1P07  _net1 _net2 Z[1,1]=if freq==0 or K07==0 then (j*2*pi*freq*L07)+M07 else 1/(j*2*pi*freq*K07)+(j*2*pi*freq*L07)+M07 endif
+Z_Port:Z1P08  _net1 _net2 Z[1,1]=if freq==0 or K08==0 then (j*2*pi*freq*L08)+M08 else 1/(j*2*pi*freq*K08)+(j*2*pi*freq*L08)+M08 endif
+Z_Port:Z1P09  _net1 _net2 Z[1,1]=if freq==0 or K09==0 then (j*2*pi*freq*L09)+M09 else 1/(j*2*pi*freq*K09)+(j*2*pi*freq*L09)+M09 endif
+Z_Port:Z1P10  _net1 _net2 Z[1,1]=if freq==0 or K10==0 then (j*2*pi*freq*L10)+M10 else 1/(j*2*pi*freq*K10)+(j*2*pi*freq*L10)+M10 endif
+Z_Port:Z1P11  _net1 _net2 Z[1,1]=if freq==0 or K11==0 then (j*2*pi*freq*L11)+M11 else 1/(j*2*pi*freq*K11)+(j*2*pi*freq*L11)+M11 endif
+Z_Port:Z1P12  _net1 _net2 Z[1,1]=if freq==0 or K12==0 then (j*2*pi*freq*L12)+M12 else 1/(j*2*pi*freq*K12)+(j*2*pi*freq*L12)+M12 endif
+Z_Port:Z1P13  _net1 _net2 Z[1,1]=if freq==0 or K13==0 then (j*2*pi*freq*L13)+M13 else 1/(j*2*pi*freq*K13)+(j*2*pi*freq*L13)+M13 endif
+Z_Port:Z1P14  _net1 _net2 Z[1,1]=if freq==0 or K14==0 then (j*2*pi*freq*L14)+M14 else 1/(j*2*pi*freq*K14)+(j*2*pi*freq*L14)+M14 endif
+Z_Port:Z1P15  _net1 _net2 Z[1,1]=if freq==0 or K15==0 then (j*2*pi*freq*L15)+M15 else 1/(j*2*pi*freq*K15)+(j*2*pi*freq*L15)+M15 endif
+Z_Port:Z1P16  _net1 _net2 Z[1,1]=if freq==0 or K16==0 then (j*2*pi*freq*L16)+M16 else 1/(j*2*pi*freq*K16)+(j*2*pi*freq*L16)+M16 endif
+
+
+
+
+
+
+
+
+end LQW18AN_8Z
+
+
+;;model information (PartNumber:partName)
+;0 : LQW18AN2N2C8Z
+;1 : LQW18AN2N4C8Z
+;2 : LQW18AN3N0C8Z
+;3 : LQW18AN3N9B8Z
+;4 : LQW18AN3N9C8Z
+;5 : LQW18AN3N9G8Z
+;6 : LQW18AN4N1B8Z
+;7 : LQW18AN4N1C8Z
+;8 : LQW18AN4N1G8Z
+;9 : LQW18AN4N2B8Z
+;10 : LQW18AN4N2C8Z
+;11 : LQW18AN4N2G8Z
+;12 : LQW18AN4N3B8Z
+;13 : LQW18AN4N3C8Z
+;14 : LQW18AN4N3G8Z
+;15 : LQW18AN4N7B8Z
+;16 : LQW18AN4N7C8Z
+;17 : LQW18AN4N7G8Z
+;18 : LQW18AN4N9B8Z
+;19 : LQW18AN4N9C8Z
+;20 : LQW18AN4N9G8Z
+;21 : LQW18AN5N6C8Z
+;22 : LQW18AN5N6G8Z
+;23 : LQW18AN6N0C8Z
+;24 : LQW18AN6N0G8Z
+;25 : LQW18AN6N5C8Z
+;26 : LQW18AN6N5G8Z
+;27 : LQW18AN6N8C8Z
+;28 : LQW18AN6N8G8Z
+;29 : LQW18AN7N2C8Z
+;30 : LQW18AN7N2G8Z
+;31 : LQW18AN7N5C8Z
+;32 : LQW18AN7N5G8Z
+;33 : LQW18AN8N2C8Z
+;34 : LQW18AN8N2G8Z
+;35 : LQW18AN8N4C8Z
+;36 : LQW18AN8N4G8Z
+;37 : LQW18AN8N7C8Z
+;38 : LQW18AN8N7G8Z
+;39 : LQW18AN9N1C8Z
+;40 : LQW18AN9N1G8Z
+;41 : LQW18AN9N5C8Z
+;42 : LQW18AN9N5G8Z
+;43 : LQW18AN9N9C8Z
+;44 : LQW18AN9N9G8Z
+;45 : LQW18AN10NG8Z
+;46 : LQW18AN10NJ8Z
+;47 : LQW18AN11NG8Z
+;48 : LQW18AN11NJ8Z
+;49 : LQW18AN12NG8Z
+;50 : LQW18AN12NJ8Z
+;51 : LQW18AN13NG8Z
+;52 : LQW18AN13NJ8Z
+;53 : LQW18AN15NG8Z
+;54 : LQW18AN15NJ8Z
+;55 : LQW18AN16NG8Z
+;56 : LQW18AN16NJ8Z
+;57 : LQW18AN17NG8Z
+;58 : LQW18AN17NJ8Z
+;59 : LQW18AN18NG8Z
+;60 : LQW18AN18NJ8Z
+;61 : LQW18AN19NG8Z
+;62 : LQW18AN19NJ8Z
+;63 : LQW18AN22NG8Z
+;64 : LQW18AN22NJ8Z
+;65 : LQW18AN23NG8Z
+;66 : LQW18AN23NJ8Z
+;67 : LQW18AN24NG8Z
+;68 : LQW18AN24NJ8Z
+;69 : LQW18AN25NG8Z
+;70 : LQW18AN25NJ8Z
+;71 : LQW18AN27NG8Z
+;72 : LQW18AN27NJ8Z
+;73 : LQW18AN28NG8Z
+;74 : LQW18AN28NJ8Z
+;75 : LQW18AN30NG8Z
+;76 : LQW18AN30NJ8Z
+;77 : LQW18AN31NG8Z
+;78 : LQW18AN31NJ8Z
+;79 : LQW18AN33NG8Z
+;80 : LQW18AN33NJ8Z
+;81 : LQW18AN34NG8Z
+;82 : LQW18AN34NJ8Z
+;83 : LQW18AN36NG8Z
+;84 : LQW18AN36NJ8Z
+;85 : LQW18AN37NG8Z
+;86 : LQW18AN37NJ8Z
+;87 : LQW18AN39NG8Z
+;88 : LQW18AN39NJ8Z
+;89 : LQW18AN41NG8Z
+;90 : LQW18AN41NJ8Z
+;91 : LQW18AN43NG8Z
+;92 : LQW18AN43NJ8Z
+;93 : LQW18AN44NG8Z
+;94 : LQW18AN44NJ8Z
+;95 : LQW18AN47NG8Z
+;96 : LQW18AN47NJ8Z
+;97 : LQW18AN48NG8Z
+;98 : LQW18AN48NJ8Z
+;99 : LQW18AN51NG8Z
+;100 : LQW18AN51NJ8Z
+;101 : LQW18AN52NG8Z
+;102 : LQW18AN52NJ8Z
+;103 : LQW18AN56NG8Z
+;104 : LQW18AN56NJ8Z
+;105 : LQW18AN58NG8Z
+;106 : LQW18AN58NJ8Z
+;107 : LQW18AN68NG8Z
+;108 : LQW18AN68NJ8Z
+;109 : LQW18AN69NG8Z
+;110 : LQW18AN69NJ8Z
+;111 : LQW18AN72NG8Z
+;112 : LQW18AN72NJ8Z
+;113 : LQW18AN73NG8Z
+;114 : LQW18AN73NJ8Z
+;115 : LQW18AN75NG8Z
+;116 : LQW18AN75NJ8Z
+;117 : LQW18AN78NG8Z
+;118 : LQW18AN78NJ8Z
+;119 : LQW18AN82NG8Z
+;120 : LQW18AN82NJ8Z
+;121 : LQW18AN83NG8Z
+;122 : LQW18AN83NJ8Z
+;123 : LQW18AN91NG8Z
+;124 : LQW18AN91NJ8Z
+;125 : LQW18AN94NG8Z
+;126 : LQW18AN94NJ8Z
+;127 : LQW18ANR10G8Z
+;128 : LQW18ANR10J8Z
+;129 : LQW18ANR11G8Z
+;130 : LQW18ANR11J8Z
+;131 : LQW18ANR12G8Z
+;132 : LQW18ANR12J8Z
+;133 : LQW18ANR15G8Z
+;134 : LQW18ANR15J8Z
+;135 : LQW18ANR18G8Z
+;136 : LQW18ANR18J8Z
+;137 : LQW18ANR20G8Z
+;138 : LQW18ANR20J8Z
+;139 : LQW18ANR21G8Z
+;140 : LQW18ANR21J8Z
+;141 : LQW18ANR22G8Z
+;142 : LQW18ANR22J8Z
+;143 : LQW18ANR25G8Z
+;144 : LQW18ANR25J8Z
+;145 : LQW18ANR27G8Z
+;146 : LQW18ANR27J8Z
+;147 : LQW18ANR30G8Z
+;148 : LQW18ANR30J8Z
+;149 : LQW18ANR33G8Z
+;150 : LQW18ANR33J8Z
+;151 : LQW18ANR36G8Z
+;152 : LQW18ANR36J8Z
+;153 : LQW18ANR39G8Z
+;154 : LQW18ANR39J8Z
+
+

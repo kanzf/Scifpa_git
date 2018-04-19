@@ -1,0 +1,5 @@
+DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_SYMBOLS=C:\Users\Administrator\CGH40_r6_converted\circuit\symbols;C:\Users\Administrator\CGH40_r6_converted\circuit\symbols
+SYSTEM_CUSTOM_CIRCUIT_SYMBOLS={%DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_SYMBOLS};{$HPEESOF_DIR}\custom\{%PROJECT1}\symbols
+DESIGN_KIT_DATA_FILES=C:\Users\Administrator\CGH40_r6_converted\circuit\data;C:\Users\Administrator\CGH40_r6_converted\circuit\models
+SYSTEM_CUSTOM_CIRCUIT_DESIGNS={%DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_DESIGNS};{$HPEESOF_DIR}\custom\{%PROJECT1}\designs
+VIA_CONFIG_PATH={%DESIGN_KIT_VIA_CONFIG_PATH};.:{%PROJECT_SEARCH_PATH}:{$HOME}\hpeesof\de\defaults:{$HPEESOF_DIR}\de\defaults:{%DESIGN_KIT_VIA_CONFIG_PATH}:{%USER_VIA_CONFIG_PATH}

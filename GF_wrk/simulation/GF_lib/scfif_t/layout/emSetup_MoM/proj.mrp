@@ -1,0 +1,55 @@
+Automatically determined a snap distance of
+0.0021 mil for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.0001 mil.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
+
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P4" (pin
+"P4" is not on the edge between a conductive and
+a nonconductive region).
+
+-------------------------------------------------------------------------------
+
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P5" (pin
+"P5" is not on the edge between a conductive and
+a nonconductive region).
+
+-------------------------------------------------------------------------------
+
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P9" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P9" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P8" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P8" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+Generating mesh at 7.2 GHz...

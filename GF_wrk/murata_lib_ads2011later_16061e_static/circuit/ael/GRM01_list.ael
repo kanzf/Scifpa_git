@@ -1,0 +1,57 @@
+create_constant_form("GRM011R60J102KE01","0:GRM011R60J102KE01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 1000[pF], +/-10[%], 100[kHz]-6[GHz]:0",68,"0","GRM011R60J102KE01");
+create_constant_form("GRM011R60J102ME01","1:GRM011R60J102ME01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 1000[pF], +/-20[%], 100[kHz]-6[GHz]:1",68,"1","GRM011R60J102ME01");
+create_constant_form("GRM011R60J152KE01","2:GRM011R60J152KE01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 1500[pF], +/-10[%], 100[kHz]-6[GHz]:2",68,"2","GRM011R60J152KE01");
+create_constant_form("GRM011R60J152ME01","3:GRM011R60J152ME01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 1500[pF], +/-20[%], 100[kHz]-6[GHz]:3",68,"3","GRM011R60J152ME01");
+create_constant_form("GRM011R60J222KE01","4:GRM011R60J222KE01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 2200[pF], +/-10[%], 100[kHz]-6[GHz]:4",68,"4","GRM011R60J222KE01");
+create_constant_form("GRM011R60J222ME01","5:GRM011R60J222ME01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 2200[pF], +/-20[%], 100[kHz]-6[GHz]:5",68,"5","GRM011R60J222ME01");
+create_constant_form("GRM011R60J332KE01","6:GRM011R60J332KE01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 3300[pF], +/-10[%], 100[kHz]-6[GHz]:6",68,"6","GRM011R60J332KE01");
+create_constant_form("GRM011R60J332ME01","7:GRM011R60J332ME01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 3300[pF], +/-20[%], 100[kHz]-6[GHz]:7",68,"7","GRM011R60J332ME01");
+create_constant_form("GRM011R60J472KE01","8:GRM011R60J472KE01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 4700[pF], +/-10[%], 100[kHz]-6[GHz]:8",68,"8","GRM011R60J472KE01");
+create_constant_form("GRM011R60J472ME01","9:GRM011R60J472ME01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 4700[pF], +/-20[%], 100[kHz]-6[GHz]:9",68,"9","GRM011R60J472ME01");
+create_constant_form("GRM011R60J682KE01","10:GRM011R60J682KE01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 6800[pF], +/-10[%], 100[kHz]-6[GHz]:10",68,"10","GRM011R60J682KE01");
+create_constant_form("GRM011R60J682ME01","11:GRM011R60J682ME01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 6800[pF], +/-20[%], 100[kHz]-6[GHz]:11",68,"11","GRM011R60J682ME01");
+create_constant_form("GRM011R60J103KE01","12:GRM011R60J103KE01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 10000[pF], +/-10[%], 100[kHz]-6[GHz]:12",68,"12","GRM011R60J103KE01");
+create_constant_form("GRM011R60J103ME01","13:GRM011R60J103ME01, Ultra-small, X5R(-55to85[deg]), 6.3[V], 10000[pF], +/-20[%], 100[kHz]-6[GHz]:13",68,"13","GRM011R60J103ME01");
+
+create_form_set("GRM01_list" 
+,"GRM011R60J102KE01"
+,"GRM011R60J102ME01"
+,"GRM011R60J152KE01"
+,"GRM011R60J152ME01"
+,"GRM011R60J222KE01"
+,"GRM011R60J222ME01"
+,"GRM011R60J332KE01"
+,"GRM011R60J332ME01"
+,"GRM011R60J472KE01"
+,"GRM011R60J472ME01"
+,"GRM011R60J682KE01"
+,"GRM011R60J682ME01"
+,"GRM011R60J103KE01"
+,"GRM011R60J103ME01"
+);
+
+create_compound_form("GRM01_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"GRM01_list",-1,prm("GRM011R60J102KE01")),
+create_parm("MIN","Minimum",32,"GRM01_list",-1,prm("GRM011R60J102KE01")),
+create_parm("MAX","Maximum",32,"GRM01_list",-1,prm("GRM011R60J103ME01")));
+
+create_form_set("GRM01_list_opt","NULL" 
+,"GRM011R60J102KE01"
+,"GRM011R60J102ME01"
+,"GRM011R60J152KE01"
+,"GRM011R60J152ME01"
+,"GRM011R60J222KE01"
+,"GRM011R60J222ME01"
+,"GRM011R60J332KE01"
+,"GRM011R60J332ME01"
+,"GRM011R60J472KE01"
+,"GRM011R60J472ME01"
+,"GRM011R60J682KE01"
+,"GRM011R60J682ME01"
+,"GRM011R60J103KE01"
+,"GRM011R60J103ME01"
+,"GRM01_compound"
+);
+
+
+

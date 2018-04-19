@@ -1,0 +1,24 @@
+create_constant_form("GRJ188R6YA105KE11","0:GRJ188R6YA105KE11, Resin external electrode, X5R(-55to85[deg]), 35[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:0",68,"0","GRJ188R6YA105KE11");
+create_constant_form("GRJ188C70J475KE11","1:GRJ188C70J475KE11, Resin external electrode, X7S(-55to125[deg]), 6.3[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:1",68,"1","GRJ188C70J475KE11");
+create_constant_form("GRJ188C70J475ME11","2:GRJ188C70J475ME11, Resin external electrode, X7S(-55to125[deg]), 6.3[V], 4700000[pF], +/-20[%], 100[Hz]-6[GHz]:2",68,"2","GRJ188C70J475ME11");
+
+create_form_set("GRJ18_list" 
+,"GRJ188R6YA105KE11"
+,"GRJ188C70J475KE11"
+,"GRJ188C70J475ME11"
+);
+
+create_compound_form("GRJ18_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"GRJ18_list",-1,prm("GRJ188R6YA105KE11")),
+create_parm("MIN","Minimum",32,"GRJ18_list",-1,prm("GRJ188R6YA105KE11")),
+create_parm("MAX","Maximum",32,"GRJ18_list",-1,prm("GRJ188C70J475ME11")));
+
+create_form_set("GRJ18_list_opt","NULL" 
+,"GRJ188R6YA105KE11"
+,"GRJ188C70J475KE11"
+,"GRJ188C70J475ME11"
+,"GRJ18_compound"
+);
+
+
+

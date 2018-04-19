@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotation_files Time="周五 12月 22 16:01:35 2017" Simulator="hpeesofsim" Version="1.0">
+ <File name="annotation_1.xml">
+  <Controller name="HB1">
+   <P>imag_indexs11: -6.8181818181818188e-01</P>
+   <P>real_indexs11: -3.1244834283789807e-01</P>
+   <P>freq: 0.0000000000000000e+00</P>
+  </Controller>
+ </File>
+</annotation_files>

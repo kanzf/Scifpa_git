@@ -1,0 +1,8 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE GF_lib GF_lib
+ASSIGN GF_lib libMode shared
+DEFINE motorola_mosfet_h_lib motorola_mosfet_h_lib
+ASSIGN motorola_mosfet_h_lib libMode shared
+INCLUDE $HOME/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/lib.defs
+INCLUDE $HOME/Desktop/Desktop/14liyanghua/GF_wrk/CGH40_r6_converted/lib.defs

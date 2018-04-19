@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=GF_lib:F_thridoca:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

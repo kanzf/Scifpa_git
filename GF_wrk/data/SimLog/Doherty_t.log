@@ -1,0 +1,946 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 4
+    Number of nodes with no DC path to ground (topology corrected): 10
+
+
+CT Sweep1[1] <GF_lib:Doherty_t:schematic>   RF=1.44
+
+HB Sweep1[1].HB1[1/1] <GF_lib:Doherty_t:schematic>  RF=1.44  pavs=(1->30)
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 4466.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__68.Gap5'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__68.Gap4'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__68.Gap6'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__68.Gap1'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__0.Gap5'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__0.Gap4'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__0.Gap6'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__0.Gap1'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    In component `I__68.Tee4':W_widest > 5.0* W_narrowest
+
+    pavs=1              0.00% 1/30
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	30.9351 mA  	100.0             
+1.0 	42.309 uA   	100.0             
+1.1 	48.0301 nA  	100.0	47.5509 nV   
+    pavs=2              3.45% 2/30
+0.0 	687.57 uA   	100.0             
+0.1 	92.0325 uA  	100.0             
+0.2 	928.277 nA  	100.0             
+0.3 	10.3058 nA  	100.0             
+
+    pavs=3              6.90% 3/30
+0.0 	937.343 uA  	100.0             
+0.1 	127.174 uA  	100.0             
+0.2 	1.5164 uA   	100.0             
+
+    pavs=4             10.34% 4/30
+0.0 	1.28773 mA  	100.0             
+0.1 	177.465 uA  	100.0             
+0.2 	2.50679 uA  	100.0             
+
+    pavs=5             13.79% 5/30
+0.0 	1.78405 mA  	100.0             
+0.1 	250.458 uA  	100.0             
+0.2 	4.2055 uA   	100.0             
+0.3 	71.1511 nA  	100.0             
+
+    pavs=6             17.24% 6/30
+0.0 	2.49408 mA  	100.0             
+0.1 	357.942 uA  	100.0             
+0.2 	7.16825 uA  	100.0             
+0.3 	140.968 nA  	100.0             
+
+    pavs=7             20.69% 7/30
+0.0 	3.52145 mA  	100.0             
+0.1 	518.731 uA  	100.0             
+0.2 	12.426 uA   	100.0             
+0.3 	285.465 nA  	100.0             
+
+    pavs=8             24.14% 8/30
+0.0 	5.02468 mA  	100.0             
+0.1 	763.297 uA  	100.0             
+0.2 	21.922 uA   	100.0             
+0.3 	590.758 nA  	100.0             
+
+    pavs=9             27.59% 9/30
+0.0 	7.24908 mA  	100.0             
+0.1 	1.14147 mA  	100.0             
+0.2 	39.3415 uA  	100.0             
+0.3 	1.25836 uA  	100.0             
+
+    pavs=10            31.03% 10/30
+0.0 	10.5716 mA  	100.0             
+0.1 	1.73467 mA  	100.0             
+0.2 	71.6524 uA  	100.0             
+0.3 	2.75557 uA  	100.0             
+
+    pavs=11            34.48% 11/30
+0.0 	15.5575 mA  	100.0             
+0.1 	2.67939 mA  	100.0             
+0.2 	132.534 uA  	100.0             
+0.3 	6.09132 uA  	100.0             
+
+    pavs=12            37.93% 12/30
+0.0 	22.9781 mA  	100.0             
+0.1 	4.17042 mA  	100.0             
+0.2 	246.218 uA  	100.0             
+0.3 	13.5554 uA  	100.0             
+0.4 	703.78 nA   	100.0             
+
+    pavs=13            41.38% 13/30
+0.0 	33.5815 mA  	100.0             
+0.1 	6.39194 mA  	100.0             
+0.2 	440.931 uA  	100.0             
+0.3 	28.2121 uA  	100.0             
+0.4 	1.74005 uA  	100.0             
+
+    pavs=14            44.83% 14/30
+0.0 	46.7453 mA  	100.0             
+0.1 	9.04777 mA  	100.0             
+0.2 	693.169 uA  	100.0             
+0.3 	49.9878 uA  	100.0             
+0.4 	3.37312 uA  	100.0             
+
+    pavs=15            48.28% 15/30
+0.0 	57.2066 mA  	100.0             
+0.1 	10.0267 mA  	100.0             
+0.2 	658.529 uA  	100.0             
+0.3 	45.6278 uA  	100.0             
+0.4 	3.17205 uA  	100.0             
+
+    pavs=16            51.72% 16/30
+0.0 	45.4831 mA  	100.0             
+0.1 	6.13629 mA  	100.0             
+0.2 	261.643 uA  	100.0             
+0.3 	9.93988 uA  	100.0             
+0.4 	490.513 nA  	100.0             
+
+    pavs=17            55.17% 17/30
+0.0 	33.2977 mA  	100.0             
+0.1 	5.55534 mA  	100.0             
+0.2 	290.909 uA  	100.0             
+0.3 	15.1248 uA  	100.0             
+0.4 	784.871 nA  	100.0             
+
+    pavs=18            58.62% 18/30
+0.0 	45.6814 mA  	100.0             
+0.1 	6.95246 mA  	100.0             
+0.2 	328.683 uA  	100.0             
+0.3 	13.9905 uA  	100.0             
+0.4 	701.57 nA   	100.0             
+
+    pavs=19            62.07% 19/30
+0.0 	33.705 mA   	100.0             
+0.1 	4.17501 mA  	100.0             
+0.2 	54.0586 uA  	100.0             
+0.3 	2.05519 uA  	100.0             
+
+    pavs=20            65.52% 20/30
+0.0 	40.292 mA   	100.0             
+0.1 	4.84746 mA  	100.0             
+0.2 	47.4599 uA  	100.0             
+0.3 	1.62667 uA  	100.0             
+
+    pavs=21            68.97% 21/30
+0.0 	46.7672 mA  	100.0             
+0.1 	5.22994 mA  	100.0             
+0.2 	246.5 uA    	100.0             
+0.3 	11.3859 uA  	100.0             
+0.4 	514.073 nA  	100.0             
+0.5 	13.6299 nA  	100.0             
+
+    pavs=22            72.41% 22/30
+0.0 	182.7 mA    	100.0             
+0.1 	7.21237 mA  	100.0             
+0.2 	1.8636 mA   	100.0             
+0.3 	240.22 uA   	100.0             
+0.4 	24.9419 uA  	100.0             
+0.5 	2.43025 uA  	100.0             
+0.6 	306.964 nA  	100.0             
+
+    pavs=23            75.86% 23/30
+0.0 	250.899 mA  	100.0             
+0.1 	49.1401 mA  	100.0             
+0.2 	15.5409 mA  	100.0             
+0.3 	2.8346 mA   	100.0             
+0.4 	615.063 uA  	100.0             
+0.5 	179.462 uA  	100.0             
+0.6 	33.7107 uA  	100.0             
+0.7 	7.34831 uA  	100.0             
+0.8 	2.03903 uA  	100.0             
+
+    pavs=24            79.31% 24/30
+0.0 	347.131 mA  	100.0             
+0.1 	60.9111 mA  	100.0             
+0.2 	23.0753 mA  	100.0             
+0.3 	9.89945 mA  	100.0             
+0.4 	2.22768 mA  	100.0             
+0.5 	334.474 uA  	100.0             
+0.6 	173.059 uA  	100.0             
+0.7 	62.7485 uA  	100.0             
+0.8 	11.7941 uA  	100.0             
+0.9 	2.10731 uA  	100.0             
+
+    pavs=25            82.76% 25/30
+0.0 	598.887 mA  	100.0             
+0.1 	249.611 mA  	100.0             
+0.2 	82.1381 mA  	100.0             
+0.3 	30.67 mA    	100.0             
+0.4 	10.6226 mA  	100.0             
+0.5 	3.60172 mA  	100.0             
+0.6 	1.20043 mA  	100.0             
+0.7 	395.099 uA  	100.0             
+0.8 	124.65 uA   	100.0             
+0.9 	38.5077 uA  	100.0             
+0.10 	11.7161 uA  	100.0             
+0.11 	3.37566 uA  	100.0             
+
+    pavs=26            86.21% 26/30
+0.0 	395.44 mA   	100.0             
+0.1 	119.442 mA  	100.0             
+0.2 	30.3416 mA  	100.0             
+0.3 	8.04428 mA  	100.0             
+0.4 	2.13607 mA  	100.0             
+0.5 	555.763 uA  	100.0             
+0.6 	139.088 uA  	100.0             
+0.7 	34.2717 uA  	100.0             
+0.8 	8.2992 uA   	100.0             
+0.9 	2.011 uA    	100.0             
+
+    pavs=27            89.66% 27/30
+0.0 	579.924 mA  	100.0             
+0.1 	158.728 mA  	100.0             
+        Samanskii-Newton iteration failed
+0.2*	476.526 mA  	100.0             
+1.0 	79.2956 mA  	100.0             
+1.1 	20.1978 mA  	100.0             
+1.2 	4.17286 mA  	100.0             
+1.3 	1.36134 mA  	100.0             
+1.4 	289.625 uA  	100.0             
+1.5 	54.37 uA    	100.0             
+1.6 	9.61941 uA  	100.0             
+1.7 	1.63024 uA  	100.0	2.0154 uV    
+
+    pavs=28            93.10% 28/30
+0.0 	629.315 mA  	100.0             
+0.1 	63.7762 mA  	100.0             
+0.2 	44.2409 mA  	100.0             
+0.3 	30.809 mA   	100.0             
+0.4 	16.2328 mA  	100.0             
+0.5 	8.43517 mA  	100.0             
+0.6 	3.85491 mA  	100.0             
+0.7 	1.76604 mA  	100.0             
+0.8 	819.99 uA   	100.0             
+0.9 	379.403 uA  	100.0             
+0.10 	165.228 uA  	100.0             
+0.11 	74.2236 uA  	100.0             
+0.12 	33.9009 uA  	100.0             
+0.13 	14.5172 uA  	100.0             
+0.14 	6.28472 uA  	100.0             
+
+    pavs=29            96.55% 29/30
+0.0 	789.61 kA   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	14.7466e+15A	100.0             
+1.0*	290.481 kA  	100.0             
+2.0 	106.813 kA  	100.0             
+        Samanskii-Newton iteration failed
+2.1*	7.44031e+27A	100.0             
+        Newton iteration failed, damping activated
+3.0*	69.705 MA   	 50.0             
+4.0*	64.3534 kA  	  6.3             
+5.0 	60.4748 kA  	100.0             
+        Samanskii-Newton iteration failed
+5.1*	379.099 GA  	 25.0             
+6.0*	47.0981 kA  	 50.0             
+7.0*	28.5698 kA  	 25.0             
+8.0 	22.2493 kA  	 25.0             
+8.1*	18.3124 kA  	 50.0             
+9.0*	11.1068 kA  	 12.5             
+10.0 	9.83373 kA  	100.0             
+        Samanskii-Newton iteration failed
+10.1*	694.545 TA  	  6.3             
+11.0*	9.23931 kA  	 12.5             
+12.0*	8.15427 kA  	 25.0             
+13.0*	6.3497 kA   	 50.0             
+14.0*	3.85081 kA  	100.0             
+15.0 	1.41711 kA  	100.0             
+15.1 	980.86 A    	100.0             
+15.2 	760.441 A   	100.0             
+15.3*	624.382 A   	100.0             
+16.0 	230.029 A   	100.0             
+16.1 	160.828 A   	100.0             
+16.2 	123.583 A   	100.0             
+16.3 	101.926 A   	100.0             
+16.4 	86.4509 A   	 50.0             
+16.5 	80.9735 A   	100.0             
+16.6 	71.0523 A   	 50.0             
+16.7*	67.3776 A   	100.0             
+17.0 	25.0353 A   	 50.0             
+17.1 	21.063 A    	100.0             
+17.2*	15.552 A    	 25.0             
+18.0 	14.6742 A   	 25.0             
+18.1*	17.254 A    	 25.0             
+19.0*	19.0129 A   	 50.0             
+20.0*	16.5765 A   	100.0             
+21.0*	14.7851 A   	100.0             
+22.0*	13.2742 A   	 25.0             
+23.0*	10.7967 A   	 12.5             
+24.0*	9.95702 A   	 25.0             
+25.0*	9.46585 A   	 50.0             
+26.0*	3.81392 A   	 25.0             
+27.0 	2.46768 A   	100.0             
+        Samanskii-Newton iteration failed
+27.1*	21.2355 A   	 25.0             
+28.0*	3.02978 A   	 25.0             
+29.0*	2.7875 A    	 25.0             
+30.0*	2.78037 A   	 50.0             
+31.0*	2.60377 A   	 50.0             
+32.0*	1.40812 A   	 50.0             
+33.0 	1.16943 A   	 50.0             
+33.1 	1.29575 A   	100.0             
+33.2*	1.16665 A   	100.0             
+34.0 	308.126 mA  	100.0             
+        Samanskii-Newton iteration failed
+34.1*	2.49336 A   	 50.0             
+35.0*	337.774 mA  	100.0             
+36.0*	65.0745 A   	100.0             
+    Switching to arc-length continuation
+
+Fwd pavs=28.0436       93.25% 29/30  Step=1
+0.0*	7.72716 mA  	100.0             
+1.0 	38.9106 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	38.9106 mA  	100.0             
+    rejected
+
+Fwd pavs=28.0208       93.18% 29/30  Step=0.4761904762
+0.0*	3.6796 mA   	100.0             
+1.0 	139.221 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	139.221 mA  	100.0             
+2.0*	123.233 mA  	100.0             
+    rejected
+
+Fwd pavs=28.0099       93.14% 29/30  Step=0.2267573696
+0.0*	1.75219 mA  	100.0             
+1.0 	7.60587 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	7.60587 mA  	100.0             
+    rejected
+
+Fwd pavs=28.0047       93.12% 29/30  Step=0.1079796998
+0.0*	834.376 uA  	100.0             
+1.0 	882.886 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	882.886 uA  	100.0             
+2.0*	1.10383 mA  	100.0             
+3.0*	513.417 uA  	100.0             
+4.0 	458.849 uA  	100.0             
+4.1 	409.26 uA   	100.0             
+4.2*	255.609 uA  	100.0             
+    rejected
+
+Fwd pavs=28.0022       93.11% 29/30  Step=0.05141890467
+0.0*	397.322 uA  	100.0             
+1.0 	1.21491 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	1.21491 mA  	100.0             
+2.0*	840.041 uA  	100.0             
+3.0*	358.633 uA  	100.0             
+    rejected
+
+Fwd pavs=28.0011       93.11% 29/30  Step=0.0244851927
+0.0*	189.201 uA  	100.0             
+1.0 	1.94071 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	1.94071 mA  	100.0             
+    rejected
+
+Fwd pavs=28.0005       93.11% 29/30  Step=0.01165961557
+0.0*	90.0957 uA  	100.0             
+1.0 	71.9083 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	71.9083 uA  	100.0             
+2.0*	76.5278 uA  	100.0             
+    rejected
+
+Fwd pavs=28.0002       93.10% 29/30  Step=0.005552197892
+0.0*	42.9027 uA  	100.0             
+1.0 	266.951 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	266.951 uA  	100.0             
+2.0*	61.7374 uA  	100.0             
+3.0 	19.8843 uA  	100.0             
+3.1 	10.3737 uA  	100.0             
+        Samanskii-Newton iteration failed
+3.2*	10.3737 uA  	100.0             
+    rejected
+
+Fwd pavs=28.0001       93.10% 29/30  Step=0.002643903758
+0.0*	20.4298 uA  	100.0             
+1.0 	19.6059 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	19.6059 uA  	100.0             
+2.0*	27.4362 uA  	100.0             
+    rejected
+
+Fwd pavs=28.0001       93.10% 29/30  Step=0.001259001789
+0.0*	9.7285 uA   	100.0             
+1.0 	10.4771 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	10.4771 uA  	100.0             
+    rejected
+
+Fwd pavs=28            93.10% 29/30  Step=0.0005995246617
+0.0*	4.63262 uA  	100.0             
+1.0 	3.60553 uA  	100.0             
+1.1 	2.03651 uA  	100.0             
+1.2 	600.871 nA  	100.0             
+1.3 	195.41 nA   	100.0             
+1.4 	132.623 nA  	100.0             
+1.5*	24.4844 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+2.0 	25.9093 nA  	100.0             
+2.1*	8.42838 nA  	100.0             
+3.0 	2.46592 nA  	100.0             
+3.1 	630.815 pA  	100.0	13.7902 nV   
+    Arclength Newton-Raphson converged at 28.0001 in 3 iters
+
+Fwd pavs=28.0001       93.10% 29/30  Step=0.0005995246617
+0.0*	8.31913 uA  	100.0             
+1.0 	4.08756 uA  	100.0             
+1.1 	2.09892 uA  	100.0             
+1.2 	1.52716 uA  	100.0             
+1.3 	478.785 nA  	100.0             
+1.4 	238.948 nA  	100.0             
+1.5 	108.608 nA  	100.0             
+1.6 	57.7136 nA  	100.0             
+1.7 	20.9585 nA  	100.0             
+1.8 	6.16163 nA  	100.0             
+1.9 	3.34165 nA  	100.0             
+1.10 	799.022 pA  	100.0	42.6815 nV   
+    Arclength Newton-Raphson converged at 28.0002 in 1 iters
+
+Fwd pavs=28.0003       93.10% 29/30  Step=0.0008478559075
+0.0*	2.77562 uA  	100.0             
+1.0 	528.985 nA  	100.0             
+1.1 	130.195 nA  	100.0             
+1.2 	24.2697 nA  	100.0             
+1.3 	5.41668 nA  	100.0             
+1.4 	1.54373 nA  	100.0             
+1.5 	282.773 pA  	100.0	14.6391 nV   
+    Arclength Newton-Raphson converged at 28.0003 in 1 iters
+
+Fwd pavs=28.0003       93.10% 29/30  Step=0.001199049323
+0.0*	13.0585 uA  	100.0             
+1.0 	40.6584 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	40.6584 uA  	100.0             
+2.0*	59.2903 uA  	100.0             
+3.0*	16.0051 uA  	100.0             
+    rejected
+
+Fwd pavs=28.0003       93.10% 29/30  Step=0.0005709758682
+0.0*	6.21835 uA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	5.19009 uA  	100.0             
+1.1*	2.33048 uA  	100.0             
+2.0 	406.892 nA  	100.0             
+2.1 	117.178 nA  	100.0             
+2.2 	50.8557 nA  	100.0             
+2.3 	14.1665 nA  	100.0             
+2.4 	4.54405 nA  	100.0             
+2.5 	1.34974 nA  	100.0             
+2.6 	228.733 pA  	100.0	15.8212 nV   
+    Arclength Newton-Raphson converged at 28.0003 in 2 iters
+
+Fwd pavs=28.0004       93.10% 29/30  Step=0.0005709758682
+0.0*	4.81954 uA  	100.0             
+1.0 	9.9009 uA   	100.0             
+        Samanskii-Newton iteration failed
+1.1*	9.9009 uA   	100.0             
+2.0*	7.69665 uA  	100.0             
+3.0*	676.449 nA  	100.0             
+4.0 	245.05 nA   	100.0             
+        Samanskii-Newton iteration failed
+4.1*	245.05 nA   	100.0             
+        Arc-Newton iteration failed, damping activated
+5.0*	5.15043 uA  	100.0             
+    rejected
+
+Fwd pavs=28.0003       93.10% 29/30  Step=0.0002718932706
+0.0*	2.29506 uA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	2.01566 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	2.01566 uA  	  3.1             
+2.0*	2.10838 uA  	  6.3             
+3.0*	2.02263 uA  	 12.5             
+4.0*	1.74859 uA  	100.0             
+    rejected
+
+Fwd pavs=28.0003       93.10% 29/30  Step=0.000129472986
+0.0*	1.09292 uA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	1.24359 uA  	 12.5             
+        Samanskii-Newton iteration failed
+1.1*	1.24359 uA  	 25.0             
+2.0*	956.496 nA  	100.0             
+    rejected
+
+Fwd pavs=28.0003       93.10% 29/30  Step=6.165380286e-05
+0.0*	520.459 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	657.823 nA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	657.823 nA  	 12.5             
+2.0*	577.723 nA  	 25.0             
+3.0*	475.803 nA  	 50.0             
+4.0 	478.324 nA  	 50.0             
+4.1*	302.054 nA  	4.883e-02             
+5.0*	423.624 nA  	100.0             
+6.0*	421.586 nA  	 50.0             
+7.0*	395.77 nA   	100.0             
+8.0*	149.68 nA   	100.0             
+9.0 	80.7653 nA  	 25.0             
+9.1*	76.1099 nA  	 50.0             
+10.0*	38.6115 nA  	100.0             
+11.0 	16.1302 nA  	100.0             
+        Samanskii-Newton iteration failed
+11.1*	16.1302 nA  	100.0             
+12.0*	7.46878 nA  	100.0             
+13.0 	2.66434 nA  	100.0             
+        Samanskii-Newton iteration failed
+13.1*	2.66434 nA  	100.0             
+14.0*	22.3018 nA  	100.0             
+15.0*	250.351 nA  	  6.3             
+16.0*	250.262 nA  	 12.5             
+    rejected
+
+Fwd pavs=28.0003       93.10% 29/30  Step=2.935895374e-05
+0.0*	247.865 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	1.04528 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	1.04528 uA  	100.0             
+2.0*	1.11047 uA  	 12.5             
+3.0*	1.09404 uA  	 25.0             
+4.0*	825.011 nA  	  6.3             
+5.0*	834.754 nA  	100.0             
+6.0*	2.24169 uA  	  6.3             
+7.0*	1.96561 uA  	 12.5             
+    rejected
+
+Fwd pavs=28.0003       93.10% 29/30  Step=1.398045416e-05
+0.0*	118.05 nA   	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	127.18 nA   	 25.0             
+        Samanskii-Newton iteration failed
+1.1*	127.18 nA   	 50.0             
+2.0*	63.1033 nA  	 50.0             
+3.0 	68.7938 nA  	100.0             
+        Samanskii-Newton iteration failed
+3.1*	68.7938 nA  	100.0             
+4.0*	20.6658 nA  	100.0             
+5.0 	30.6807 nA  	 25.0             
+5.1*	21.9477 nA  	  6.3             
+6.0*	17.8147 nA  	 12.5             
+7.0*	14.8841 nA  	 25.0             
+8.0 	9.34176 nA  	 50.0             
+8.1*	8.90977 nA  	100.0             
+9.0*	212.271 nA  	100.0             
+    rejected
+
+Warning detected by hpeesofsim during HB analysis `HB1'.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    'Sweep1[1].HB1[1/1]' ( RF=1.44 pavs=29 ) did not converge -- associated data will be identified with '<invalid>' flag in the dataset.
+
+--------------------------
+Solver convergence summary:
+--------------------------
+RHS:
+2.654e-08  A at node X1.X2._net502, harmonic index (2)
+2.613e-08  A at node X1.X2._net502, harmonic index (4)
+1.417e-08  A at node X1.X2.vd1g, harmonic index (2)
+
+Update:
+6.458e-06  V at node X1.X2._net502, harmonic index (0)
+2.402e-06  V at node N__62, harmonic index (1)
+2.402e-06  V at node N__47, harmonic index (1)
+
+Solution:
+56.27      V at node N__65, harmonic index (0)
+28         V at node N__22, harmonic index (0)
+28         V at node V_high, harmonic index (0)
+--------------------------
+
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    Convergence hints:
+    o Enable Regenerate Initial Guess for ParamSweep.
+    o Try TAHB (transient assisted HB).
+    o Increase the order (number of harmonics) to reduce truncation error.
+    o Set Matrix Re-use to Robust with the direct solver.
+    o Select the Krylov solver.
+    o Increase the Fundamental Oversample.
+    o Check the circuit/devices around the nodes in solver convergence summary.
+    o Act upon warning messages and topology errors.
+    pavs=1              0.00% 1/30
+0.0*	24.4826 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	446.346 MA  	 50.0             
+2.0*	12.7057 A   	 25.0             
+3.0 	10.9113 A   	100.0             
+        Samanskii-Newton iteration failed
+3.1*	139.186 A   	100.0             
+4.0*	9.41341 A   	100.0             
+5.0*	45.3914 GA  	100.0             
+    Switching to arc-length continuation...
+Fwd sourceLevel=3.99385e-03    0.40% 2/2  Step=0.5
+0.0*	316.799 uA  	100.0             
+1.0 	3.99563 nA  	100.0	6.66168 nV   
+    Arclength Newton-Raphson converged at 0.00399392 in 1 iters
+
+Fwd sourceLevel=9.64231e-03    0.96% 2/2  Step=0.7071067812
+0.0*	704.439 uA  	100.0             
+1.0 	19.552 nA   	100.0	28.0982 nV   
+    Arclength Newton-Raphson converged at 0.00964284 in 1 iters
+
+Fwd sourceLevel=17.6325e-03    1.76% 2/2  Step=1
+0.0*	1.62159 mA  	100.0             
+1.0 	102.066 nA  	100.0             
+1.1 	29.1047 pA  	100.0	6.33102 pV   
+    Arclength Newton-Raphson converged at 0.0176347 in 1 iters
+
+Fwd sourceLevel=28.9403e-03    2.89% 2/2  Step=1.414213562
+0.0*	3.90236 mA  	100.0             
+1.0 	639.679 nA  	100.0             
+1.1 	128.999 pA  	100.0	131.517 pV   
+    Arclength Newton-Raphson converged at 0.0289481 in 1 iters
+
+Fwd sourceLevel=44.9597e-03    4.50% 2/2  Step=2
+0.0*	9.92655 mA  	100.0             
+1.0 	4.45028 uA  	100.0             
+1.1 	2.87214 nA  	100.0	3.22821 nV   
+    Arclength Newton-Raphson converged at 0.0449863 in 1 iters
+
+Fwd sourceLevel=67.7092e-03    6.77% 2/2  Step=2.828427125
+0.0*	27.1577 mA  	100.0             
+1.0 	39.4732 uA  	100.0             
+1.1 	87.1982 nA  	100.0	101.08 nV    
+    Arclength Newton-Raphson converged at 0.0678031 in 1 iters
+
+Fwd sourceLevel=100.217e-03   10.02% 2/2  Step=4
+0.0*	81.8068 mA  	100.0             
+1.0 	434.046 uA  	100.0             
+1.1 	3.67037 uA  	100.0	4.62916 uV   
+    Arclength Newton-Raphson converged at 0.100578 in 1 iters
+
+Fwd sourceLevel=147.457e-03   14.75% 2/2  Step=5.656854249
+0.0*	274.383 mA  	100.0             
+1.0 	5.23865 mA  	100.0             
+1.1 	163.061 uA  	100.0             
+1.2 	4.51141 uA  	100.0	6.17602 uV   
+    Arclength Newton-Raphson converged at 0.148907 in 1 iters
+
+Fwd sourceLevel=217.97e-03    21.80% 2/2  Step=8
+0.0*	620.962 mA  	100.0             
+1.0 	4.66475 mA  	100.0             
+1.1 	57.9239 uA  	100.0             
+1.2 	541.243 nA  	100.0	318.231 nV   
+    Arclength Newton-Raphson converged at 0.218818 in 1 iters
+
+Fwd sourceLevel=315.181e-03   31.52% 2/2  Step=11.3137085
+0.0*	455.532 mA  	100.0             
+1.0 	168.257 uA  	100.0             
+1.1 	1.98109 uA  	100.0	1.08769 uV   
+    Arclength Newton-Raphson converged at 0.316555 in 1 iters
+
+Fwd sourceLevel=456.566e-03   45.66% 2/2  Step=16
+0.0*	1.79615 A   	100.0             
+1.0 	164.25 mA   	100.0             
+1.1 	33.4823 mA  	100.0             
+1.2 	10.0684 mA  	100.0             
+1.3 	2.90969 mA  	100.0             
+1.4 	914.23 uA   	100.0             
+1.5 	277.031 uA  	100.0             
+1.6 	85.2715 uA  	100.0             
+1.7 	26.0687 uA  	100.0             
+1.8 	7.99318 uA  	100.0             
+1.9 	2.44772 uA  	100.0	5.91173 uV   
+    Arclength Newton-Raphson converged at 0.469621 in 1 iters
+
+Fwd sourceLevel=655.993e-03   65.60% 2/2  Step=22.627417
+0.0*	6.11698 A   	100.0             
+1.0 	799.48 mA   	100.0             
+        Samanskii-Newton iteration failed
+1.1*	799.48 mA   	100.0             
+    rejected
+
+Fwd sourceLevel=558.37e-03    55.84% 2/2  Step=10.77496048
+0.0*	1.31615 A   	100.0             
+1.0 	83.0237 mA  	100.0             
+1.1 	46.0159 mA  	100.0             
+1.2 	18.1591 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.3*	18.1591 mA  	100.0             
+    rejected
+
+Fwd sourceLevel=511.882e-03   51.19% 2/2  Step=5.13093356
+0.0*	231.995 mA  	100.0             
+1.0 	5.09547 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	5.09547 mA  	100.0             
+    rejected
+
+Fwd sourceLevel=489.746e-03   48.97% 2/2  Step=2.443301695
+0.0*	47.4329 mA  	100.0             
+1.0 	263.719 uA  	100.0             
+1.1 	2.04315 uA  	100.0	2.39741 uV   
+    Arclength Newton-Raphson converged at 0.489572 in 1 iters
+
+Fwd sourceLevel=509.325e-03   50.93% 2/2  Step=2.443301695
+0.0*	56.651 mA   	100.0             
+1.0 	776.375 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	776.375 uA  	100.0             
+2.0*	927.503 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=498.978e-03   49.90% 2/2  Step=1.163476998
+0.0*	11.9058 mA  	100.0             
+1.0 	4.2719 mA   	100.0             
+        Samanskii-Newton iteration failed
+1.1*	4.2719 mA   	100.0             
+    rejected
+
+Fwd sourceLevel=494.051e-03   49.41% 2/2  Step=0.5540366655
+0.0*	2.59243 mA  	100.0             
+1.0 	775.724 nA  	100.0	964.492 nV   
+    Arclength Newton-Raphson converged at 0.494047 in 1 iters
+
+Fwd sourceLevel=498.516e-03   49.85% 2/2  Step=0.5540366655
+0.0*	2.71442 mA  	100.0             
+1.0 	58.3122 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	58.3122 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=496.175e-03   49.62% 2/2  Step=0.2638269836
+0.0*	604.982 uA  	100.0             
+1.0 	42.3964 nA  	100.0	55.5257 nV   
+    Arclength Newton-Raphson converged at 0.496174 in 1 iters
+
+Fwd sourceLevel=498.3e-03     49.83% 2/2  Step=0.2638269836
+0.0*	614.795 uA  	100.0             
+1.0 	22.2563 uA  	100.0             
+1.1 	12.6942 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.2*	12.6942 uA  	100.0             
+2.0 	23.6421 uA  	100.0             
+        Samanskii-Newton iteration failed
+2.1*	23.6421 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=497.187e-03   49.72% 2/2  Step=0.1256318969
+0.0*	138.332 uA  	100.0             
+1.0 	6.1677 uA   	100.0             
+        Samanskii-Newton iteration failed
+1.1*	6.1677 uA   	100.0             
+2.0*	3.74957 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=496.656e-03   49.67% 2/2  Step=0.05982471283
+0.0*	31.2507 uA  	100.0             
+1.0 	256.544 nA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	256.544 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+2.0*	1.45737 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=496.404e-03   49.64% 2/2  Step=0.02848795849
+0.0*	7.07365 uA  	100.0             
+1.0 	29.1156 pA  	100.0	7.86611 pV   
+    Arclength Newton-Raphson converged at 0.496404 in 1 iters
+
+Fwd sourceLevel=496.633e-03   49.66% 2/2  Step=0.02848795849
+0.0*	7.08483 uA  	100.0             
+1.0 	26.8662 nA  	100.0             
+1.1 	23.9137 nA  	100.0             
+1.2*	14.4443 nA  	100.0             
+2.0 	14.5416 nA  	100.0             
+        Samanskii-Newton iteration failed
+2.1*	14.5416 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+3.0*	51.2397 nA  	100.0             
+4.0*	17.4718 nA  	 12.5             
+5.0 	18.5101 nA  	100.0             
+        Samanskii-Newton iteration failed
+5.1*	18.5101 nA  	 25.0             
+6.0*	18.9212 nA  	 50.0             
+7.0*	11.3703 nA  	100.0             
+8.0 	39.2705 nA  	100.0             
+        Samanskii-Newton iteration failed
+    rejected
+
+Fwd sourceLevel=496.513e-03   49.65% 2/2  Step=0.01356569452
+0.0*	1.60518 uA  	100.0             
+    Arclength Newton-Raphson converged at 0.496513 in 1 iters
+
+Fwd sourceLevel=496.587e-03   49.66% 2/2  Step=0.01356569452
+0.0*	112.611 uA  	100.0             
+1.0 	99.2839 uA  	100.0             
+1.1*	44.3383 uA  	100.0             
+2.0 	48.1872 uA  	100.0             
+2.1*	36.8254 uA  	100.0             
+3.0*	10.9484 uA  	100.0             
+4.0 	10.0125 uA  	100.0             
+4.1*	5.70598 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=496.548e-03   49.65% 2/2  Step=0.006459854533
+0.0*	53.638 uA   	100.0             
+1.0 	128.528 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	128.528 uA  	100.0             
+2.0*	118.12 uA   	100.0             
+    rejected
+
+Fwd sourceLevel=496.53e-03    49.65% 2/2  Step=0.003076121206
+0.0*	25.5558 uA  	100.0             
+1.0 	112.436 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	112.436 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=496.521e-03   49.65% 2/2  Step=0.001464819622
+0.0*	12.1834 uA  	100.0             
+1.0 	281.32 uA   	100.0             
+        Samanskii-Newton iteration failed
+1.1*	281.32 uA   	100.0             
+    rejected
+
+Fwd sourceLevel=496.517e-03   49.65% 2/2  Step=0.0006975331534
+0.0*	5.81554 uA  	100.0             
+1.0 	43.8318 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	43.8318 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=496.515e-03   49.65% 2/2  Step=0.0003321586445
+0.0*	2.78323 uA  	100.0             
+1.0 	3.50995 uA  	100.0             
+1.1*	2.43395 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=496.514e-03   49.65% 2/2  Step=0.0001581707831
+0.0*	1.33929 uA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	3.24857 uA  	100.0             
+1.1*	1.64672 uA  	100.0             
+2.0 	6.3148 uA   	100.0             
+2.1*	4.37958 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=496.513e-03   49.65% 2/2  Step=7.531942051e-05
+0.0*	656.683 nA  	100.0             
+1.0 	6.77491 uA  	100.0             
+1.1*	5.06208 uA  	100.0             
+2.0*	8.59447 uA  	100.0             
+3.0*	6.86755 uA  	100.0             
+4.0*	4.37026 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=496.513e-03   49.65% 2/2  Step=3.586639072e-05
+0.0*	336.956 nA  	100.0             
+1.0 	207.103 nA  	100.0             
+1.1 	183.716 nA  	100.0             
+1.2*	61.8959 nA  	100.0             
+2.0 	70.4492 nA  	100.0             
+2.1*	42.5774 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+3.0 	111.932 nA  	100.0             
+        Samanskii-Newton iteration failed
+    rejected
+
+Fwd sourceLevel=496.513e-03   49.65% 2/2  Step=1.707923368e-05
+0.0*	184.705 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	268.822 nA  	100.0             
+1.1*	263.826 nA  	 50.0             
+2.0*	194.741 nA  	  3.1             
+3.0*	205.249 nA  	  6.3             
+4.0*	185.505 nA  	  1.6             
+5.0*	192.719 nA  	100.0             
+    rejected
+
+Warning detected by hpeesofsim during HB analysis `HB1'.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    'Sweep1[1].HB1[1/1]' ( RF=1.44 pavs=30 ) did not converge -- associated data will be identified with '<invalid>' flag in the dataset.
+
+--------------------------
+Solver convergence summary:
+--------------------------
+RHS:
+3.86e-05   A at node X1.X2._net502, harmonic index (1)
+3.626e-05  A at node N__15, harmonic index (1)
+1.864e-05  A at node N__15, harmonic index (2)
+
+Update:
+0.0007949  V at node X1.X2._net502, harmonic index (0)
+0.000222   V at node X1._net415, harmonic index (1)
+0.000222   V at node X1.X2._net502, harmonic index (1)
+
+Solution:
+43.18      V at node N__65, harmonic index (0)
+28         V at node N__22, harmonic index (0)
+28         V at node V_high, harmonic index (0)
+--------------------------
+
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    Convergence hints:
+    o Enable Regenerate Initial Guess for ParamSweep.
+    o Try TAHB (transient assisted HB).
+    o Increase the order (number of harmonics) to reduce truncation error.
+    o Set Matrix Re-use to Robust with the direct solver.
+    o Select the Krylov solver.
+    o Increase the Fundamental Oversample.
+    o Check the circuit/devices around the nodes in solver convergence summary.
+    o Act upon warning messages and topology errors.
+
+Resource usage:
+  Total stopwatch time     =     1.67 seconds.
+

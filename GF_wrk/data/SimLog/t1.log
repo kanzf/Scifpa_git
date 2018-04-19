@@ -1,0 +1,15 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 3
+
+
+SP SP1[1] <GF_lib:t1:schematic>   freq=(1.7 GHz->2.4 GHz)
+.......................................................................
+
+Resource usage:
+  Total stopwatch time     =     0.36 seconds.
+

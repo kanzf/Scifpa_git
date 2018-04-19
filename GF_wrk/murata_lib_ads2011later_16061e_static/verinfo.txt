@@ -1,0 +1,5 @@
+Library Ver:	Version 2016.61e
+Created:	Jun 24 2016
+Author:	Murata Manufacturing Co., Ltd.
+Support ADS:	ADS2011 and later
+Description:	Murata Component Library for Agilent ADS

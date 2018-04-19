@@ -1,0 +1,154 @@
+Momentum MomEngine_64 12.00.024 (*) built: Jan 14 2016
+Copyright 1992-2016, Keysight Technologies
+Geometry processing started on: Tue Nov 14 21:03:55 2017
+Automatically determined a snap distance of
+0.0021 mil for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.0001 mil.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P17" (pin
+"P17" is not on the edge between a conductive
+and a nonconductive region).
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P18" (pin
+"P18" is not on the edge between a conductive
+and a nonconductive region).
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P21" (pin
+"P21" is not on the edge between a conductive
+and a nonconductive region).
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P22" (pin
+"P22" is not on the edge between a conductive
+and a nonconductive region).
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P10" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P10" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P13" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P13" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P6" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P6" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P8" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P8" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P11" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P11" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P12" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P12" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P9" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P9" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P7" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P7" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P14" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P14" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P5" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P5" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+Geometry processing finished on: Tue Nov 14 21:04:04 2017

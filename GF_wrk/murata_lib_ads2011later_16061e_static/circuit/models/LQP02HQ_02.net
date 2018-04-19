@@ -1,0 +1,222 @@
+;;****************************************************************************
+;; File:        LQP02HQ_02.net
+;; Description: LQP02HQ_02 model file
+;; Author:      Agilent Technologies Japan, Ltd. 
+;; Created:     2016.06.24 11:21:00
+;; Language:    ADSsim
+;; (C) Copyright 2005, Agilent Technologies Japan, all rights reserved.
+;;****************************************************************************
+
+
+define LQP02HQ_02 ( _net1  _net2 )
+parameters PartNumber=0
+
+DAC:DAC1  File="$muRataLibWeb_CIRCUIT_MODEL_DIR/LQP02HQ_02.dat" Type="dscr" InterpMode="index_lookup" InterpDom="ri" ExtrapMode="interpMode" iVar1="INDEX" iVal1=PartNumber
+
+
+M01=file{DAC1, "M01"}
+L01=file{DAC1, "L01"}
+K01=file{DAC1, "K01"}
+M02=file{DAC1, "M02"}
+L02=file{DAC1, "L02"}
+K02=file{DAC1, "K02"}
+M03=file{DAC1, "M03"}
+L03=file{DAC1, "L03"}
+K03=file{DAC1, "K03"}
+M04=file{DAC1, "M04"}
+L04=file{DAC1, "L04"}
+K04=file{DAC1, "K04"}
+M05=file{DAC1, "M05"}
+L05=file{DAC1, "L05"}
+K05=file{DAC1, "K05"}
+M06=file{DAC1, "M06"}
+L06=file{DAC1, "L06"}
+K06=file{DAC1, "K06"}
+M07=file{DAC1, "M07"}
+L07=file{DAC1, "L07"}
+K07=file{DAC1, "K07"}
+M08=file{DAC1, "M08"}
+L08=file{DAC1, "L08"}
+K08=file{DAC1, "K08"}
+M09=file{DAC1, "M09"}
+L09=file{DAC1, "L09"}
+K09=file{DAC1, "K09"}
+M10=file{DAC1, "M10"}
+L10=file{DAC1, "L10"}
+K10=file{DAC1, "K10"}
+M11=file{DAC1, "M11"}
+L11=file{DAC1, "L11"}
+K11=file{DAC1, "K11"}
+M12=file{DAC1, "M12"}
+L12=file{DAC1, "L12"}
+K12=file{DAC1, "K12"}
+M13=file{DAC1, "M13"}
+L13=file{DAC1, "L13"}
+K13=file{DAC1, "K13"}
+M14=file{DAC1, "M14"}
+L14=file{DAC1, "L14"}
+K14=file{DAC1, "K14"}
+M15=file{DAC1, "M15"}
+L15=file{DAC1, "L15"}
+K15=file{DAC1, "K15"}
+M16=file{DAC1, "M16"}
+L16=file{DAC1, "L16"}
+K16=file{DAC1, "K16"}
+
+
+Z_Port:Z1P01  _net1 _net2 Z[1,1]=if freq==0 or K01==0 then (j*2*pi*freq*L01)+M01 else 1/(j*2*pi*freq*K01)+(j*2*pi*freq*L01)+M01 endif
+Z_Port:Z1P02  _net1 _net2 Z[1,1]=if freq==0 or K02==0 then (j*2*pi*freq*L02)+M02 else 1/(j*2*pi*freq*K02)+(j*2*pi*freq*L02)+M02 endif
+Z_Port:Z1P03  _net1 _net2 Z[1,1]=if freq==0 or K03==0 then (j*2*pi*freq*L03)+M03 else 1/(j*2*pi*freq*K03)+(j*2*pi*freq*L03)+M03 endif
+Z_Port:Z1P04  _net1 _net2 Z[1,1]=if freq==0 or K04==0 then (j*2*pi*freq*L04)+M04 else 1/(j*2*pi*freq*K04)+(j*2*pi*freq*L04)+M04 endif
+Z_Port:Z1P05  _net1 _net2 Z[1,1]=if freq==0 or K05==0 then (j*2*pi*freq*L05)+M05 else 1/(j*2*pi*freq*K05)+(j*2*pi*freq*L05)+M05 endif
+Z_Port:Z1P06  _net1 _net2 Z[1,1]=if freq==0 or K06==0 then (j*2*pi*freq*L06)+M06 else 1/(j*2*pi*freq*K06)+(j*2*pi*freq*L06)+M06 endif
+Z_Port:Z1P07  _net1 _net2 Z[1,1]=if freq==0 or K07==0 then (j*2*pi*freq*L07)+M07 else 1/(j*2*pi*freq*K07)+(j*2*pi*freq*L07)+M07 endif
+Z_Port:Z1P08  _net1 _net2 Z[1,1]=if freq==0 or K08==0 then (j*2*pi*freq*L08)+M08 else 1/(j*2*pi*freq*K08)+(j*2*pi*freq*L08)+M08 endif
+Z_Port:Z1P09  _net1 _net2 Z[1,1]=if freq==0 or K09==0 then (j*2*pi*freq*L09)+M09 else 1/(j*2*pi*freq*K09)+(j*2*pi*freq*L09)+M09 endif
+Z_Port:Z1P10  _net1 _net2 Z[1,1]=if freq==0 or K10==0 then (j*2*pi*freq*L10)+M10 else 1/(j*2*pi*freq*K10)+(j*2*pi*freq*L10)+M10 endif
+Z_Port:Z1P11  _net1 _net2 Z[1,1]=if freq==0 or K11==0 then (j*2*pi*freq*L11)+M11 else 1/(j*2*pi*freq*K11)+(j*2*pi*freq*L11)+M11 endif
+Z_Port:Z1P12  _net1 _net2 Z[1,1]=if freq==0 or K12==0 then (j*2*pi*freq*L12)+M12 else 1/(j*2*pi*freq*K12)+(j*2*pi*freq*L12)+M12 endif
+Z_Port:Z1P13  _net1 _net2 Z[1,1]=if freq==0 or K13==0 then (j*2*pi*freq*L13)+M13 else 1/(j*2*pi*freq*K13)+(j*2*pi*freq*L13)+M13 endif
+Z_Port:Z1P14  _net1 _net2 Z[1,1]=if freq==0 or K14==0 then (j*2*pi*freq*L14)+M14 else 1/(j*2*pi*freq*K14)+(j*2*pi*freq*L14)+M14 endif
+Z_Port:Z1P15  _net1 _net2 Z[1,1]=if freq==0 or K15==0 then (j*2*pi*freq*L15)+M15 else 1/(j*2*pi*freq*K15)+(j*2*pi*freq*L15)+M15 endif
+Z_Port:Z1P16  _net1 _net2 Z[1,1]=if freq==0 or K16==0 then (j*2*pi*freq*L16)+M16 else 1/(j*2*pi*freq*K16)+(j*2*pi*freq*L16)+M16 endif
+
+
+
+
+
+
+
+
+end LQP02HQ_02
+
+
+;;model information (PartNumber:partName)
+;0 : LQP02HQ0N4B02
+;1 : LQP02HQ0N4C02
+;2 : LQP02HQ0N4W02
+;3 : LQP02HQ0N5B02
+;4 : LQP02HQ0N5C02
+;5 : LQP02HQ0N5W02
+;6 : LQP02HQ0N6B02
+;7 : LQP02HQ0N6C02
+;8 : LQP02HQ0N6W02
+;9 : LQP02HQ0N7B02
+;10 : LQP02HQ0N7C02
+;11 : LQP02HQ0N7W02
+;12 : LQP02HQ0N8B02
+;13 : LQP02HQ0N8C02
+;14 : LQP02HQ0N8W02
+;15 : LQP02HQ0N9B02
+;16 : LQP02HQ0N9C02
+;17 : LQP02HQ0N9W02
+;18 : LQP02HQ1N0B02
+;19 : LQP02HQ1N0C02
+;20 : LQP02HQ1N0W02
+;21 : LQP02HQ1N1B02
+;22 : LQP02HQ1N1C02
+;23 : LQP02HQ1N1W02
+;24 : LQP02HQ1N2B02
+;25 : LQP02HQ1N2C02
+;26 : LQP02HQ1N2W02
+;27 : LQP02HQ1N3B02
+;28 : LQP02HQ1N3C02
+;29 : LQP02HQ1N3W02
+;30 : LQP02HQ1N4B02
+;31 : LQP02HQ1N4C02
+;32 : LQP02HQ1N4W02
+;33 : LQP02HQ1N5B02
+;34 : LQP02HQ1N5C02
+;35 : LQP02HQ1N5W02
+;36 : LQP02HQ1N6B02
+;37 : LQP02HQ1N6C02
+;38 : LQP02HQ1N7B02
+;39 : LQP02HQ1N7C02
+;40 : LQP02HQ1N8B02
+;41 : LQP02HQ1N8C02
+;42 : LQP02HQ1N9B02
+;43 : LQP02HQ1N9C02
+;44 : LQP02HQ2N0B02
+;45 : LQP02HQ2N0C02
+;46 : LQP02HQ2N1B02
+;47 : LQP02HQ2N1C02
+;48 : LQP02HQ2N2B02
+;49 : LQP02HQ2N2C02
+;50 : LQP02HQ2N3B02
+;51 : LQP02HQ2N3C02
+;52 : LQP02HQ2N4B02
+;53 : LQP02HQ2N4C02
+;54 : LQP02HQ2N5B02
+;55 : LQP02HQ2N5C02
+;56 : LQP02HQ2N6B02
+;57 : LQP02HQ2N6C02
+;58 : LQP02HQ2N7B02
+;59 : LQP02HQ2N7C02
+;60 : LQP02HQ2N8B02
+;61 : LQP02HQ2N8C02
+;62 : LQP02HQ2N9B02
+;63 : LQP02HQ2N9C02
+;64 : LQP02HQ3N0B02
+;65 : LQP02HQ3N0C02
+;66 : LQP02HQ3N1B02
+;67 : LQP02HQ3N1C02
+;68 : LQP02HQ3N2B02
+;69 : LQP02HQ3N2C02
+;70 : LQP02HQ3N3B02
+;71 : LQP02HQ3N3C02
+;72 : LQP02HQ3N4B02
+;73 : LQP02HQ3N4C02
+;74 : LQP02HQ3N5B02
+;75 : LQP02HQ3N5C02
+;76 : LQP02HQ3N6B02
+;77 : LQP02HQ3N6C02
+;78 : LQP02HQ3N7B02
+;79 : LQP02HQ3N7C02
+;80 : LQP02HQ3N8B02
+;81 : LQP02HQ3N8C02
+;82 : LQP02HQ3N9B02
+;83 : LQP02HQ3N9C02
+;84 : LQP02HQ4N0B02
+;85 : LQP02HQ4N0C02
+;86 : LQP02HQ4N1B02
+;87 : LQP02HQ4N1C02
+;88 : LQP02HQ4N2B02
+;89 : LQP02HQ4N2C02
+;90 : LQP02HQ4N3H02
+;91 : LQP02HQ4N3J02
+;92 : LQP02HQ4N7H02
+;93 : LQP02HQ4N7J02
+;94 : LQP02HQ5N1H02
+;95 : LQP02HQ5N1J02
+;96 : LQP02HQ5N6H02
+;97 : LQP02HQ5N6J02
+;98 : LQP02HQ6N2H02
+;99 : LQP02HQ6N2J02
+;100 : LQP02HQ6N8H02
+;101 : LQP02HQ6N8J02
+;102 : LQP02HQ7N5H02
+;103 : LQP02HQ7N5J02
+;104 : LQP02HQ8N2H02
+;105 : LQP02HQ8N2J02
+;106 : LQP02HQ9N1H02
+;107 : LQP02HQ9N1J02
+;108 : LQP02HQ10NH02
+;109 : LQP02HQ10NJ02
+;110 : LQP02HQ11NH02
+;111 : LQP02HQ11NJ02
+;112 : LQP02HQ12NH02
+;113 : LQP02HQ12NJ02
+;114 : LQP02HQ13NH02
+;115 : LQP02HQ13NJ02
+;116 : LQP02HQ15NH02
+;117 : LQP02HQ15NJ02
+;118 : LQP02HQ16NH02
+;119 : LQP02HQ16NJ02
+;120 : LQP02HQ18NH02
+;121 : LQP02HQ18NJ02
+;122 : LQP02HQ20NH02
+;123 : LQP02HQ20NJ02
+;124 : LQP02HQ22NH02
+;125 : LQP02HQ22NJ02
+
+

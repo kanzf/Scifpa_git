@@ -1,0 +1,210 @@
+;;****************************************************************************
+;; File:        LQG15HN_02.net
+;; Description: LQG15HN_02 model file
+;; Author:      Agilent Technologies Japan, Ltd. 
+;; Created:     2016.06.24 11:21:00
+;; Language:    ADSsim
+;; (C) Copyright 2005, Agilent Technologies Japan, all rights reserved.
+;;****************************************************************************
+
+
+define LQG15HN_02 ( _net1  _net2 )
+parameters PartNumber=0
+
+DAC:DAC1  File="$muRataLibWeb_CIRCUIT_MODEL_DIR/LQG15HN_02.dat" Type="dscr" InterpMode="index_lookup" InterpDom="ri" ExtrapMode="interpMode" iVar1="INDEX" iVal1=PartNumber
+
+
+M01=file{DAC1, "M01"}
+L01=file{DAC1, "L01"}
+K01=file{DAC1, "K01"}
+M02=file{DAC1, "M02"}
+L02=file{DAC1, "L02"}
+K02=file{DAC1, "K02"}
+M03=file{DAC1, "M03"}
+L03=file{DAC1, "L03"}
+K03=file{DAC1, "K03"}
+M04=file{DAC1, "M04"}
+L04=file{DAC1, "L04"}
+K04=file{DAC1, "K04"}
+M05=file{DAC1, "M05"}
+L05=file{DAC1, "L05"}
+K05=file{DAC1, "K05"}
+M06=file{DAC1, "M06"}
+L06=file{DAC1, "L06"}
+K06=file{DAC1, "K06"}
+M07=file{DAC1, "M07"}
+L07=file{DAC1, "L07"}
+K07=file{DAC1, "K07"}
+M08=file{DAC1, "M08"}
+L08=file{DAC1, "L08"}
+K08=file{DAC1, "K08"}
+M09=file{DAC1, "M09"}
+L09=file{DAC1, "L09"}
+K09=file{DAC1, "K09"}
+M10=file{DAC1, "M10"}
+L10=file{DAC1, "L10"}
+K10=file{DAC1, "K10"}
+M11=file{DAC1, "M11"}
+L11=file{DAC1, "L11"}
+K11=file{DAC1, "K11"}
+M12=file{DAC1, "M12"}
+L12=file{DAC1, "L12"}
+K12=file{DAC1, "K12"}
+M13=file{DAC1, "M13"}
+L13=file{DAC1, "L13"}
+K13=file{DAC1, "K13"}
+M14=file{DAC1, "M14"}
+L14=file{DAC1, "L14"}
+K14=file{DAC1, "K14"}
+M15=file{DAC1, "M15"}
+L15=file{DAC1, "L15"}
+K15=file{DAC1, "K15"}
+M16=file{DAC1, "M16"}
+L16=file{DAC1, "L16"}
+K16=file{DAC1, "K16"}
+
+
+Z_Port:Z1P01  _net1 _net2 Z[1,1]=if freq==0 or K01==0 then (j*2*pi*freq*L01)+M01 else 1/(j*2*pi*freq*K01)+(j*2*pi*freq*L01)+M01 endif
+Z_Port:Z1P02  _net1 _net2 Z[1,1]=if freq==0 or K02==0 then (j*2*pi*freq*L02)+M02 else 1/(j*2*pi*freq*K02)+(j*2*pi*freq*L02)+M02 endif
+Z_Port:Z1P03  _net1 _net2 Z[1,1]=if freq==0 or K03==0 then (j*2*pi*freq*L03)+M03 else 1/(j*2*pi*freq*K03)+(j*2*pi*freq*L03)+M03 endif
+Z_Port:Z1P04  _net1 _net2 Z[1,1]=if freq==0 or K04==0 then (j*2*pi*freq*L04)+M04 else 1/(j*2*pi*freq*K04)+(j*2*pi*freq*L04)+M04 endif
+Z_Port:Z1P05  _net1 _net2 Z[1,1]=if freq==0 or K05==0 then (j*2*pi*freq*L05)+M05 else 1/(j*2*pi*freq*K05)+(j*2*pi*freq*L05)+M05 endif
+Z_Port:Z1P06  _net1 _net2 Z[1,1]=if freq==0 or K06==0 then (j*2*pi*freq*L06)+M06 else 1/(j*2*pi*freq*K06)+(j*2*pi*freq*L06)+M06 endif
+Z_Port:Z1P07  _net1 _net2 Z[1,1]=if freq==0 or K07==0 then (j*2*pi*freq*L07)+M07 else 1/(j*2*pi*freq*K07)+(j*2*pi*freq*L07)+M07 endif
+Z_Port:Z1P08  _net1 _net2 Z[1,1]=if freq==0 or K08==0 then (j*2*pi*freq*L08)+M08 else 1/(j*2*pi*freq*K08)+(j*2*pi*freq*L08)+M08 endif
+Z_Port:Z1P09  _net1 _net2 Z[1,1]=if freq==0 or K09==0 then (j*2*pi*freq*L09)+M09 else 1/(j*2*pi*freq*K09)+(j*2*pi*freq*L09)+M09 endif
+Z_Port:Z1P10  _net1 _net2 Z[1,1]=if freq==0 or K10==0 then (j*2*pi*freq*L10)+M10 else 1/(j*2*pi*freq*K10)+(j*2*pi*freq*L10)+M10 endif
+Z_Port:Z1P11  _net1 _net2 Z[1,1]=if freq==0 or K11==0 then (j*2*pi*freq*L11)+M11 else 1/(j*2*pi*freq*K11)+(j*2*pi*freq*L11)+M11 endif
+Z_Port:Z1P12  _net1 _net2 Z[1,1]=if freq==0 or K12==0 then (j*2*pi*freq*L12)+M12 else 1/(j*2*pi*freq*K12)+(j*2*pi*freq*L12)+M12 endif
+Z_Port:Z1P13  _net1 _net2 Z[1,1]=if freq==0 or K13==0 then (j*2*pi*freq*L13)+M13 else 1/(j*2*pi*freq*K13)+(j*2*pi*freq*L13)+M13 endif
+Z_Port:Z1P14  _net1 _net2 Z[1,1]=if freq==0 or K14==0 then (j*2*pi*freq*L14)+M14 else 1/(j*2*pi*freq*K14)+(j*2*pi*freq*L14)+M14 endif
+Z_Port:Z1P15  _net1 _net2 Z[1,1]=if freq==0 or K15==0 then (j*2*pi*freq*L15)+M15 else 1/(j*2*pi*freq*K15)+(j*2*pi*freq*L15)+M15 endif
+Z_Port:Z1P16  _net1 _net2 Z[1,1]=if freq==0 or K16==0 then (j*2*pi*freq*L16)+M16 else 1/(j*2*pi*freq*K16)+(j*2*pi*freq*L16)+M16 endif
+
+
+
+
+
+
+
+
+end LQG15HN_02
+
+
+;;model information (PartNumber:partName)
+;0 : LQG15HN1N0B02
+;1 : LQG15HN1N0C02
+;2 : LQG15HN1N0S02
+;3 : LQG15HN1N1B02
+;4 : LQG15HN1N1C02
+;5 : LQG15HN1N1S02
+;6 : LQG15HN1N2B02
+;7 : LQG15HN1N2C02
+;8 : LQG15HN1N2S02
+;9 : LQG15HN1N3B02
+;10 : LQG15HN1N3C02
+;11 : LQG15HN1N3S02
+;12 : LQG15HN1N5B02
+;13 : LQG15HN1N5C02
+;14 : LQG15HN1N5S02
+;15 : LQG15HN1N6B02
+;16 : LQG15HN1N6C02
+;17 : LQG15HN1N6S02
+;18 : LQG15HN1N8B02
+;19 : LQG15HN1N8C02
+;20 : LQG15HN1N8S02
+;21 : LQG15HN2N0B02
+;22 : LQG15HN2N0C02
+;23 : LQG15HN2N0S02
+;24 : LQG15HN2N2B02
+;25 : LQG15HN2N2C02
+;26 : LQG15HN2N2S02
+;27 : LQG15HN2N4B02
+;28 : LQG15HN2N4C02
+;29 : LQG15HN2N4S02
+;30 : LQG15HN2N7B02
+;31 : LQG15HN2N7C02
+;32 : LQG15HN2N7S02
+;33 : LQG15HN3N0B02
+;34 : LQG15HN3N0C02
+;35 : LQG15HN3N0S02
+;36 : LQG15HN3N3B02
+;37 : LQG15HN3N3C02
+;38 : LQG15HN3N3S02
+;39 : LQG15HN3N6B02
+;40 : LQG15HN3N6C02
+;41 : LQG15HN3N6S02
+;42 : LQG15HN3N9B02
+;43 : LQG15HN3N9C02
+;44 : LQG15HN3N9S02
+;45 : LQG15HN4N3B02
+;46 : LQG15HN4N3C02
+;47 : LQG15HN4N3S02
+;48 : LQG15HN4N7B02
+;49 : LQG15HN4N7C02
+;50 : LQG15HN4N7S02
+;51 : LQG15HN5N1B02
+;52 : LQG15HN5N1C02
+;53 : LQG15HN5N1S02
+;54 : LQG15HN5N6B02
+;55 : LQG15HN5N6C02
+;56 : LQG15HN5N6S02
+;57 : LQG15HN6N2B02
+;58 : LQG15HN6N2C02
+;59 : LQG15HN6N2S02
+;60 : LQG15HN6N8G02
+;61 : LQG15HN6N8H02
+;62 : LQG15HN6N8J02
+;63 : LQG15HN7N5G02
+;64 : LQG15HN7N5H02
+;65 : LQG15HN7N5J02
+;66 : LQG15HN8N2G02
+;67 : LQG15HN8N2H02
+;68 : LQG15HN8N2J02
+;69 : LQG15HN9N1G02
+;70 : LQG15HN9N1H02
+;71 : LQG15HN9N1J02
+;72 : LQG15HN10NG02
+;73 : LQG15HN10NH02
+;74 : LQG15HN10NJ02
+;75 : LQG15HN12NG02
+;76 : LQG15HN12NH02
+;77 : LQG15HN12NJ02
+;78 : LQG15HN15NG02
+;79 : LQG15HN15NH02
+;80 : LQG15HN15NJ02
+;81 : LQG15HN18NG02
+;82 : LQG15HN18NH02
+;83 : LQG15HN18NJ02
+;84 : LQG15HN22NG02
+;85 : LQG15HN22NH02
+;86 : LQG15HN22NJ02
+;87 : LQG15HN27NG02
+;88 : LQG15HN27NH02
+;89 : LQG15HN27NJ02
+;90 : LQG15HN33NG02
+;91 : LQG15HN33NH02
+;92 : LQG15HN33NJ02
+;93 : LQG15HN39NG02
+;94 : LQG15HN39NH02
+;95 : LQG15HN39NJ02
+;96 : LQG15HN47NG02
+;97 : LQG15HN47NH02
+;98 : LQG15HN47NJ02
+;99 : LQG15HN56NG02
+;100 : LQG15HN56NH02
+;101 : LQG15HN56NJ02
+;102 : LQG15HN68NG02
+;103 : LQG15HN68NH02
+;104 : LQG15HN68NJ02
+;105 : LQG15HN82NG02
+;106 : LQG15HN82NH02
+;107 : LQG15HN82NJ02
+;108 : LQG15HNR10G02
+;109 : LQG15HNR10H02
+;110 : LQG15HNR10J02
+;111 : LQG15HNR12G02
+;112 : LQG15HNR12H02
+;113 : LQG15HNR12J02
+
+

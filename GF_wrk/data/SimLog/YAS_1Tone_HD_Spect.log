@@ -1,0 +1,3469 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+
+YIELD Yield1[1] <GF_lib:YAS_1Tone_HD_Spect:schematic>  mcTrial=(0->100)
+
+HB Yield1[1].HB1[0] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 649.
+    Auto mode: off.
+    Convergence mode: Fast.
+    Linear solver: direct.
+------------------------------------------------------------------------
+Newton solver:				
+Iter	KCL residual	Sol update
+------------------------------------------------------------------------
+0.0*	53.334 mA                
+1.0 	2.19666 mA               
+1.1 	229.084 uA               
+1.2 	22.9713 uA               
+1.3 	2.24304 uA               
+1.4 	201.192 nA               
+1.5 	18.0564 nA               
+1.6 	1.59025 nA               
+1.7 	140.813 pA               
+1.8 	12.4166 pA               
+1.9 	1.09593 pA  	6.91399 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.538e-04       >       2.420e-06
+X1.HPMOS1.Vdsm          2.484e-04       >       2.406e-06
+X1.HPMOS1.g             3.561e-05       >       1.222e-06
+X1.HPMOS1.Vgsm          3.279e-05       >       1.196e-06
+X1.HPMOS1.s             2.433e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.538e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.420e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):   0.00%
+  Trial# 0     of 101  
+
+HB Yield1[1].HB1[1] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	15.6435 mA               
+1.0 	7.11291 mA               
+1.1 	942.84 uA                
+1.2 	183.514 uA               
+1.3 	27.6087 uA               
+1.4 	3.99245 uA               
+1.5 	520.465 nA               
+1.6 	62.4274 nA               
+1.7 	6.42434 nA               
+1.8 	639.959 pA               
+1.9 	91.6749 pA               
+1.10 	15.9661 pA               
+1.11 	2.85114 pA               
+1.12 	477.18 fA   	3.42971 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.483e-04       >       2.412e-06
+X1.HPMOS1.Vdsm          1.441e-04       >       2.400e-06
+X1.HPMOS1.g             2.057e-05       >       1.189e-06
+X1.HPMOS1.Vgsm          1.901e-05       >       1.164e-06
+X1.HPMOS1.s             1.504e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.483e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.412e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[2] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	4.27444 mA               
+1.0 	3.0243 mA                
+1.1 	200.852 uA               
+1.2 	24.3838 uA               
+1.3 	2.25017 uA               
+1.4 	223.671 nA               
+1.5 	20.4684 nA               
+1.6 	1.87214 nA               
+1.7 	158.703 pA               
+1.8 	13.3898 pA               
+1.9 	1.05401 pA  	8.41632 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.162e-04       >       2.493e-06
+X1.HPMOS1.Vdsm          2.104e-04       >       2.480e-06
+X1.HPMOS1.g             2.936e-05       >       1.211e-06
+X1.HPMOS1.Vgsm          2.713e-05       >       1.185e-06
+X1.HPMOS1.s             2.130e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.162e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.493e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[3] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.33317 mA               
+1.0 	4.10586 mA               
+1.1 	276.887 uA               
+1.2 	36.3691 uA               
+1.3 	2.64559 uA               
+1.4 	307.635 nA               
+1.5 	21.6188 nA               
+1.6 	2.26541 nA               
+1.7 	147.894 pA               
+1.8 	14.3688 pA               
+1.9 	881.138 fA  	7.08947 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.940e-04       >       2.515e-06
+X1.HPMOS1.Vdsm          2.873e-04       >       2.501e-06
+X1.HPMOS1.g             4.125e-05       >       1.230e-06
+X1.HPMOS1.Vgsm          3.805e-05       >       1.202e-06
+X1.HPMOS1.s             2.973e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.940e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.515e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[4] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	4.20422 mA               
+1.0 	116.865 uA               
+1.1 	1.70692 uA               
+1.2 	31.5521 nA               
+1.3 	599.295 pA               
+1.4 	10.1793 pA               
+1.5 	205.471 fA  	1.31834 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.884e-04       >       2.454e-06
+X1.HPMOS1.Vdsm          2.826e-04       >       2.439e-06
+X1.HPMOS1.g             4.117e-05       >       1.228e-06
+X1.HPMOS1.Vgsm          3.793e-05       >       1.202e-06
+X1.HPMOS1.s             2.805e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.884e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.454e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[5] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	4.91656 mA               
+1.0 	810.861 uA               
+1.1 	22.6509 uA               
+1.2 	1.40787 uA               
+1.3 	41.0902 nA               
+1.4 	2.27146 nA               
+1.5 	63.5755 pA               
+1.6 	2.8639 pA                
+1.7 	67.5329 fA  	604.479 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.567e-04       >       2.486e-06
+X1.HPMOS1.Vdsm          2.505e-04       >       2.472e-06
+X1.HPMOS1.g             3.554e-05       >       1.223e-06
+X1.HPMOS1.Vgsm          3.269e-05       >       1.196e-06
+X1.HPMOS1.s             2.448e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.567e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.486e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[6] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	3.6861 mA                
+1.0 	556.011 uA               
+1.1 	13.9529 uA               
+1.2 	764.646 nA               
+1.3 	24.6462 nA               
+1.4 	1.00562 nA               
+1.5 	32.365 pA                
+1.6 	1.14122 pA  	8.49378 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.303e-04       >       2.439e-06
+X1.HPMOS1.Vdsm          2.247e-04       >       2.425e-06
+X1.HPMOS1.g             3.212e-05       >       1.216e-06
+X1.HPMOS1.Vgsm          2.963e-05       >       1.190e-06
+X1.HPMOS1.s             2.234e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.303e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.439e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[7] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.97143 mA               
+1.0 	160.874 uA               
+1.1 	4.03127 uA               
+1.2 	76.7165 nA               
+1.3 	1.89094 nA               
+1.4 	39.5376 pA               
+1.5 	922.534 fA  	5.63194 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.332e-04       >       2.346e-06
+X1.HPMOS1.Vdsm          2.286e-04       >       2.332e-06
+X1.HPMOS1.g             3.289e-05       >       1.215e-06
+X1.HPMOS1.Vgsm          3.023e-05       >       1.190e-06
+X1.HPMOS1.s             2.220e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.332e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.346e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[8] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.49764 mA               
+1.0 	7.69458 mA               
+1.1*	734.353 uA               
+2.0 	406.797 nA               
+2.1 	427.503 pA               
+2.2 	577.245 fA  	4.65949 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.315e-04       >       2.466e-06
+X1.HPMOS1.Vdsm          3.248e-04       >       2.451e-06
+X1.HPMOS1.g             4.799e-05       >       1.238e-06
+X1.HPMOS1.Vgsm          4.423e-05       >       1.211e-06
+X1.HPMOS1.s             3.327e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.315e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.466e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[9] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	20.1291 mA               
+1.0 	12.7341 mA               
+1.1 	2.40069 mA               
+1.2 	624.103 uA               
+1.3 	115.59 uA                
+1.4 	22.8513 uA               
+1.5 	3.74554 uA               
+1.6 	617.646 nA               
+1.7 	91.0206 nA               
+1.8 	12.0702 nA               
+1.9 	1.97117 nA               
+1.10 	376.13 pA                
+1.11 	100.503 pA               
+1.12 	23.4075 pA               
+1.13 	4.84998 pA               
+1.14 	932.276 fA  	7.3871 pV    
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.841e-04       >       2.497e-06
+X1.HPMOS1.Vdsm          1.788e-04       >       2.485e-06
+X1.HPMOS1.g             2.501e-05       >       1.201e-06
+X1.HPMOS1.Vgsm          2.322e-05       >       1.174e-06
+X1.HPMOS1.s             1.889e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.841e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.497e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[10] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	13.2224 mA               
+1.0 	4.99807 mA               
+1.1 	404.063 uA               
+1.2 	64.6198 uA               
+1.3 	6.47366 uA               
+1.4 	807.704 nA               
+1.5 	81.1937 nA               
+1.6 	8.44739 nA               
+1.7 	823.051 pA               
+1.8 	76.6637 pA               
+1.9 	6.67339 pA               
+1.10 	535.434 fA  	4.58326 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.796e-04       >       2.477e-06
+X1.HPMOS1.Vdsm          2.733e-04       >       2.463e-06
+X1.HPMOS1.g             3.940e-05       >       1.228e-06
+X1.HPMOS1.Vgsm          3.627e-05       >       1.201e-06
+X1.HPMOS1.s             2.697e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.796e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.477e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  50.00%
+  Trial# 10    of 101  
+
+HB Yield1[1].HB1[11] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.49952 mA               
+1.0 	5.83688 mA               
+1.1 	603.05 uA                
+1.2 	107.648 uA               
+1.3 	12.7839 uA               
+1.4 	1.73226 uA               
+1.5 	201.156 nA               
+1.6 	23.1532 nA               
+1.7 	2.44741 nA               
+1.8 	236.727 pA               
+1.9 	20.4466 pA               
+1.10 	1.84637 pA               
+1.11 	205.28 fA   	1.58275 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.921e-04       >       2.422e-06
+X1.HPMOS1.Vdsm          1.872e-04       >       2.409e-06
+X1.HPMOS1.g             2.691e-05       >       1.203e-06
+X1.HPMOS1.Vgsm          2.491e-05       >       1.177e-06
+X1.HPMOS1.s             1.933e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.921e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.422e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[12] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	19.7625 mA               
+1.0 	4.36391 mA               
+1.1 	357.335 uA               
+1.2 	52.3301 uA               
+1.3 	4.97477 uA               
+1.4 	537.298 nA               
+1.5 	49.8597 nA               
+1.6 	4.4005 nA                
+1.7 	347.794 pA               
+1.8 	24.2637 pA               
+1.9 	1.60679 pA               
+1.10 	174.329 fA  	1.14411 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.854e-04       >       2.312e-06
+X1.HPMOS1.Vdsm          2.811e-04       >       2.297e-06
+X1.HPMOS1.g             4.100e-05       >       1.229e-06
+X1.HPMOS1.Vgsm          3.770e-05       >       1.204e-06
+X1.HPMOS1.s             2.704e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.854e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.312e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[13] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	19.6621 mA               
+1.0 	5.78023 mA               
+1.1 	639.657 uA               
+1.2 	114.566 uA               
+1.3 	13.5364 uA               
+1.4 	1.74454 uA               
+1.5 	193.522 nA               
+1.6 	19.5412 nA               
+1.7 	1.67646 nA               
+1.8 	148.729 pA               
+1.9 	20.1057 pA               
+1.10 	3.37581 pA               
+1.11 	529.094 fA  	3.83861 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.963e-04       >       2.401e-06
+X1.HPMOS1.Vdsm          1.916e-04       >       2.388e-06
+X1.HPMOS1.g             2.773e-05       >       1.204e-06
+X1.HPMOS1.Vgsm          2.563e-05       >       1.178e-06
+X1.HPMOS1.s             1.931e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.963e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.401e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[14] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	16.8 mA                  
+1.0 	7.30433 mA               
+1.1 	613.154 uA               
+1.2 	118.66 uA                
+1.3 	12.2432 uA               
+1.4 	1.7974 uA                
+1.5 	183.809 nA               
+1.6 	21.396 nA                
+1.7 	2.14498 nA               
+1.8 	205.512 pA               
+1.9 	17.5949 pA               
+1.10 	1.52884 pA  	12.3525 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.951e-04       >       2.329e-06
+X1.HPMOS1.Vdsm          2.908e-04       >       2.314e-06
+X1.HPMOS1.g             4.233e-05       >       1.229e-06
+X1.HPMOS1.Vgsm          3.888e-05       >       1.205e-06
+X1.HPMOS1.s             2.772e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.951e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.329e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[15] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.39273 mA               
+1.0 	6.61434 mA               
+1.1 	509.622 uA               
+1.2 	85.0708 uA               
+1.3 	5.88947 uA               
+1.4 	973.661 nA               
+1.5 	59.9467 nA               
+1.6 	10.5181 nA               
+1.7 	704.142 pA               
+1.8 	116.104 pA               
+1.9 	9.6209 pA                
+1.10 	1.35234 pA  	7.29539 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.553e-04       >       2.375e-06
+X1.HPMOS1.Vdsm          3.498e-04       >       2.359e-06
+X1.HPMOS1.g             5.190e-05       >       1.244e-06
+X1.HPMOS1.Vgsm          4.748e-05       >       1.219e-06
+X1.HPMOS1.s             3.328e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.553e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.375e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[16] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	18.5522 mA               
+1.0 	6.16981 mA               
+1.1 	548.815 uA               
+1.2 	98.2958 uA               
+1.3 	9.20532 uA               
+1.4 	1.32614 uA               
+1.5 	121.258 nA               
+1.6 	14.0284 nA               
+1.7 	1.13093 nA               
+1.8 	104.665 pA               
+1.9 	5.82844 pA               
+1.10 	620.907 fA  	5.15493 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.834e-04       >       2.522e-06
+X1.HPMOS1.Vdsm          2.765e-04       >       2.508e-06
+X1.HPMOS1.g             3.974e-05       >       1.229e-06
+X1.HPMOS1.Vgsm          3.663e-05       >       1.201e-06
+X1.HPMOS1.s             2.791e-06       >       1.042e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.834e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.522e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[17] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	10.9231 mA               
+1.0 	1.26073 mA               
+1.1 	49.2001 uA               
+1.2 	3.98902 uA               
+1.3 	197.383 nA               
+1.4 	11.7454 nA               
+1.5 	564.119 pA               
+1.6 	27.3257 pA               
+1.7 	1.22026 pA  	8.38923 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.359e-04       >       2.437e-06
+X1.HPMOS1.Vdsm          3.297e-04       >       2.422e-06
+X1.HPMOS1.g             4.897e-05       >       1.238e-06
+X1.HPMOS1.Vgsm          4.503e-05       >       1.212e-06
+X1.HPMOS1.s             3.242e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.359e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.437e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[18] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	12.569 mA                
+1.0 	20.5856 mA               
+1.1*	4.56045 mA               
+2.0 	28.8015 uA               
+2.1 	381.935 nA               
+2.2 	4.45029 nA               
+2.3 	46.4766 pA               
+2.4 	449.804 fA  	2.99882 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.689e-04       >       2.345e-06
+X1.HPMOS1.Vdsm          1.649e-04       >       2.332e-06
+X1.HPMOS1.g             2.377e-05       >       1.195e-06
+X1.HPMOS1.Vgsm          2.186e-05       >       1.171e-06
+X1.HPMOS1.s             1.633e-06       >       1.036e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.689e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.345e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[19] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.73829 mA               
+1.0 	7.15331 mA               
+1.1*	599.854 uA               
+2.0 	451.316 nA               
+2.1 	486.152 pA               
+2.2 	587.232 fA  	4.167 pV     
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.671e-04       >       2.420e-06
+X1.HPMOS1.Vdsm          2.617e-04       >       2.406e-06
+X1.HPMOS1.g             3.767e-05       >       1.225e-06
+X1.HPMOS1.Vgsm          3.465e-05       >       1.199e-06
+X1.HPMOS1.s             2.527e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.671e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.420e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[20] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.28712 mA               
+1.0 	3.30097 mA               
+1.1 	256.931 uA               
+1.2 	34.9141 uA               
+1.3 	3.05243 uA               
+1.4 	317.068 nA               
+1.5 	27.3734 nA               
+1.6 	2.32281 nA               
+1.7 	178.791 pA               
+1.8 	12.423 pA                
+1.9 	774.773 fA  	7.48663 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.037e-04       >       2.405e-06
+X1.HPMOS1.Vdsm          1.987e-04       >       2.392e-06
+X1.HPMOS1.g             2.876e-05       >       1.206e-06
+X1.HPMOS1.Vgsm          2.660e-05       >       1.181e-06
+X1.HPMOS1.s             2.015e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.037e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.405e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  50.00%
+  Trial# 20    of 101  
+
+HB Yield1[1].HB1[21] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	12.8059 mA               
+1.0 	5.431 mA                 
+1.1 	408.071 uA               
+1.2 	66.8928 uA               
+1.3 	6.11919 uA               
+1.4 	765.988 nA               
+1.5 	68.7703 nA               
+1.6 	7.02628 nA               
+1.7 	618.867 pA               
+1.8 	52.2402 pA               
+1.9 	3.94089 pA               
+1.10 	289.45 fA   	2.49529 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.954e-04       >       2.371e-06
+X1.HPMOS1.Vdsm          2.906e-04       >       2.355e-06
+X1.HPMOS1.g             4.221e-05       >       1.230e-06
+X1.HPMOS1.Vgsm          3.876e-05       >       1.205e-06
+X1.HPMOS1.s             2.754e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.954e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.371e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[22] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	4.45874 mA               
+1.0 	3.28424 mA               
+1.1 	224.327 uA               
+1.2 	28.0897 uA               
+1.3 	2.20921 uA               
+1.4 	205.876 nA               
+1.5 	15.5301 nA               
+1.6 	1.21524 nA               
+1.7 	84.9646 pA               
+1.8 	6.07884 pA               
+1.9 	389.182 fA  	3.20013 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.232e-04       >       2.258e-06
+X1.HPMOS1.Vdsm          2.195e-04       >       2.244e-06
+X1.HPMOS1.g             3.186e-05       >       1.211e-06
+X1.HPMOS1.Vgsm          2.918e-05       >       1.188e-06
+X1.HPMOS1.s             2.073e-06       >       1.036e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.232e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.258e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[23] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.5793 mA                
+1.0 	8.97823 mA               
+1.1*	896.32 uA                
+2.0 	569.221 nA               
+2.1 	754.22 pA                
+2.2 	1.17801 pA  	9.35068 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.407e-04       >       2.432e-06
+X1.HPMOS1.Vdsm          3.345e-04       >       2.416e-06
+X1.HPMOS1.g             4.988e-05       >       1.239e-06
+X1.HPMOS1.Vgsm          4.593e-05       >       1.213e-06
+X1.HPMOS1.s             3.368e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.407e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.432e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[24] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	3.80341 mA               
+1.0 	105.192 uA               
+1.1 	1.05654 uA               
+1.2 	24.7969 nA               
+1.3 	205.514 pA               
+1.4 	4.7944 pA                
+1.5 	34.6795 fA  	364.201 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.522e-04       >       2.416e-06
+X1.HPMOS1.Vdsm          3.459e-04       >       2.400e-06
+X1.HPMOS1.g             5.156e-05       >       1.242e-06
+X1.HPMOS1.Vgsm          4.743e-05       >       1.216e-06
+X1.HPMOS1.s             3.503e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.522e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.416e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[25] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	12.9896 mA               
+1.0 	2.44548 mA               
+1.1 	139.689 uA               
+1.2 	16.2143 uA               
+1.3 	1.08943 uA               
+1.4 	93.632 nA                
+1.5 	5.86643 nA               
+1.6 	415.48 pA                
+1.7 	23.1736 pA               
+1.8 	1.35119 pA  	10.7097 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.890e-04       >       2.511e-06
+X1.HPMOS1.Vdsm          2.822e-04       >       2.497e-06
+X1.HPMOS1.g             4.062e-05       >       1.230e-06
+X1.HPMOS1.Vgsm          3.743e-05       >       1.203e-06
+X1.HPMOS1.s             2.848e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.890e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.511e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[26] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.17391 mA               
+1.0 	967.082 uA               
+1.1 	30.261 uA                
+1.2 	2.14993 uA               
+1.3 	74.4234 nA               
+1.4 	4.33399 nA               
+1.5 	155.67 pA                
+1.6 	7.58725 pA               
+1.7 	257.733 fA  	2.01383 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.251e-04       >       2.464e-06
+X1.HPMOS1.Vdsm          3.188e-04       >       2.449e-06
+X1.HPMOS1.g             4.698e-05       >       1.236e-06
+X1.HPMOS1.Vgsm          4.320e-05       >       1.209e-06
+X1.HPMOS1.s             3.120e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.251e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.464e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[27] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	11.0226 mA               
+1.0 	11.8634 mA               
+1.1*	1.99553 mA               
+2.0 	7.55162 uA               
+2.1 	52.3383 nA               
+2.2 	320.22 pA                
+2.3 	1.8383 pA                
+2.4 	10.3499 fA  	68.0015 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.940e-04       >       2.414e-06
+X1.HPMOS1.Vdsm          1.892e-04       >       2.401e-06
+X1.HPMOS1.g             2.723e-05       >       1.203e-06
+X1.HPMOS1.Vgsm          2.516e-05       >       1.178e-06
+X1.HPMOS1.s             1.908e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.940e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.414e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[28] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	15.6631 mA               
+1.0 	3.08446 mA               
+1.1 	224.631 uA               
+1.2 	27.8959 uA               
+1.3 	2.35007 uA               
+1.4 	214.96 nA                
+1.5 	17.5296 nA               
+1.6 	1.34311 nA               
+1.7 	92.8867 pA               
+1.8 	5.60964 pA               
+1.9 	318.231 fA  	2.89399 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.684e-04       >       2.332e-06
+X1.HPMOS1.Vdsm          2.639e-04       >       2.317e-06
+X1.HPMOS1.g             3.801e-05       >       1.224e-06
+X1.HPMOS1.Vgsm          3.489e-05       >       1.200e-06
+X1.HPMOS1.s             2.512e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.684e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.332e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[29] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	9.79529 mA               
+1.0 	838.897 uA               
+1.1 	27.39 uA                 
+1.2 	1.16866 uA               
+1.3 	57.5308 nA               
+1.4 	1.97031 nA               
+1.5 	126.154 pA               
+1.6 	5.31582 pA               
+1.7 	285.76 fA   	1.71905 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.919e-04       >       2.474e-06
+X1.HPMOS1.Vdsm          2.857e-04       >       2.460e-06
+X1.HPMOS1.g             4.135e-05       >       1.230e-06
+X1.HPMOS1.Vgsm          3.811e-05       >       1.203e-06
+X1.HPMOS1.s             2.880e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.919e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.474e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[30] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	12.9036 mA               
+1.0 	17.4048 mA               
+1.1*	3.35844 mA               
+2.0 	22.3273 uA               
+2.1 	268.706 nA               
+2.2 	2.79007 nA               
+2.3 	26.7145 pA               
+2.4 	246.217 fA  	1.75737 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.313e-04       >       2.356e-06
+X1.HPMOS1.Vdsm          1.275e-04       >       2.345e-06
+X1.HPMOS1.g             1.831e-05       >       1.184e-06
+X1.HPMOS1.Vgsm          1.688e-05       >       1.160e-06
+X1.HPMOS1.s             1.326e-06       >       1.036e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.313e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.356e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  56.67%
+  Trial# 30    of 101  
+
+HB Yield1[1].HB1[31] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.08596 mA               
+1.0 	9.74655 mA               
+1.1*	1.00001 mA               
+2.0 	1.20875 uA               
+2.1 	2.34502 nA               
+2.2 	4.7334 pA                
+2.3 	9.32544 fA  	67.9827 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.493e-04       >       2.519e-06
+X1.HPMOS1.Vdsm          2.430e-04       >       2.505e-06
+X1.HPMOS1.g             3.408e-05       >       1.221e-06
+X1.HPMOS1.Vgsm          3.138e-05       >       1.193e-06
+X1.HPMOS1.s             2.420e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.493e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.519e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[32] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.26296 mA               
+1.0 	4.034 mA                 
+1.1 	305.393 uA               
+1.2 	45.2453 uA               
+1.3 	4.46784 uA               
+1.4 	497.647 nA               
+1.5 	47.9098 nA               
+1.6 	4.84689 nA               
+1.7 	457.424 pA               
+1.8 	42.0174 pA               
+1.9 	3.67643 pA               
+1.10 	308.23 fA   	2.50542 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.944e-04       >       2.400e-06
+X1.HPMOS1.Vdsm          1.897e-04       >       2.387e-06
+X1.HPMOS1.g             2.743e-05       >       1.203e-06
+X1.HPMOS1.Vgsm          2.530e-05       >       1.178e-06
+X1.HPMOS1.s             1.873e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.944e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.400e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[33] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	20.0638 mA               
+1.0 	6.59338 mA               
+1.1 	552.821 uA               
+1.2 	101.884 uA               
+1.3 	10.2841 uA               
+1.4 	1.41128 uA               
+1.5 	142.464 nA               
+1.6 	14.9993 nA               
+1.7 	1.42001 nA               
+1.8 	118.474 pA               
+1.9 	9.45738 pA               
+1.10 	1.08085 pA  	6.66516 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.946e-04       >       2.290e-06
+X1.HPMOS1.Vdsm          2.910e-04       >       2.275e-06
+X1.HPMOS1.g             4.246e-05       >       1.228e-06
+X1.HPMOS1.Vgsm          3.891e-05       >       1.205e-06
+X1.HPMOS1.s             2.658e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.946e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.290e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[34] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.67282 mA               
+1.0 	481.469 uA               
+1.1 	16.673 uA                
+1.2 	569.814 nA               
+1.3 	17.7819 nA               
+1.4 	553.998 pA               
+1.5 	18.6114 pA               
+1.6 	677.501 fA  	4.08836 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.219e-04       >       2.409e-06
+X1.HPMOS1.Vdsm          3.164e-04       >       2.394e-06
+X1.HPMOS1.g             4.667e-05       >       1.236e-06
+X1.HPMOS1.Vgsm          4.293e-05       >       1.210e-06
+X1.HPMOS1.s             3.076e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.219e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.409e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[35] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.05562 mA               
+1.0 	5.23645 mA               
+1.1 	502.85 uA                
+1.2 	84.9818 uA               
+1.3 	8.93276 uA               
+1.4 	1.09138 uA               
+1.5 	104.617 nA               
+1.6 	10.6117 nA               
+1.7 	870.855 pA               
+1.8 	75.1356 pA               
+1.9 	5.81073 pA               
+1.10 	608.004 fA  	4.5708 pV    
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.320e-04       >       2.367e-06
+X1.HPMOS1.Vdsm          2.271e-04       >       2.353e-06
+X1.HPMOS1.g             3.302e-05       >       1.215e-06
+X1.HPMOS1.Vgsm          3.041e-05       >       1.190e-06
+X1.HPMOS1.s             2.202e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.320e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.367e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[36] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.80967 mA               
+1.0 	2.40476 mA               
+1.1 	172.601 uA               
+1.2 	19.1276 uA               
+1.3 	1.59744 uA               
+1.4 	133.691 nA               
+1.5 	10.0975 nA               
+1.6 	722.818 pA               
+1.7 	47.1056 pA               
+1.8 	2.78603 pA               
+1.9 	147.483 fA  	1.50273 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.750e-04       >       2.348e-06
+X1.HPMOS1.Vdsm          1.710e-04       >       2.335e-06
+X1.HPMOS1.g             2.461e-05       >       1.197e-06
+X1.HPMOS1.Vgsm          2.270e-05       >       1.173e-06
+X1.HPMOS1.s             1.756e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.750e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.348e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[37] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.24388 mA               
+1.0 	6.47889 mA               
+1.1*	485.167 uA               
+2.0 	313.873 nA               
+2.1 	294.887 pA               
+2.2 	316.845 fA  	2.30739 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.520e-04       >       2.502e-06
+X1.HPMOS1.Vdsm          2.457e-04       >       2.488e-06
+X1.HPMOS1.g             3.476e-05       >       1.222e-06
+X1.HPMOS1.Vgsm          3.201e-05       >       1.195e-06
+X1.HPMOS1.s             2.456e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.520e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.502e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[38] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	20.1835 mA               
+1.0 	9.54149 mA               
+1.1 	799.096 uA               
+1.2 	167.319 uA               
+1.3 	13.4475 uA               
+1.4 	2.61588 uA               
+1.5 	188.537 nA               
+1.6 	33.4944 nA               
+1.7 	2.2419 nA                
+1.8 	365.769 pA               
+1.9 	20.198 pA                
+1.10 	3.28145 pA               
+1.11 	244.663 fA  	1.51144 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.535e-04       >       2.374e-06
+X1.HPMOS1.Vdsm          3.479e-04       >       2.358e-06
+X1.HPMOS1.g             5.160e-05       >       1.243e-06
+X1.HPMOS1.Vgsm          4.729e-05       >       1.218e-06
+X1.HPMOS1.s             3.452e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.535e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.374e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[39] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	4.62771 mA               
+1.0 	9.15287 mA               
+1.1*	988.757 uA               
+2.0 	916.159 nA               
+2.1 	1.4878 nA                
+2.2 	2.66458 pA               
+2.3 	3.85262 fA  	28.0696 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.816e-04       >       2.324e-06
+X1.HPMOS1.Vdsm          2.774e-04       >       2.309e-06
+X1.HPMOS1.g             4.000e-05       >       1.226e-06
+X1.HPMOS1.Vgsm          3.671e-05       >       1.203e-06
+X1.HPMOS1.s             2.624e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.816e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.324e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[40] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	23.7984 mA               
+1.0 	4.41952 mA               
+1.1 	458.859 uA               
+1.2 	74.4073 uA               
+1.3 	8.16288 uA               
+1.4 	945.333 nA               
+1.5 	95.0176 nA               
+1.6 	8.40921 nA               
+1.7 	638.493 pA               
+1.8 	61.0706 pA               
+1.9 	8.22154 pA               
+1.10 	1.28448 pA  	9.60837 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.933e-04       >       2.481e-06
+X1.HPMOS1.Vdsm          1.879e-04       >       2.468e-06
+X1.HPMOS1.g             2.662e-05       >       1.204e-06
+X1.HPMOS1.Vgsm          2.472e-05       >       1.177e-06
+X1.HPMOS1.s             1.980e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.933e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.481e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  55.00%
+  Trial# 40    of 101  
+
+HB Yield1[1].HB1[41] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	15.2556 mA               
+1.0 	529.714 uA               
+1.1 	24.6684 uA               
+1.2 	1.09447 uA               
+1.3 	44.2231 nA               
+1.4 	1.70497 nA               
+1.5 	64.7917 pA               
+1.6 	2.43961 pA  	14.9545 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.055e-04       >       2.293e-06
+X1.HPMOS1.Vdsm          2.017e-04       >       2.279e-06
+X1.HPMOS1.g             2.943e-05       >       1.205e-06
+X1.HPMOS1.Vgsm          2.700e-05       >       1.182e-06
+X1.HPMOS1.s             1.919e-06       >       1.036e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.055e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.293e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[42] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	10.4977 mA               
+1.0 	15.5672 mA               
+1.1*	1.99339 mA               
+2.0 	3.06582 uA               
+2.1 	7.45327 nA               
+2.2 	28.6507 pA               
+2.3 	69.5553 fA  	508.609 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.564e-04       >       2.353e-06
+X1.HPMOS1.Vdsm          3.513e-04       >       2.337e-06
+X1.HPMOS1.g             5.226e-05       >       1.242e-06
+X1.HPMOS1.Vgsm          4.788e-05       >       1.217e-06
+X1.HPMOS1.s             3.346e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.564e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.353e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[43] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	14.0286 mA               
+1.0 	6.58972 mA               
+1.1 	700.714 uA               
+1.2 	127.216 uA               
+1.3 	14.6506 uA               
+1.4 	1.92432 uA               
+1.5 	196.167 nA               
+1.6 	20.5504 nA               
+1.7 	1.67302 nA               
+1.8 	143.437 pA               
+1.9 	15.3082 pA               
+1.10 	1.97677 pA               
+1.11 	287.586 fA  	2.00905 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.457e-04       >       2.393e-06
+X1.HPMOS1.Vdsm          2.407e-04       >       2.379e-06
+X1.HPMOS1.g             3.437e-05       >       1.219e-06
+X1.HPMOS1.Vgsm          3.164e-05       >       1.194e-06
+X1.HPMOS1.s             2.370e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.457e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.393e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[44] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.56586 mA               
+1.0 	244.473 uA               
+1.1 	8.22846 uA               
+1.2 	188.389 nA               
+1.3 	6.20624 nA               
+1.4 	173.366 pA               
+1.5 	5.38283 pA  	34.8813 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.528e-04       >       2.504e-06
+X1.HPMOS1.Vdsm          2.465e-04       >       2.491e-06
+X1.HPMOS1.g             3.453e-05       >       1.222e-06
+X1.HPMOS1.Vgsm          3.177e-05       >       1.195e-06
+X1.HPMOS1.s             2.456e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.528e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.504e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[45] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	3.12847 mA               
+1.0 	1.84352 mA               
+1.1 	85.1899 uA               
+1.2 	9.21395 uA               
+1.3 	526.144 nA               
+1.4 	42.3834 nA               
+1.5 	2.44687 nA               
+1.6 	167.043 pA               
+1.7 	9.31965 pA               
+1.8 	575.396 fA  	4.43626 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.198e-04       >       2.445e-06
+X1.HPMOS1.Vdsm          2.142e-04       >       2.432e-06
+X1.HPMOS1.g             3.064e-05       >       1.212e-06
+X1.HPMOS1.Vgsm          2.833e-05       >       1.186e-06
+X1.HPMOS1.s             2.190e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.198e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.445e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[46] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.62678 mA               
+1.0 	4.42437 mA               
+1.1 	512.96 uA                
+1.2 	79.0575 uA               
+1.3 	10.2273 uA               
+1.4 	1.24437 uA               
+1.5 	136.171 nA               
+1.6 	13.6472 nA               
+1.7 	1.27322 nA               
+1.8 	110.228 pA               
+1.9 	9.67031 pA               
+1.10 	1.18748 pA  	9.76836 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.301e-04       >       2.366e-06
+X1.HPMOS1.Vdsm          1.263e-04       >       2.355e-06
+X1.HPMOS1.g             1.797e-05       >       1.184e-06
+X1.HPMOS1.Vgsm          1.658e-05       >       1.160e-06
+X1.HPMOS1.s             1.334e-06       >       1.036e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.301e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.366e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[47] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	4.99651 mA               
+1.0 	3.55385 mA               
+1.1 	235.665 uA               
+1.2 	31.5798 uA               
+1.3 	2.81946 uA               
+1.4 	305.71 nA                
+1.5 	29.4074 nA               
+1.6 	2.92637 nA               
+1.7 	261.355 pA               
+1.8 	24.4265 pA               
+1.9 	2.04841 pA               
+1.10 	181.79 fA   	1.42494 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.945e-04       >       2.503e-06
+X1.HPMOS1.Vdsm          1.890e-04       >       2.491e-06
+X1.HPMOS1.g             2.626e-05       >       1.204e-06
+X1.HPMOS1.Vgsm          2.431e-05       >       1.178e-06
+X1.HPMOS1.s             1.925e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.945e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.503e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[48] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	24.9724 mA               
+1.0 	1.48476 mA               
+1.1 	74.4523 uA               
+1.2 	5.91538 uA               
+1.3 	390.552 nA               
+1.4 	22.8248 nA               
+1.5 	1.28085 nA               
+1.6 	62.2123 pA               
+1.7 	3.39983 pA               
+1.8 	222.384 fA  	1.52881 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.559e-04       >       2.283e-06
+X1.HPMOS1.Vdsm          2.520e-04       >       2.268e-06
+X1.HPMOS1.g             3.658e-05       >       1.221e-06
+X1.HPMOS1.Vgsm          3.354e-05       >       1.197e-06
+X1.HPMOS1.s             2.339e-06       >       1.036e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.559e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.283e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[49] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.3784 mA                
+1.0 	5.28614 mA               
+1.1*	415.498 uA               
+2.0 	154.25 nA                
+2.1 	80.7248 pA               
+2.2 	63.8199 fA  	428.125 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.482e-04       >       2.386e-06
+X1.HPMOS1.Vdsm          3.427e-04       >       2.370e-06
+X1.HPMOS1.g             5.116e-05       >       1.240e-06
+X1.HPMOS1.Vgsm          4.695e-05       >       1.215e-06
+X1.HPMOS1.s             3.317e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.482e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.386e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[50] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	3.94196 mA               
+1.0 	3.595 mA                 
+1.1 	261.728 uA               
+1.2 	29.7884 uA               
+1.3 	2.16471 uA               
+1.4 	226.853 nA               
+1.5 	16.4774 nA               
+1.6 	1.4908 nA                
+1.7 	102.428 pA               
+1.8 	8.6971 pA                
+1.9 	551.946 fA  	4.64836 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.845e-04       >       2.300e-06
+X1.HPMOS1.Vdsm          2.806e-04       >       2.285e-06
+X1.HPMOS1.g             4.072e-05       >       1.227e-06
+X1.HPMOS1.Vgsm          3.736e-05       >       1.203e-06
+X1.HPMOS1.s             2.616e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.845e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.300e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  52.00%
+  Trial# 50    of 101  
+
+HB Yield1[1].HB1[51] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	3.178 mA                 
+1.0 	777.107 uA               
+1.1 	24.4193 uA               
+1.2 	1.34923 uA               
+1.3 	53.4026 nA               
+1.4 	2.39046 nA               
+1.5 	94.1614 pA               
+1.6 	3.75955 pA               
+1.7 	140.229 fA  	1.05902 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.308e-04       >       2.357e-06
+X1.HPMOS1.Vdsm          3.259e-04       >       2.341e-06
+X1.HPMOS1.g             4.779e-05       >       1.238e-06
+X1.HPMOS1.Vgsm          4.394e-05       >       1.213e-06
+X1.HPMOS1.s             3.198e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.308e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.357e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[52] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	9.81859 mA               
+1.0 	1.32679 mA               
+1.1 	64.6665 uA               
+1.2 	5.14539 uA               
+1.3 	268.863 nA               
+1.4 	15.0065 nA               
+1.5 	682.532 pA               
+1.6 	29.1227 pA               
+1.7 	1.12313 pA  	9.04395 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.674e-04       >       2.403e-06
+X1.HPMOS1.Vdsm          2.620e-04       >       2.388e-06
+X1.HPMOS1.g             3.792e-05       >       1.225e-06
+X1.HPMOS1.Vgsm          3.495e-05       >       1.200e-06
+X1.HPMOS1.s             2.597e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.674e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.403e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[53] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	14.3933 mA               
+1.0 	687.333 uA               
+1.1 	35.3195 uA               
+1.2 	1.90904 uA               
+1.3 	103.707 nA               
+1.4 	5.05566 nA               
+1.5 	257.895 pA               
+1.6 	13.7851 pA               
+1.7 	718.568 fA  	4.68519 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.657e-04       >       2.580e-06
+X1.HPMOS1.Vdsm          2.585e-04       >       2.567e-06
+X1.HPMOS1.g             3.609e-05       >       1.224e-06
+X1.HPMOS1.Vgsm          3.325e-05       >       1.196e-06
+X1.HPMOS1.s             2.606e-06       >       1.042e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.657e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.580e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[54] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.46432 mA               
+1.0 	240.143 uA               
+1.1 	4.40893 uA               
+1.2 	153.761 nA               
+1.3 	3.59481 nA               
+1.4 	87.1056 pA               
+1.5 	1.94618 pA               
+1.6 	37.4495 fA  	297.118 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.938e-04       >       2.527e-06
+X1.HPMOS1.Vdsm          2.870e-04       >       2.513e-06
+X1.HPMOS1.g             4.119e-05       >       1.230e-06
+X1.HPMOS1.Vgsm          3.791e-05       >       1.202e-06
+X1.HPMOS1.s             2.853e-06       >       1.042e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.938e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.527e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[55] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	16.5015 mA               
+1.0 	508.376 uA               
+1.1 	21.7114 uA               
+1.2 	917.218 nA               
+1.3 	40.1008 nA               
+1.4 	1.65119 nA               
+1.5 	68.2714 pA               
+1.6 	2.76542 pA  	17.1664 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.148e-04       >       2.350e-06
+X1.HPMOS1.Vdsm          3.104e-04       >       2.335e-06
+X1.HPMOS1.g             4.544e-05       >       1.233e-06
+X1.HPMOS1.Vgsm          4.167e-05       >       1.208e-06
+X1.HPMOS1.s             2.910e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.148e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.350e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[56] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	12.5649 mA               
+1.0 	1.23355 mA               
+1.1 	53.3061 uA               
+1.2 	4.28804 uA               
+1.3 	209.38 nA                
+1.4 	11.4155 nA               
+1.5 	491.384 pA               
+1.6 	19.8471 pA               
+1.7 	740.293 fA  	6.21186 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.598e-04       >       2.444e-06
+X1.HPMOS1.Vdsm          2.541e-04       >       2.430e-06
+X1.HPMOS1.g             3.651e-05       >       1.223e-06
+X1.HPMOS1.Vgsm          3.362e-05       >       1.197e-06
+X1.HPMOS1.s             2.484e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.598e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.444e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[57] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	12.4483 mA               
+1.0 	303.69 uA                
+1.1 	9.46394 uA               
+1.2 	311.237 nA               
+1.3 	9.5987 nA                
+1.4 	281.453 pA               
+1.5 	8.41681 pA  	52.5858 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.741e-04       >       2.313e-06
+X1.HPMOS1.Vdsm          2.698e-04       >       2.298e-06
+X1.HPMOS1.g             3.902e-05       >       1.225e-06
+X1.HPMOS1.Vgsm          3.583e-05       >       1.201e-06
+X1.HPMOS1.s             2.567e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.741e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.313e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[58] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	2.54394 mA               
+1.0 	1.63228 mA               
+1.1 	71.5376 uA               
+1.2 	5.30843 uA               
+1.3 	252.087 nA               
+1.4 	17.5677 nA               
+1.5 	830.198 pA               
+1.6 	48.3244 pA               
+1.7 	2.12182 pA               
+1.8 	113.422 fA  	731.74 fV    
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.285e-04       >       2.346e-06
+X1.HPMOS1.Vdsm          3.239e-04       >       2.331e-06
+X1.HPMOS1.g             4.736e-05       >       1.236e-06
+X1.HPMOS1.Vgsm          4.349e-05       >       1.212e-06
+X1.HPMOS1.s             3.148e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.285e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.346e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[59] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	2.99949 mA               
+1.0 	163.025 uA               
+1.1 	2.42564 uA               
+1.2 	66.3638 nA               
+1.3 	1.15532 nA               
+1.4 	25.08 pA                 
+1.5 	408.885 fA  	3.16657 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.477e-04       >       2.349e-06
+X1.HPMOS1.Vdsm          3.429e-04       >       2.333e-06
+X1.HPMOS1.g             5.050e-05       >       1.240e-06
+X1.HPMOS1.Vgsm          4.632e-05       >       1.215e-06
+X1.HPMOS1.s             3.294e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.477e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.349e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[60] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	22.8856 mA               
+1.0 	3.86303 mA               
+1.1 	387.149 uA               
+1.2 	52.9524 uA               
+1.3 	5.08578 uA               
+1.4 	491.389 nA               
+1.5 	40.6313 nA               
+1.6 	3.18751 nA               
+1.7 	229.007 pA               
+1.8 	20.9214 pA               
+1.9 	2.23678 pA               
+1.10 	316.586 fA  	2.35321 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.403e-04       >       2.496e-06
+X1.HPMOS1.Vdsm          2.343e-04       >       2.483e-06
+X1.HPMOS1.g             3.280e-05       >       1.218e-06
+X1.HPMOS1.Vgsm          3.022e-05       >       1.192e-06
+X1.HPMOS1.s             2.330e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.403e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.496e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  58.33%
+  Trial# 60    of 101  
+
+HB Yield1[1].HB1[61] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	3.62412 mA               
+1.0 	2.22586 mA               
+1.1 	111.331 uA               
+1.2 	10.6227 uA               
+1.3 	557.144 nA               
+1.4 	49.6677 nA               
+1.5 	2.68433 nA               
+1.6 	215.285 pA               
+1.7 	10.5429 pA               
+1.8 	851.468 fA  	5.23874 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.001e-04       >       2.526e-06
+X1.HPMOS1.Vdsm          2.931e-04       >       2.512e-06
+X1.HPMOS1.g             4.225e-05       >       1.231e-06
+X1.HPMOS1.Vgsm          3.900e-05       >       1.203e-06
+X1.HPMOS1.s             3.030e-06       >       1.042e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.001e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.526e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[62] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.7652 mA                
+1.0 	2.03889 mA               
+1.1 	109.864 uA               
+1.2 	10.8662 uA               
+1.3 	662.732 nA               
+1.4 	53.6473 nA               
+1.5 	3.07819 nA               
+1.6 	211.077 pA               
+1.7 	10.8567 pA               
+1.8 	674.159 fA  	5.17807 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.443e-04       >       2.539e-06
+X1.HPMOS1.Vdsm          2.376e-04       >       2.526e-06
+X1.HPMOS1.g             3.300e-05       >       1.220e-06
+X1.HPMOS1.Vgsm          3.042e-05       >       1.193e-06
+X1.HPMOS1.s             2.405e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.443e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.539e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[63] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	17.845 mA                
+1.0 	1.26283 mA               
+1.1 	83.6733 uA               
+1.2 	4.60275 uA               
+1.3 	297.732 nA               
+1.4 	13.9951 nA               
+1.5 	979.471 pA               
+1.6 	58.4005 pA               
+1.7 	3.62912 pA  	20.5841 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.266e-04       >       2.281e-06
+X1.HPMOS1.Vdsm          2.227e-04       >       2.267e-06
+X1.HPMOS1.g             3.231e-05       >       1.212e-06
+X1.HPMOS1.Vgsm          2.965e-05       >       1.189e-06
+X1.HPMOS1.s             2.133e-06       >       1.036e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.266e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.281e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[64] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.21171 mA               
+1.0 	6.01725 mA               
+1.1 	476.214 uA               
+1.2 	70.2434 uA               
+1.3 	6.69129 uA               
+1.4 	825.146 nA               
+1.5 	77.1897 nA               
+1.6 	8.07157 nA               
+1.7 	695.138 pA               
+1.8 	67.3376 pA               
+1.9 	5.05807 pA               
+1.10 	442.429 fA  	3.35759 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.408e-04       >       2.355e-06
+X1.HPMOS1.Vdsm          3.359e-04       >       2.339e-06
+X1.HPMOS1.g             4.965e-05       >       1.239e-06
+X1.HPMOS1.Vgsm          4.562e-05       >       1.214e-06
+X1.HPMOS1.s             3.278e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.408e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.355e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[65] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	13.7039 mA               
+1.0 	5.68875 mA               
+1.1 	626.509 uA               
+1.2 	106.257 uA               
+1.3 	11.873 uA                
+1.4 	1.43793 uA               
+1.5 	141.177 nA               
+1.6 	13.7654 nA               
+1.7 	1.19283 nA               
+1.8 	101.521 pA               
+1.9 	11.596 pA                
+1.10 	1.39231 pA  	10.0859 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.327e-04       >       2.380e-06
+X1.HPMOS1.Vdsm          2.279e-04       >       2.366e-06
+X1.HPMOS1.g             3.267e-05       >       1.215e-06
+X1.HPMOS1.Vgsm          3.002e-05       >       1.190e-06
+X1.HPMOS1.s             2.158e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.327e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.380e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[66] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	9.47585 mA               
+1.0 	4.09523 mA               
+1.1 	270.653 uA               
+1.2 	33.2901 uA               
+1.3 	2.57245 uA               
+1.4 	261.373 nA               
+1.5 	19.2261 nA               
+1.6 	2.0443 nA                
+1.7 	133.15 pA                
+1.8 	16.2559 pA               
+1.9 	896.306 fA  	8.90107 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.002e-04       >       2.514e-06
+X1.HPMOS1.Vdsm          2.933e-04       >       2.500e-06
+X1.HPMOS1.g             4.285e-05       >       1.231e-06
+X1.HPMOS1.Vgsm          3.960e-05       >       1.204e-06
+X1.HPMOS1.s             3.023e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.002e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.514e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[67] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.32008 mA               
+1.0 	217.171 uA               
+1.1 	4.12557 uA               
+1.2 	133.984 nA               
+1.3 	2.98049 nA               
+1.4 	72.072 pA                
+1.5 	1.4917 pA   	11.7105 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.754e-04       >       2.522e-06
+X1.HPMOS1.Vdsm          2.690e-04       >       2.508e-06
+X1.HPMOS1.g             3.807e-05       >       1.226e-06
+X1.HPMOS1.Vgsm          3.500e-05       >       1.198e-06
+X1.HPMOS1.s             2.676e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.754e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.522e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[68] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	8.4439 mA                
+1.0 	269.31 uA                
+1.1 	5.94753 uA               
+1.2 	220.361 nA               
+1.3 	5.88769 nA               
+1.4 	151.891 pA               
+1.5 	3.68316 pA               
+1.6 	75.0402 fA  	576.647 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.100e-04       >       2.455e-06
+X1.HPMOS1.Vdsm          3.040e-04       >       2.440e-06
+X1.HPMOS1.g             4.434e-05       >       1.232e-06
+X1.HPMOS1.Vgsm          4.078e-05       >       1.206e-06
+X1.HPMOS1.s             3.000e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.100e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.455e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[69] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.07315 mA               
+1.0 	226.408 uA               
+1.1 	5.28891 uA               
+1.2 	175.958 nA               
+1.3 	4.38471 nA               
+1.4 	104.448 pA               
+1.5 	2.33469 pA               
+1.6 	45.5337 fA  	332.873 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.388e-04       >       2.404e-06
+X1.HPMOS1.Vdsm          3.331e-04       >       2.389e-06
+X1.HPMOS1.g             4.906e-05       >       1.238e-06
+X1.HPMOS1.Vgsm          4.510e-05       >       1.212e-06
+X1.HPMOS1.s             3.346e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.388e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.404e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[70] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	21.7705 mA               
+1.0 	8.84392 mA               
+1.1 	1.35759 mA               
+1.2 	295.017 uA               
+1.3 	43.2055 uA               
+1.4 	6.9592 uA                
+1.5 	895.277 nA               
+1.6 	116.863 nA               
+1.7 	13.1675 nA               
+1.8 	1.49649 nA               
+1.9 	228.51 pA                
+1.10 	41.3511 pA               
+1.11 	8.7727 pA                
+1.12 	1.58994 pA  	12.304 pV    
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.113e-04       >       2.510e-06
+X1.HPMOS1.Vdsm          2.053e-04       >       2.497e-06
+X1.HPMOS1.g             2.867e-05       >       1.210e-06
+X1.HPMOS1.Vgsm          2.654e-05       >       1.183e-06
+X1.HPMOS1.s             2.092e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.113e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.510e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  58.57%
+  Trial# 70    of 101  
+
+HB Yield1[1].HB1[71] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	12.925 mA                
+1.0 	5.42633 mA               
+1.1 	397.863 uA               
+1.2 	65.8309 uA               
+1.3 	5.70355 uA               
+1.4 	746.664 nA               
+1.5 	65.3048 nA               
+1.6 	7.04716 nA               
+1.7 	580.44 pA                
+1.8 	54.7327 pA               
+1.9 	4.31671 pA               
+1.10 	339.703 fA  	2.82619 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.059e-04       >       2.467e-06
+X1.HPMOS1.Vdsm          2.996e-04       >       2.452e-06
+X1.HPMOS1.g             4.391e-05       >       1.232e-06
+X1.HPMOS1.Vgsm          4.053e-05       >       1.206e-06
+X1.HPMOS1.s             3.060e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.059e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.467e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[72] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	14.5829 mA               
+1.0 	3.28183 mA               
+1.1 	172.633 uA               
+1.2 	22.1807 uA               
+1.3 	979.328 nA               
+1.4 	124.081 nA               
+1.5 	4.65501 nA               
+1.6 	545.295 pA               
+1.7 	18.1293 pA               
+1.8 	1.8514 pA                
+1.9 	65.3219 fA  	533.536 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.558e-04       >       2.355e-06
+X1.HPMOS1.Vdsm          3.506e-04       >       2.339e-06
+X1.HPMOS1.g             5.199e-05       >       1.242e-06
+X1.HPMOS1.Vgsm          4.755e-05       >       1.218e-06
+X1.HPMOS1.s             3.345e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.558e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.355e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[73] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	18.4518 mA               
+1.0 	21.6313 mA               
+1.1*	4.84403 mA               
+2.0 	43.7107 uA               
+2.1 	725.068 nA               
+2.2 	10.6186 nA               
+2.3 	143.693 pA               
+2.4 	1.87007 pA               
+2.5 	24.419 fA   	161.577 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.939e-04       >       2.349e-06
+X1.HPMOS1.Vdsm          1.897e-04       >       2.336e-06
+X1.HPMOS1.g             2.737e-05       >       1.202e-06
+X1.HPMOS1.Vgsm          2.520e-05       >       1.178e-06
+X1.HPMOS1.s             1.897e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.939e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.349e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[74] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.60784 mA               
+1.0 	154.902 uA               
+1.1 	2.33688 uA               
+1.2 	71.5199 nA               
+1.3 	1.41056 nA               
+1.4 	30.7224 pA               
+1.5 	577.904 fA  	4.75825 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.813e-04       >       2.406e-06
+X1.HPMOS1.Vdsm          1.767e-04       >       2.394e-06
+X1.HPMOS1.g             2.552e-05       >       1.199e-06
+X1.HPMOS1.Vgsm          2.361e-05       >       1.174e-06
+X1.HPMOS1.s             1.809e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.813e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.406e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[75] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	18.5619 mA               
+1.0 	7.52835 mA               
+1.1 	678.707 uA               
+1.2 	130.83 uA                
+1.3 	14.4167 uA               
+1.4 	2.1322 uA                
+1.5 	239.867 nA               
+1.6 	28.0251 nA               
+1.7 	2.96963 nA               
+1.8 	292.859 pA               
+1.9 	25.6325 pA               
+1.10 	2.19725 pA               
+1.11 	268.865 fA  	1.73952 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.956e-04       >       2.337e-06
+X1.HPMOS1.Vdsm          2.911e-04       >       2.321e-06
+X1.HPMOS1.g             4.222e-05       >       1.230e-06
+X1.HPMOS1.Vgsm          3.879e-05       >       1.206e-06
+X1.HPMOS1.s             2.815e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.956e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.337e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[76] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	3.37143 mA               
+1.0 	259.904 uA               
+1.1 	4.39437 uA               
+1.2 	140.245 nA               
+1.3 	3.16485 nA               
+1.4 	70.4702 pA               
+1.5 	1.67514 pA  	11.7931 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.755e-04       >       2.277e-06
+X1.HPMOS1.Vdsm          2.717e-04       >       2.261e-06
+X1.HPMOS1.g             3.956e-05       >       1.225e-06
+X1.HPMOS1.Vgsm          3.631e-05       >       1.202e-06
+X1.HPMOS1.s             2.541e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.755e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.277e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[77] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	23.7982 mA               
+1.0 	5.66914 mA               
+1.1 	660.139 uA               
+1.2 	115.678 uA               
+1.3 	14.4478 uA               
+1.4 	1.79703 uA               
+1.5 	193.116 nA               
+1.6 	17.7403 nA               
+1.7 	1.46995 nA               
+1.8 	183.831 pA               
+1.9 	29.9195 pA               
+1.10 	4.91719 pA               
+1.11 	734.549 fA  	5.09897 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.780e-04       >       2.395e-06
+X1.HPMOS1.Vdsm          1.735e-04       >       2.383e-06
+X1.HPMOS1.g             2.505e-05       >       1.198e-06
+X1.HPMOS1.Vgsm          2.315e-05       >       1.173e-06
+X1.HPMOS1.s             1.777e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.780e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.395e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[78] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	9.40629 mA               
+1.0 	10.749 mA                
+1.1*	1.05513 mA               
+2.0 	1.29102 uA               
+2.1 	2.32506 nA               
+2.2 	4.70708 pA               
+2.3 	8.48541 fA  	65.1919 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.035e-04       >       2.455e-06
+X1.HPMOS1.Vdsm          2.976e-04       >       2.440e-06
+X1.HPMOS1.g             4.322e-05       >       1.231e-06
+X1.HPMOS1.Vgsm          3.977e-05       >       1.205e-06
+X1.HPMOS1.s             2.964e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.035e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.455e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[79] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	13.1248 mA               
+1.0 	12.1556 mA               
+1.1*	1.93189 mA               
+2.0 	5.5238 uA                
+2.1 	31.6313 nA               
+2.2 	159.901 pA               
+2.3 	725.148 fA  	5.0029 pV    
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.752e-04       >       2.415e-06
+X1.HPMOS1.Vdsm          1.707e-04       >       2.403e-06
+X1.HPMOS1.g             2.447e-05       >       1.197e-06
+X1.HPMOS1.Vgsm          2.264e-05       >       1.172e-06
+X1.HPMOS1.s             1.777e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.752e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.415e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[80] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	13.9699 mA               
+1.0 	3.43436 mA               
+1.1 	255.444 uA               
+1.2 	34.2038 uA               
+1.3 	3.21692 uA               
+1.4 	320.553 nA               
+1.5 	28.8209 nA               
+1.6 	2.46547 nA               
+1.7 	193.053 pA               
+1.8 	14.3256 pA               
+1.9 	943.968 fA  	8.66757 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.555e-04       >       2.371e-06
+X1.HPMOS1.Vdsm          2.505e-04       >       2.357e-06
+X1.HPMOS1.g             3.600e-05       >       1.222e-06
+X1.HPMOS1.Vgsm          3.308e-05       >       1.197e-06
+X1.HPMOS1.s             2.411e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.555e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.371e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  57.50%
+  Trial# 80    of 101  
+
+HB Yield1[1].HB1[81] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	19.3298 mA               
+1.0 	1.40595 mA               
+1.1 	79.3404 uA               
+1.2 	5.33494 uA               
+1.3 	441.943 nA               
+1.4 	33.5135 nA               
+1.5 	2.88119 nA               
+1.6 	241.938 pA               
+1.7 	18.7425 pA               
+1.8 	1.39715 pA  	8.83892 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.441e-04       >       2.594e-06
+X1.HPMOS1.Vdsm          2.373e-04       >       2.581e-06
+X1.HPMOS1.g             3.238e-05       >       1.218e-06
+X1.HPMOS1.Vgsm          2.981e-05       >       1.190e-06
+X1.HPMOS1.s             2.390e-06       >       1.042e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.441e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.594e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[82] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.84723 mA               
+1.0 	2.08305 mA               
+1.1 	90.2212 uA               
+1.2 	9.61569 uA               
+1.3 	631.815 nA               
+1.4 	46.6281 nA               
+1.5 	3.08142 nA               
+1.6 	197.558 pA               
+1.7 	13.8694 pA               
+1.8 	927.882 fA  	7.26654 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.160e-04       >       2.449e-06
+X1.HPMOS1.Vdsm          2.107e-04       >       2.436e-06
+X1.HPMOS1.g             2.989e-05       >       1.211e-06
+X1.HPMOS1.Vgsm          2.756e-05       >       1.185e-06
+X1.HPMOS1.s             2.062e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.160e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.449e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[83] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.11483 mA               
+1.0 	1.1686 mA                
+1.1 	44.6222 uA               
+1.2 	3.53326 uA               
+1.3 	162.885 nA               
+1.4 	9.83419 nA               
+1.5 	441.998 pA               
+1.6 	21.9856 pA               
+1.7 	961.068 fA  	6.82876 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.589e-04       >       2.450e-06
+X1.HPMOS1.Vdsm          2.533e-04       >       2.436e-06
+X1.HPMOS1.g             3.614e-05       >       1.223e-06
+X1.HPMOS1.Vgsm          3.327e-05       >       1.197e-06
+X1.HPMOS1.s             2.480e-06       >       1.040e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.589e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.450e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[84] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.88017 mA               
+1.0 	266.188 uA               
+1.1 	7.00609 uA               
+1.2 	185.361 nA               
+1.3 	5.88679 nA               
+1.4 	115.014 pA               
+1.5 	4.22119 pA               
+1.6 	116.449 fA  	824.924 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.515e-04       >       2.346e-06
+X1.HPMOS1.Vdsm          2.469e-04       >       2.332e-06
+X1.HPMOS1.g             3.568e-05       >       1.220e-06
+X1.HPMOS1.Vgsm          3.277e-05       >       1.196e-06
+X1.HPMOS1.s             2.333e-06       >       1.038e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.515e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.346e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[85] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.05648 mA               
+1.0 	3.75244 mA               
+1.1 	251.755 uA               
+1.2 	29.8323 uA               
+1.3 	2.24489 uA               
+1.4 	225.888 nA               
+1.5 	16.9839 nA               
+1.6 	1.66723 nA               
+1.7 	116.381 pA               
+1.8 	11.4907 pA               
+1.9 	712.132 fA  	6.46094 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.273e-04       >       2.456e-06
+X1.HPMOS1.Vdsm          3.210e-04       >       2.441e-06
+X1.HPMOS1.g             4.730e-05       >       1.237e-06
+X1.HPMOS1.Vgsm          4.356e-05       >       1.210e-06
+X1.HPMOS1.s             3.227e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.273e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.456e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[86] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	8.16083 mA               
+1.0 	15.6773 mA               
+1.1*	2.91688 mA               
+2.0 	11.2678 uA               
+2.1 	91.6414 nA               
+2.2 	653.214 pA               
+2.3 	4.1964 pA                
+2.4 	25.8215 fA  	164.209 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.733e-04       >       2.323e-06
+X1.HPMOS1.Vdsm          1.695e-04       >       2.310e-06
+X1.HPMOS1.g             2.442e-05       >       1.196e-06
+X1.HPMOS1.Vgsm          2.246e-05       >       1.172e-06
+X1.HPMOS1.s             1.729e-06       >       1.036e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.733e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.323e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[87] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	7.1741 mA                
+1.0 	4.51266 mA               
+1.1 	348.538 uA               
+1.2 	50.8374 uA               
+1.3 	5.04026 uA               
+1.4 	594.302 nA               
+1.5 	59.8564 nA               
+1.6 	6.04181 nA               
+1.7 	575.837 pA               
+1.8 	53.2852 pA               
+1.9 	4.67021 pA               
+1.10 	394.318 fA  	3.09047 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.622e-04       >       2.405e-06
+X1.HPMOS1.Vdsm          2.568e-04       >       2.391e-06
+X1.HPMOS1.g             3.698e-05       >       1.224e-06
+X1.HPMOS1.Vgsm          3.399e-05       >       1.198e-06
+X1.HPMOS1.s             2.441e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.622e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.405e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[88] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.25713 mA               
+1.0 	2.05848 mA               
+1.1 	88.5738 uA               
+1.2 	7.83943 uA               
+1.3 	358.343 nA               
+1.4 	29.678 nA                
+1.5 	1.368 nA                 
+1.6 	91.2282 pA               
+1.7 	3.77465 pA               
+1.8 	219.7 fA    	1.47786 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.173e-04       >       2.386e-06
+X1.HPMOS1.Vdsm          3.123e-04       >       2.370e-06
+X1.HPMOS1.g             4.605e-05       >       1.234e-06
+X1.HPMOS1.Vgsm          4.234e-05       >       1.209e-06
+X1.HPMOS1.s             3.033e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.173e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.386e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[89] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	21.7043 mA               
+1.0 	14.14 mA                 
+1.1*	2.59223 mA               
+2.0 	11.0641 uA               
+2.1 	91.2781 nA               
+2.2 	651.195 pA               
+2.3 	4.24306 pA               
+2.4 	26.1343 fA  	187.044 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.638e-04       >       2.410e-06
+X1.HPMOS1.Vdsm          1.594e-04       >       2.398e-06
+X1.HPMOS1.g             2.296e-05       >       1.194e-06
+X1.HPMOS1.Vgsm          2.125e-05       >       1.169e-06
+X1.HPMOS1.s             1.665e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.638e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.410e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[90] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	4.47492 mA               
+1.0 	3.20759 mA               
+1.1 	186.372 uA               
+1.2 	24.7431 uA               
+1.3 	2.1233 uA                
+1.4 	225.545 nA               
+1.5 	19.6592 nA               
+1.6 	1.81972 nA               
+1.7 	157.251 pA               
+1.8 	13.5674 pA               
+1.9 	1.13569 pA  	8.08298 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.239e-04       >       2.524e-06
+X1.HPMOS1.Vdsm          2.177e-04       >       2.511e-06
+X1.HPMOS1.g             2.991e-05       >       1.214e-06
+X1.HPMOS1.Vgsm          2.754e-05       >       1.187e-06
+X1.HPMOS1.s             2.162e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.239e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.524e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  58.89%
+  Trial# 90    of 101  
+
+HB Yield1[1].HB1[91] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	19.4953 mA               
+1.0 	1.92088 mA               
+1.1 	94.4237 uA               
+1.2 	8.56673 uA               
+1.3 	513.353 nA               
+1.4 	33.6034 nA               
+1.5 	1.91185 nA               
+1.6 	97.8162 pA               
+1.7 	4.92832 pA               
+1.8 	242.622 fA  	1.82449 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.057e-04       >       2.382e-06
+X1.HPMOS1.Vdsm          3.007e-04       >       2.367e-06
+X1.HPMOS1.g             4.383e-05       >       1.233e-06
+X1.HPMOS1.Vgsm          4.026e-05       >       1.207e-06
+X1.HPMOS1.s             2.857e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.057e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.382e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[92] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	4.81852 mA               
+1.0 	1.45777 mA               
+1.1 	65.2423 uA               
+1.2 	5.21909 uA               
+1.3 	257.9 nA                 
+1.4 	16.2334 nA               
+1.5 	779.253 pA               
+1.6 	41.1918 pA               
+1.7 	1.77441 pA               
+1.8 	83.5396 fA  	644.56 fV    
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.558e-04       >       2.332e-06
+X1.HPMOS1.Vdsm          2.512e-04       >       2.318e-06
+X1.HPMOS1.g             3.630e-05       >       1.221e-06
+X1.HPMOS1.Vgsm          3.335e-05       >       1.197e-06
+X1.HPMOS1.s             2.399e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.558e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.332e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[93] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	11.3567 mA               
+1.0 	2.10456 mA               
+1.1 	149.277 uA               
+1.2 	16.228 uA                
+1.3 	1.2862 uA                
+1.4 	101.752 nA               
+1.5 	7.1699 nA                
+1.6 	462.431 pA               
+1.7 	25.6841 pA               
+1.8 	1.28133 pA  	12.3661 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.975e-04       >       2.368e-06
+X1.HPMOS1.Vdsm          1.931e-04       >       2.355e-06
+X1.HPMOS1.g             2.796e-05       >       1.204e-06
+X1.HPMOS1.Vgsm          2.579e-05       >       1.179e-06
+X1.HPMOS1.s             1.940e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.975e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.368e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[94] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	17.2184 mA               
+1.0 	16.4625 mA               
+1.1*	2.09881 mA               
+2.0 	3.64253 uA               
+2.1 	9.44902 nA               
+2.2 	37.8533 pA               
+2.3 	101.844 fA  	723.083 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.546e-04       >       2.354e-06
+X1.HPMOS1.Vdsm          3.494e-04       >       2.337e-06
+X1.HPMOS1.g             5.209e-05       >       1.241e-06
+X1.HPMOS1.Vgsm          4.774e-05       >       1.216e-06
+X1.HPMOS1.s             3.397e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.546e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.354e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[95] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	5.97534 mA               
+1.0 	816.096 uA               
+1.1 	22.7563 uA               
+1.2 	1.45859 uA               
+1.3 	34.7812 nA               
+1.4 	2.1768 nA                
+1.5 	44.4453 pA               
+1.6 	2.63556 pA               
+1.7 	42.295 fA   	507.882 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             3.319e-04       >       2.394e-06
+X1.HPMOS1.Vdsm          3.267e-04       >       2.379e-06
+X1.HPMOS1.g             4.802e-05       >       1.236e-06
+X1.HPMOS1.Vgsm          4.413e-05       >       1.211e-06
+X1.HPMOS1.s             3.222e-06       >       1.039e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.319e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.394e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[96] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	20.4586 mA               
+1.0 	765.003 uA               
+1.1 	21.6257 uA               
+1.2 	867.924 nA               
+1.3 	34.8839 nA               
+1.4 	1.03465 nA               
+1.5 	40.1885 pA               
+1.6 	2.01481 pA               
+1.7 	120.001 fA  	792.95 fV    
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.630e-04       >       2.565e-06
+X1.HPMOS1.Vdsm          2.562e-04       >       2.552e-06
+X1.HPMOS1.g             3.590e-05       >       1.222e-06
+X1.HPMOS1.Vgsm          3.310e-05       >       1.194e-06
+X1.HPMOS1.s             2.628e-06       >       1.042e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.630e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.565e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[97] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	13.3908 mA               
+1.0 	5.71462 mA               
+1.1 	449.811 uA               
+1.2 	81.0893 uA               
+1.3 	9.07968 uA               
+1.4 	1.15099 uA               
+1.5 	138.718 nA               
+1.6 	15.3258 nA               
+1.7 	1.8375 nA                
+1.8 	199.937 pA               
+1.9 	22.1152 pA               
+1.10 	2.47853 pA               
+1.11 	253.233 fA  	2.10901 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.135e-04       >       2.322e-06
+X1.HPMOS1.Vdsm          2.093e-04       >       2.309e-06
+X1.HPMOS1.g             3.052e-05       >       1.208e-06
+X1.HPMOS1.Vgsm          2.805e-05       >       1.184e-06
+X1.HPMOS1.s             2.014e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.135e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.322e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[98] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	6.91148 mA               
+1.0 	2.87152 mA               
+1.1 	148.194 uA               
+1.2 	16.9766 uA               
+1.3 	1.21313 uA               
+1.4 	105.226 nA               
+1.5 	8.28602 nA               
+1.6 	659.942 pA               
+1.7 	48.8286 pA               
+1.8 	4.0695 pA                
+1.9 	275.881 fA  	2.22339 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.549e-04       >       2.493e-06
+X1.HPMOS1.Vdsm          2.487e-04       >       2.479e-06
+X1.HPMOS1.g             3.519e-05       >       1.222e-06
+X1.HPMOS1.Vgsm          3.236e-05       >       1.195e-06
+X1.HPMOS1.s             2.410e-06       >       1.041e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.549e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.493e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[99] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	18.4809 mA               
+1.0 	932.731 uA               
+1.1 	52.6822 uA               
+1.2 	2.58334 uA               
+1.3 	141.485 nA               
+1.4 	6.78978 nA               
+1.5 	370.642 pA               
+1.6 	18.8269 pA  	111.921 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             2.509e-04       >       2.264e-06
+X1.HPMOS1.Vdsm          2.474e-04       >       2.250e-06
+X1.HPMOS1.g             3.554e-05       >       1.219e-06
+X1.HPMOS1.Vgsm          3.250e-05       >       1.196e-06
+X1.HPMOS1.s             2.258e-06       >       1.036e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 2.509e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.264e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Yield1[1].HB1[100] <GF_lib:YAS_1Tone_HD_Spect:schematic>
+0.0*	21.2965 mA               
+1.0 	3.15144 mA               
+1.1 	293.885 uA               
+1.2 	38.0772 uA               
+1.3 	3.78714 uA               
+1.4 	351.922 nA               
+1.5 	28.361 nA                
+1.6 	1.97352 nA               
+1.7 	133.492 pA               
+1.8 	13.5907 pA               
+1.9 	1.72585 pA               
+1.10 	215.288 fA  	1.47237 pV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.HPMOS1.d             1.759e-04       >       2.390e-06
+X1.HPMOS1.Vdsm          1.715e-04       >       2.377e-06
+X1.HPMOS1.g             2.482e-05       >       1.197e-06
+X1.HPMOS1.Vgsm          2.298e-05       >       1.173e-06
+X1.HPMOS1.s             1.800e-06       >       1.037e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 1.759e-04 @ waveform X1.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 2.390e-06 for this waveform.
+o A time-domain plot of the X1.L4.i waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+*******************
+  Current Yield(%):  58.00%
+  Trial# 100   of 101  
+
+Resource usage:
+  Total stopwatch time     =     1.14 seconds.
+

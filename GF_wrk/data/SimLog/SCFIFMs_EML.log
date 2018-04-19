@@ -1,0 +1,1225 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Resistor `X1.X2.R2' is shorted.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Capacitor `X1.X2.C8' is shorted.
+
+Warning detected by hpeesofsim in LinearCollapse '_2_' during analysis.
+    LinearCollapse is disabled because there is 'HB' analysis present.
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+CT Sweep1[1] <GF_lib:SCFIFMs_EML:schematic>   RFfreq=(400e+06->2.5e+09)
+
+HB Sweep1[1].HB1[1/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=400e+06  RFpower=28
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 3762.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+    RFpower=28           100.00% 1/1
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	3.49585 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	475.609 GA  	100.0             
+2.0*	475.609 GA  	100.0             
+3.0*	945.539e+18A	100.0             
+    Switching to arc-length continuation...
+Fwd sourceLevel=1.88025e-03    0.19% 2/2  Step=0.5
+0.0*	12.1616 uA  	100.0             
+1.0 	325.837 pA  	100.0	1.52802 mV   
+1.1 	49.2876 fA  	100.0	706.414 nV   
+    Arclength Newton-Raphson converged at 0.00188028 in 1 iters
+
+Fwd sourceLevel=4.53159e-03    0.45% 2/2  Step=0.7071067812
+0.0*	24.5096 uA  	100.0             
+1.0 	1.42656 nA  	100.0	20.5011 uV   
+1.1 	48.4211 pA  	100.0	6.35674 uV   
+    Arclength Newton-Raphson converged at 0.00454744 in 1 iters
+
+Fwd sourceLevel=8.30846e-03    0.83% 2/2  Step=1
+0.0*	50.2851 uA  	100.0             
+1.0 	3.55984 nA  	100.0	99.1053 uV   
+1.1 	108.952 pA  	100.0	90.9989 uV   
+1.2 	1.75157 pA  	100.0	1.47467 uV   
+    Arclength Newton-Raphson converged at 0.00830919 in 1 iters
+
+Fwd sourceLevel=13.0521e-03    1.31% 2/2  Step=1.414213562
+0.0*	82.1234 uA  	100.0             
+1.0 	6.01929 uA  	100.0             
+1.1 	1.279 uA    	100.0             
+        Samanskii-Newton iteration failed
+1.2*	1.279 uA    	100.0             
+2.0 	20.8312 nA  	100.0	6.02528 mV   
+        Samanskii-Newton iteration failed
+        Arc-Newton iteration failed, damping activated
+2.1*	20.8312 nA  	100.0	62.6965 mV   
+    rejected
+
+Fwd sourceLevel=10.5677e-03    1.06% 2/2  Step=0.6734350297
+0.0*	18.5228 uA  	100.0             
+1.0 	404.844 nA  	100.0             
+        Samanskii-Newton iteration failed
+        Arc-Newton iteration failed, damping activated
+1.1*	404.844 nA  	100.0             
+2.0*	178.086 nA  	100.0             
+3.0 	85.2135 nA  	100.0             
+3.1*	69.7501 nA  	100.0             
+4.0*	83.9232 nA  	100.0             
+5.0*	7.74836 nA  	100.0	657.225 uV   
+6.0 	17.5695 nA  	100.0             
+6.1*	8.21511 nA  	100.0	333.035 uV   
+7.0 	8.95442 nA  	100.0	729.24 uV    
+        Samanskii-Newton iteration failed
+7.1*	8.95442 nA  	100.0	4.39245 mV   
+8.0*	98.5142 nA  	100.0             
+9.0*	371.552 nA  	100.0             
+    rejected
+
+Fwd sourceLevel=9.38468e-03    0.94% 2/2  Step=0.3206833475
+0.0*	4.18992 uA  	100.0             
+1.0 	657.182 nA  	100.0             
+1.1 	464.195 nA  	100.0             
+1.2 	94.3259 nA  	100.0             
+1.3 	2.31585 nA  	100.0	74.3911 uV   
+        Samanskii-Newton iteration failed
+1.4*	2.31585 nA  	100.0	100.484 uV   
+2.0 	1.52989 nA  	100.0	89.5199 uV   
+2.1 	1.36345 nA  	100.0	102.062 uV   
+        Samanskii-Newton iteration failed
+        Arc-Newton iteration failed, damping activated
+2.2*	1.36345 nA  	100.0	6.54594 uV   
+3.0 	99.8594 pA  	100.0	6.16731 uV   
+3.1 	93.9649 pA  	100.0	5.20172 uV   
+3.2 	79.347 pA   	100.0	4.44165 uV   
+3.3 	67.8196 pA  	100.0	3.75307 uV   
+3.4 	57.2844 pA  	100.0	3.19153 uV   
+3.5 	48.6884 pA  	100.0	2.71626 uV   
+3.6 	41.4578 pA  	100.0	2.34624 uV   
+3.7 	35.9467 pA  	100.0	1.99969 uV   
+3.8 	30.6307 pA  	100.0	1.69156 uV   
+3.9 	25.976 pA   	100.0	4.89712 uV   
+3.10 	21.9073 pA  	100.0	4.20104 uV   
+    Arclength Newton-Raphson converged at 0.00966298 in 3 iters
+
+Fwd sourceLevel=9.76073e-03    0.98% 2/2  Step=0.3206833475
+0.0*	89.2122 nA  	100.0             
+1.0 	18.3014 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	18.3014 uA  	100.0             
+2.0*	551.399 nA  	100.0             
+3.0 	405.401 nA  	100.0             
+        Samanskii-Newton iteration failed
+3.1*	405.401 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+4.0*	1.06977 uA  	100.0             
+5.0*	1.39952 uA  	100.0             
+6.0*	330.434 nA  	100.0             
+7.0 	894.956 nA  	100.0             
+        Samanskii-Newton iteration failed
+7.1*	894.956 nA  	100.0             
+    rejected
+
+Fwd sourceLevel=9.70953e-03    0.97% 2/2  Step=0.1527063559
+0.0*	42.4722 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	1.97983 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	1.97983 uA  	100.0             
+2.0*	541.229 nA  	100.0             
+3.0 	109.887 nA  	100.0             
+        Samanskii-Newton iteration failed
+3.1*	109.887 nA  	100.0             
+4.0*	344.705 nA  	100.0             
+5.0*	22.2222 nA  	100.0             
+6.0 	123.159 nA  	100.0             
+        Samanskii-Newton iteration failed
+6.1*	123.159 nA  	100.0             
+    rejected
+
+Fwd sourceLevel=9.68514e-03    0.97% 2/2  Step=0.07271731235
+0.0*	20.2151 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	139.561 nA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	139.561 nA  	100.0             
+2.0*	547.046 nA  	100.0             
+3.0*	3.18795 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=9.67353e-03    0.97% 2/2  Step=0.0346272916
+0.0*	9.61645 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	173.489 nA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	173.489 nA  	100.0             
+2.0*	688.577 nA  	100.0             
+3.0*	1.50955 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=9.66801e-03    0.97% 2/2  Step=0.01648918647
+0.0*	4.56948 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	52.8034 nA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	52.8034 nA  	100.0             
+2.0*	11.5661 nA  	100.0	5.59403 mV   
+3.0 	72.9393 nA  	100.0             
+        Samanskii-Newton iteration failed
+3.1*	72.9393 nA  	100.0             
+4.0*	330.835 nA  	100.0             
+    rejected
+
+Fwd sourceLevel=9.66537e-03    0.97% 2/2  Step=0.007851993559
+0.0*	2.16616 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	15.6848 nA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	15.6848 nA  	100.0             
+2.0*	3.17751 nA  	100.0	3.49919 mV   
+3.0 	53.6903 nA  	100.0             
+3.1*	16.2607 nA  	100.0             
+4.0 	64.3961 nA  	100.0             
+        Samanskii-Newton iteration failed
+4.1*	64.3961 nA  	100.0             
+    rejected
+
+Fwd sourceLevel=9.66412e-03    0.97% 2/2  Step=0.003739044552
+0.0*	1.02173 nA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	5.02485 nA  	100.0	327.202 uV   
+        Samanskii-Newton iteration failed
+1.1*	5.02485 nA  	100.0	862.633 uV   
+2.0*	13.1698 nA  	100.0             
+3.0*	5.97205 nA  	100.0	603.674 uV   
+4.0 	9.18668 nA  	100.0	638.521 uV   
+        Samanskii-Newton iteration failed
+4.1*	9.18668 nA  	100.0	165.351 uV   
+5.0*	368.263 pA  	100.0	5.35237 mV   
+6.0 	72.9425 nA  	100.0             
+        Samanskii-Newton iteration failed
+6.1*	72.9425 nA  	100.0             
+    rejected
+
+Fwd sourceLevel=9.66352e-03    0.97% 2/2  Step=0.001780497406
+0.0*	476.755 pA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	1.12113 uA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	1.12113 uA  	100.0             
+2.0*	37.716 nA   	100.0             
+3.0 	5.9965 uA   	100.0             
+3.1*	4.20788 uA  	100.0             
+4.0*	5.11959 uA  	100.0             
+    rejected
+
+Fwd sourceLevel=9.66324e-03    0.97% 2/2  Step=0.0008478559075
+0.0*	217.276 pA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	414.099 nA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	414.099 nA  	100.0             
+2.0*	541.344 nA  	 50.0             
+3.0*	305.527 nA  	100.0             
+4.0*	988.129 pA  	100.0	2.0189 mV    
+5.0 	4.46431 nA  	100.0	2.5741 mV    
+        Samanskii-Newton iteration failed
+5.1*	4.46431 nA  	100.0	118.287 mV   
+    rejected
+
+Fwd sourceLevel=9.6631e-03     0.97% 2/2  Step=0.0004037409083
+0.0*	93.7195 pA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	714.761 pA  	100.0	336.932 uV   
+        Samanskii-Newton iteration failed
+1.1*	714.761 pA  	100.0	472.784 uV   
+2.0*	1.06025 nA  	100.0	55.5375 uV   
+3.0*	2.92318 pA  	100.0	11.176 uV    
+4.0 	24.9862 pA  	100.0	7.26466 uV   
+4.1*	16.2407 pA  	100.0	115.794 uV   
+5.0 	258.786 pA  	100.0	127.727 uV   
+        Samanskii-Newton iteration failed
+5.1*	258.786 pA  	100.0	148.537 uV   
+6.0*	331.691 pA  	100.0	64.8692 uV   
+    rejected
+
+Fwd sourceLevel=9.66304e-03    0.97% 2/2  Step=0.0001922575754
+0.0*	34.8831 pA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	18.338 pA   	100.0	8.09794 uV   
+1.1*	18.1178 pA  	100.0	100.409 uV   
+2.0*	224.698 pA  	100.0	306.745 uV   
+3.0*	685.957 pA  	100.0	360.385 uV   
+4.0*	807.614 pA  	100.0	169.882 uV   
+    rejected
+
+Fwd sourceLevel=9.66301e-03    0.97% 2/2  Step=9.155122638e-05
+0.0*	6.86584 pA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	195.041 pA  	100.0	193.596 uV   
+        Samanskii-Newton iteration failed
+1.1*	195.041 pA  	100.0	91.8091 uV   
+2.0*	205.292 pA  	100.0	5.45614 uV   
+3.0 	12.2019 pA  	100.0	5.19269 uV   
+3.1 	11.6171 pA  	100.0	5.65812 uV   
+        Samanskii-Newton iteration failed
+3.2*	11.6171 pA  	100.0	1.79522 uV   
+4.0 	4.01851 pA  	100.0	1.67321 uV   
+4.1 	3.74918 pA  	100.0	1.58663 uV   
+4.2 	3.55184 pA  	100.0	1.9197 uV    
+4.3*	3.48949 pA  	100.0	71.5787 uV   
+5.0 	160.156 pA  	100.0	121.861 uV   
+        Samanskii-Newton iteration failed
+5.1*	160.156 pA  	100.0	28.5206 uV   
+    rejected
+
+Fwd sourceLevel=9.66299e-03    0.97% 2/2  Step=4.359582209e-05
+0.0*	6.55029 pA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	729.907 pA  	100.0	24.1762 mV   
+        Samanskii-Newton iteration failed
+1.1*	729.907 pA  	100.0	39.0812 uV   
+2.0*	87.2555 pA  	100.0	26.6636 uV   
+3.0 	59.5325 pA  	100.0	35.2032 uV   
+        Samanskii-Newton iteration failed
+3.1*	59.5325 pA  	100.0	1.8716 uV    
+4.0*	4.18179 pA  	100.0	101.56 uV    
+5.0 	226.735 pA  	100.0	61.7908 uV   
+5.1*	137.957 pA  	100.0	18.8883 uV   
+    rejected
+
+Fwd sourceLevel=9.66299e-03    0.97% 2/2  Step=2.075991528e-05
+0.0*	12.9042 pA  	100.0             
+        Arc-Newton iteration failed, damping activated
+1.0 	5.30444 nA  	100.0	90.922 mV    
+        Samanskii-Newton iteration failed
+1.1*	5.30444 nA  	100.0	5.40378 mV   
+2.0*	4.56715 uA  	100.0             
+    rejected
+
+Warning detected by hpeesofsim during HB analysis `HB1'.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    'Sweep1[1].HB1[1/22]' ( RFfreq=400e+06 RFpower=28 ) did not converge -- associated data will be identified with '<invalid>' flag in the dataset.
+
+--------------------------
+Solver convergence summary:
+--------------------------
+RHS:
+1.861e-06  A at node C51.DC_Block1.i, harmonic index (5)
+1.063e-06  A at node C50.DC_Block1.i, harmonic index (5)
+4.587e-08  A at node I__42.em_data.i21, harmonic index (5)
+
+Update:
+0.00256    V at node C56._net0304, harmonic index (1)
+0.00256    V at node C56._net0405, harmonic index (1)
+0.00256    V at node C56._net0506, harmonic index (1)
+
+Solution:
+28         V at node Vs_high, harmonic index (0)
+28         V at node N__29, harmonic index (0)
+28         V at node N__35, harmonic index (0)
+--------------------------
+
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    Convergence hints:
+    o Enable Regenerate Initial Guess for ParamSweep.
+    o Try TAHB (transient assisted HB).
+    o Set Matrix Re-use to Robust with the direct solver.
+    o Select the Krylov solver.
+    o Increase the Fundamental Oversample.
+    o Check the circuit/devices around the nodes in solver convergence summary.
+    o Act upon warning messages and topology errors.
+
+HB Sweep1[1].HB1[2/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=500e+06  RFpower=28
+    RFpower=28           100.00% 1/1
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    COMPONENT `I__42.em_data':
+       The interpolation result may be inaccurate due to the low number of frequency samples in the EM Model's data.
+0.0*	270.36 mA   	100.0             
+        Newton iteration failed, damping activated
+1.0*	3.53993 A   	 12.5             
+2.0*	236.566 mA  	 12.5             
+3.0*	206.995 mA  	  6.3             
+4.0*	194.058 mA  	  6.3             
+5.0*	181.929 mA  	  6.3             
+6.0*	170.559 mA  	 12.5             
+7.0*	149.698 mA  	 12.5             
+8.0*	157.93 mA   	 25.0             
+9.0*	171.835 mA  	 50.0             
+10.0*	159.325 mA  	100.0             
+11.0*	78.6251 mA  	100.0             
+12.0 	2.3844 mA   	100.0             
+12.1 	176.747 uA  	100.0             
+12.2 	14.0421 uA  	100.0             
+12.3 	1.14357 uA  	100.0	5.41288 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              1.276e-01       >       1.841e-05
+X1.X2._net502           1.276e-01       >       1.841e-05
+X1.X2.vg1               7.890e-03       >       3.380e-06
+X1.X2._net642           7.357e-03       >       3.387e-06
+X1.X2._net660           7.354e-03       >       3.387e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 1.276e-01 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.841e-05 for this waveform.
+o A time-domain plot of the N__30 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[3/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=600e+06  RFpower=28
+    RFpower=28           100.00% 1/1
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    COMPONENT `I__42.em_data':
+       Simulator uses frequency higher than frequency range for model. The S-parameters are extrapolated.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    COMPONENT `I__42.em_data':
+       S-parameter passivity is enforced.
+0.0*	20.9555 A   	100.0             
+1.0 	2.81907 A   	100.0             
+1.1 	2.17804 A   	100.0             
+        Samanskii-Newton iteration failed
+1.2*	2.22074 A   	100.0             
+        Newton iteration failed, damping activated
+2.0*	3.09771 A   	 50.0             
+3.0*	766.584 mA  	100.0             
+4.0 	233.005 mA  	100.0             
+4.1 	168.42 mA   	100.0             
+4.2*	128.97 mA   	100.0             
+5.0 	15.671 mA   	100.0             
+5.1 	4.36613 mA  	100.0             
+5.2 	1.29811 mA  	100.0             
+5.3 	392.119 uA  	100.0             
+5.4 	118.998 uA  	100.0             
+5.5 	36.1633 uA  	100.0             
+5.6 	10.9946 uA  	100.0             
+5.7 	3.3431 uA   	100.0             
+5.8 	1.01656 uA  	100.0	6.4787 uV    
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              1.074e-01       >       1.792e-05
+X1.X2._net502           1.074e-01       >       1.792e-05
+X1.X2.vg1               8.791e-03       >       3.592e-06
+X1.X2._net642           8.431e-03       >       3.595e-06
+X1.X2._net660           8.429e-03       >       3.595e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 1.074e-01 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.792e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[4/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=700e+06  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	17.9345 A   	100.0             
+1.0 	2.06798 A   	100.0             
+1.1 	1.37606 A   	100.0             
+1.2*	1.10167 A   	100.0             
+2.0 	733.508 mA  	100.0             
+2.1 	556.178 mA  	100.0             
+2.2 	542.093 mA  	100.0             
+2.3*	533.96 mA   	100.0             
+3.0 	30.2447 mA  	100.0             
+3.1 	1.18415 mA  	100.0             
+3.2 	105.647 uA  	100.0             
+3.3 	9.44538 uA  	100.0             
+3.4 	866.513 nA  	100.0	1.38672 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              1.121e-01       >       1.740e-05
+X1.X2._net502           1.121e-01       >       1.740e-05
+X1.X2._net642           7.892e-03       >       3.646e-06
+X1.X2._net660           7.889e-03       >       3.646e-06
+X1.X2._net628           7.889e-03       >       3.646e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 1.121e-01 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.740e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[5/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=800e+06  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	17.845 A    	100.0             
+1.0 	1.41174 A   	100.0             
+1.1 	968.998 mA  	100.0             
+1.2*	667.316 mA  	100.0             
+2.0 	70.0381 mA  	100.0             
+2.1 	15.7805 mA  	100.0             
+2.2 	6.07226 mA  	100.0             
+2.3 	2.01223 mA  	100.0             
+2.4 	727.191 uA  	100.0             
+2.5 	268.898 uA  	100.0             
+2.6 	96.2345 uA  	100.0             
+2.7 	36.3519 uA  	100.0             
+2.8 	13.194 uA   	100.0             
+2.9 	4.9744 uA   	100.0             
+2.10 	1.82318 uA  	100.0	5.53211 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              5.716e-02       >       1.666e-05
+X1.X2._net502           5.716e-02       >       1.666e-05
+X1.X2.vg1               6.319e-03       >       3.612e-06
+X1.X2._net642           5.942e-03       >       3.611e-06
+X1.X2._net660           5.940e-03       >       3.611e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 5.716e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.666e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[6/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=900e+06  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	16.4194 A   	100.0             
+1.0 	559.056 mA  	100.0             
+1.1 	351.687 mA  	100.0             
+1.2 	161.143 mA  	100.0             
+1.3 	127.576 mA  	100.0             
+1.4*	80.4898 mA  	100.0             
+2.0 	5.189 mA    	100.0             
+2.1 	787.169 uA  	100.0             
+2.2 	107.181 uA  	100.0             
+2.3 	15.6168 uA  	100.0             
+2.4 	2.21255 uA  	100.0	23.9485 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              1.042e-01       >       1.596e-05
+X1.X2._net502           1.042e-01       >       1.596e-05
+X1.X2.vg1               5.819e-03       >       3.511e-06
+X1.X2._net642           4.741e-03       >       3.514e-06
+X1.X2._net660           4.740e-03       >       3.514e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 1.042e-01 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.596e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[7/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	19.2209 A   	100.0             
+1.0 	1.65832 A   	100.0             
+1.1 	1.09994 A   	100.0             
+1.2*	293.77 mA   	100.0             
+2.0 	15.2754 mA  	100.0             
+2.1 	2.64227 mA  	100.0             
+2.2 	477.431 uA  	100.0             
+2.3 	91.1505 uA  	100.0             
+2.4 	17.5641 uA  	100.0             
+2.5 	3.49679 uA  	100.0	9.06397 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              9.445e-02       >       1.484e-05
+X1.X2._net502           9.445e-02       >       1.484e-05
+X1.X2.vg1               3.604e-03       >       3.427e-06
+X1.X2._net642           2.915e-03       >       3.429e-06
+X1.X2._net660           2.913e-03       >       3.429e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 9.445e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.484e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[8/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1.1e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	14.2272 A   	100.0             
+1.0 	783.996 mA  	100.0             
+1.1 	690.854 mA  	100.0             
+1.2*	399.483 mA  	100.0             
+2.0 	103.045 mA  	100.0             
+2.1 	43.1322 mA  	100.0             
+2.2 	20.5409 mA  	100.0             
+2.3 	10.1392 mA  	100.0             
+2.4 	5.10291 mA  	100.0             
+2.5 	2.59049 mA  	100.0             
+2.6 	1.32095 mA  	100.0             
+2.7 	675.079 uA  	100.0             
+2.8 	345.394 uA  	100.0             
+2.9 	176.818 uA  	100.0             
+2.10 	90.5456 uA  	100.0             
+2.11 	46.3738 uA  	100.0             
+2.12 	23.7527 uA  	100.0             
+2.13 	12.1666 uA  	100.0             
+2.14 	6.23213 uA  	100.0             
+2.15 	3.1923 uA   	100.0	9.27947 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              7.067e-02       >       1.537e-05
+X1.X2._net502           7.067e-02       >       1.537e-05
+X1.X2.vg1               3.938e-03       >       3.341e-06
+X1.X2._net642           3.536e-03       >       3.344e-06
+X1.X2._net660           3.534e-03       >       3.344e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 7.067e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.537e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[9/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1.2e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	11.1113 A   	100.0             
+1.0 	239.949 mA  	100.0             
+1.1 	113.162 mA  	100.0             
+1.2 	66.6378 mA  	100.0             
+1.3 	29.1061 mA  	100.0             
+1.4 	15.0493 mA  	100.0             
+1.5 	6.73325 mA  	100.0             
+1.6 	3.3348 mA   	100.0             
+1.7 	1.52078 mA  	100.0             
+1.8 	739.965 uA  	100.0             
+1.9 	341.575 uA  	100.0             
+1.10 	164.76 uA   	100.0             
+1.11 	76.6265 uA  	100.0             
+1.12 	36.7898 uA  	100.0             
+1.13 	17.1882 uA  	100.0             
+1.14 	8.23085 uA  	100.0             
+1.15 	3.86093 uA  	100.0             
+1.16 	1.84377 uA  	100.0	21.2508 uV   
+1.17 	868.158 nA  	100.0	14.7026 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              4.216e-02       >       1.599e-05
+X1.X2._net502           4.216e-02       >       1.599e-05
+X1.X2.vg1               3.445e-03       >       3.277e-06
+X1.X2._net642           3.331e-03       >       3.288e-06
+X1.X2._net660           3.330e-03       >       3.288e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 4.216e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.599e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[10/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1.3e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	12.6071 A   	100.0             
+1.0 	102.766 mA  	100.0             
+1.1 	59.2215 mA  	100.0             
+1.2 	27.0664 mA  	100.0             
+1.3 	13.8076 mA  	100.0             
+1.4 	6.61659 mA  	100.0             
+1.5 	3.2447 mA   	100.0             
+1.6 	1.56954 mA  	100.0             
+1.7 	762.748 uA  	100.0             
+1.8 	369.575 uA  	100.0             
+1.9 	179.244 uA  	100.0             
+1.10 	86.8766 uA  	100.0             
+1.11 	42.1168 uA  	100.0             
+1.12 	20.4149 uA  	100.0             
+1.13 	9.89602 uA  	100.0             
+1.14 	4.7969 uA   	100.0             
+1.15 	2.32523 uA  	100.0	14.9061 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              4.418e-02       >       1.601e-05
+X1.X2._net502           4.418e-02       >       1.601e-05
+X1.X2.vg1               3.758e-03       >       3.239e-06
+X1.X2._net642           3.389e-03       >       3.257e-06
+X1.X2._net660           3.388e-03       >       3.257e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 4.418e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.601e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[11/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1.4e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	14.636 A    	100.0             
+1.0 	334.7 mA    	100.0             
+1.1 	286.749 mA  	100.0             
+1.2*	215.203 mA  	100.0             
+2.0 	20.749 mA   	100.0             
+2.1 	4.22137 mA  	100.0             
+2.2 	931.32 uA   	100.0             
+2.3 	209.874 uA  	100.0             
+2.4 	47.6506 uA  	100.0             
+2.5 	10.8334 uA  	100.0             
+2.6 	2.46365 uA  	100.0	6.06083 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              4.005e-02       >       1.649e-05
+X1.X2._net502           4.005e-02       >       1.649e-05
+X1.X2.vg1               3.809e-03       >       3.251e-06
+X1.X2._net642           3.563e-03       >       3.266e-06
+X1.X2._net660           3.561e-03       >       3.266e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 4.005e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.649e-05 for this waveform.
+o A time-domain plot of the N__35 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[12/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1.5e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	13.1593 A   	100.0             
+1.0 	600.691 mA  	100.0             
+1.1 	538.744 mA  	100.0             
+1.2*	362.121 mA  	100.0             
+2.0 	63.8143 mA  	100.0             
+2.1 	23.2656 mA  	100.0             
+2.2 	9.33072 mA  	100.0             
+2.3 	3.84939 mA  	100.0             
+2.4 	1.60696 mA  	100.0             
+2.5 	674.018 uA  	100.0             
+2.6 	283.268 uA  	100.0             
+2.7 	119.147 uA  	100.0             
+2.8 	50.1325 uA  	100.0             
+2.9 	21.0969 uA  	100.0             
+2.10 	8.87862 uA  	100.0             
+2.11 	3.73668 uA  	100.0	11.1746 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              5.184e-02       >       1.813e-05
+X1.X2._net502           5.184e-02       >       1.813e-05
+X1.X2.vg1               5.070e-03       >       3.283e-06
+X1.X2._net642           4.712e-03       >       3.298e-06
+X1.X2._net660           4.710e-03       >       3.297e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 5.184e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.813e-05 for this waveform.
+o A time-domain plot of the N__11 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[13/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1.6e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	10.6516 A   	100.0             
+1.0 	797.275 mA  	100.0             
+1.1 	769.879 mA  	100.0             
+1.2*	635.588 mA  	100.0             
+2.0 	143.376 mA  	100.0             
+2.1 	67.3101 mA  	100.0             
+2.2 	35.0609 mA  	100.0             
+2.3 	19.1492 mA  	100.0             
+2.4 	10.6704 mA  	100.0             
+2.5 	6.01202 mA  	100.0             
+2.6 	3.40707 mA  	100.0             
+2.7 	1.93718 mA  	100.0             
+2.8 	1.10344 mA  	100.0             
+2.9 	629.191 uA  	100.0             
+2.10 	358.981 uA  	100.0             
+2.11 	204.883 uA  	100.0             
+2.12 	116.956 uA  	100.0             
+2.13 	66.7709 uA  	100.0             
+2.14 	38.1223 uA  	100.0             
+2.15 	21.7664 uA  	100.0             
+2.16 	12.428 uA   	100.0             
+2.17 	7.09616 uA  	100.0             
+2.18 	4.05178 uA  	100.0             
+2.19 	2.31351 uA  	100.0	6.30485 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              3.871e-02       >       1.926e-05
+X1.X2._net502           3.871e-02       >       1.926e-05
+X1.X2.vg1               5.104e-03       >       3.323e-06
+X1.X2._net642           4.666e-03       >       3.347e-06
+X1.X2._net660           4.665e-03       >       3.347e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 3.871e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.926e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[14/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1.7e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	7.13102 A   	100.0             
+1.0 	494.153 mA  	100.0             
+1.1 	454.819 mA  	100.0             
+1.2*	419.929 mA  	100.0             
+2.0 	46.5791 mA  	100.0             
+2.1 	11.427 mA   	100.0             
+2.2 	3.01024 mA  	100.0             
+2.3 	806.577 uA  	100.0             
+2.4 	217.086 uA  	100.0             
+2.5 	58.4979 uA  	100.0             
+2.6 	15.7684 uA  	100.0             
+2.7 	4.2508 uA   	100.0             
+2.8 	1.14596 uA  	100.0	2.28801 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              4.400e-02       >       1.939e-05
+X1.X2._net502           4.400e-02       >       1.939e-05
+X1.X2.vg1               5.366e-03       >       3.389e-06
+X1.X2._net642           4.985e-03       >       3.418e-06
+X1.X2._net660           4.984e-03       >       3.418e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 4.400e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.939e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[15/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1.8e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	7.85173 A   	100.0             
+1.0 	1.25739 A   	100.0             
+1.1 	1.17176 A   	100.0             
+1.2*	1.1198 A    	100.0             
+2.0 	364.558 mA  	100.0             
+2.1 	54.606 mA   	100.0             
+2.2 	14.0221 mA  	100.0             
+2.3 	4.71365 mA  	100.0             
+2.4 	1.65022 mA  	100.0             
+2.5 	575.795 uA  	100.0             
+2.6 	201.253 uA  	100.0             
+2.7 	70.3755 uA  	100.0             
+2.8 	24.6152 uA  	100.0             
+2.9 	8.61049 uA  	100.0             
+2.10 	3.0122 uA   	100.0             
+2.11 	1.05379 uA  	100.0	3.32892 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              4.860e-02       >       1.935e-05
+X1.X2._net502           4.860e-02       >       1.935e-05
+X1.X2.vg1               5.570e-03       >       3.488e-06
+X1.X2._net660           5.420e-03       >       3.513e-06
+X1.X2._net628           5.420e-03       >       3.513e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 4.860e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.935e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[16/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=1.9e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	8.78708 A   	100.0             
+1.0 	574.529 mA  	100.0             
+1.1 	479.515 mA  	100.0             
+1.2*	424.131 mA  	100.0             
+2.0 	76.8526 mA  	100.0             
+2.1 	29.4102 mA  	100.0             
+2.2 	12.4306 mA  	100.0             
+2.3 	5.43082 mA  	100.0             
+2.4 	2.40279 mA  	100.0             
+2.5 	1.06862 mA  	100.0             
+2.6 	476.322 uA  	100.0             
+2.7 	212.521 uA  	100.0             
+2.8 	94.8618 uA  	100.0             
+2.9 	42.3511 uA  	100.0             
+2.10 	18.9093 uA  	100.0             
+2.11 	8.4431 uA   	100.0             
+2.12 	3.76992 uA  	100.0             
+2.13 	1.68334 uA  	100.0	6.71506 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              5.834e-02       >       1.922e-05
+X1.X2._net502           5.834e-02       >       1.922e-05
+X1.X2.vg1               6.132e-03       >       3.551e-06
+X1.X2._net642           5.894e-03       >       3.570e-06
+X1.X2._net660           5.892e-03       >       3.570e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 5.834e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.922e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[17/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=2e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	7.98282 A   	100.0             
+1.0 	1.26919 A   	100.0             
+1.1 	1.07761 A   	100.0             
+        Samanskii-Newton iteration failed
+1.2*	1.10785 A   	100.0             
+        Newton iteration failed, damping activated
+2.0*	1.64314 A   	 50.0             
+3.0*	225.228 mA  	100.0             
+4.0 	7.77457 mA  	100.0             
+4.1 	278.907 uA  	100.0             
+4.2 	23.0711 uA  	100.0             
+4.3 	1.00255 uA  	100.0	5.05115 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              5.094e-02       >       1.907e-05
+X1.X2._net502           5.094e-02       >       1.907e-05
+X1.X2._net642           5.476e-03       >       3.564e-06
+X1.X2._net660           5.474e-03       >       3.564e-06
+X1.X2._net628           5.474e-03       >       3.564e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 5.094e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.907e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[18/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=2.1e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	7.01632 A   	100.0             
+1.0 	1.25363 A   	100.0             
+1.1 	1.10762 A   	100.0             
+        Samanskii-Newton iteration failed
+1.2*	1.1521 A    	100.0             
+        Newton iteration failed, damping activated
+2.0*	1.15862 A   	 50.0             
+3.0*	458.821 mA  	100.0             
+4.0 	220.888 mA  	100.0             
+4.1 	182.553 mA  	100.0             
+4.2*	143.581 mA  	100.0             
+5.0 	5.73867 mA  	100.0             
+5.1 	509.95 uA   	100.0             
+5.2 	46.4236 uA  	100.0             
+5.3 	4.23486 uA  	100.0             
+5.4 	386.395 nA  	100.0	1.185 uV     
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              5.740e-02       >       1.894e-05
+X1.X2._net502           5.740e-02       >       1.894e-05
+X1.X2._net642           5.267e-03       >       3.437e-06
+X1.X2._net660           5.266e-03       >       3.437e-06
+X1.X2._net628           5.266e-03       >       3.437e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 5.740e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.894e-05 for this waveform.
+o A time-domain plot of the X1._net416 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[19/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=2.2e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	8.28727 A   	100.0             
+1.0 	778.942 mA  	100.0             
+1.1 	646.337 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.2*	751.926 mA  	100.0             
+2.0 	360.348 mA  	100.0             
+2.1 	330.36 mA   	100.0             
+2.2 	265.335 mA  	100.0             
+2.3 	248.737 mA  	100.0             
+2.4 	217.971 mA  	100.0             
+2.5 	207.099 mA  	100.0             
+2.6 	188.567 mA  	100.0             
+2.7 	180.702 mA  	100.0             
+2.8*	168.008 mA  	100.0             
+3.0 	16.077 mA   	100.0             
+3.1 	3.02615 mA  	100.0             
+3.2 	599.734 uA  	100.0             
+3.3 	119.933 uA  	100.0             
+3.4 	24.0267 uA  	100.0             
+3.5 	4.81503 uA  	100.0             
+3.6 	965.028 nA  	100.0	4.08285 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              5.738e-02       >       1.875e-05
+X1.X2._net502           5.738e-02       >       1.875e-05
+X1.X2.vg1               4.722e-03       >       3.178e-06
+X1.X2._net642           4.618e-03       >       3.175e-06
+X1.X2._net660           4.616e-03       >       3.175e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 5.738e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.875e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[20/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=2.3e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	8.77782 A   	100.0             
+1.0 	421.29 mA   	100.0             
+1.1 	277.34 mA   	100.0             
+1.2 	168.88 mA   	100.0             
+1.3 	136.116 mA  	100.0             
+1.4*	86.4399 mA  	100.0             
+2.0 	3.71446 mA  	100.0             
+2.1 	318.052 uA  	100.0             
+2.2 	28.7295 uA  	100.0             
+2.3 	2.62171 uA  	100.0	14.732 uV    
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              4.108e-02       >       1.826e-05
+X1.X2._net502           4.108e-02       >       1.826e-05
+X1.X2.vg1               3.558e-03       >       2.899e-06
+X1.X2._net642           3.425e-03       >       2.896e-06
+X1.X2._net660           3.422e-03       >       2.896e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 4.108e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.826e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[21/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=2.4e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	7.13745 A   	100.0             
+1.0 	289.012 mA  	100.0             
+1.1 	159.574 mA  	100.0             
+1.2 	96.3268 mA  	100.0             
+1.3 	64.0901 mA  	100.0             
+1.4 	42.2198 mA  	100.0             
+1.5 	28.0323 mA  	100.0             
+1.6 	18.5591 mA  	100.0             
+1.7 	12.2889 mA  	100.0             
+1.8 	8.14377 mA  	100.0             
+1.9 	5.40238 mA  	100.0             
+1.10 	3.58699 mA  	100.0             
+1.11 	2.38331 mA  	100.0             
+1.12 	1.58437 mA  	100.0             
+1.13 	1.05364 mA  	100.0             
+1.14 	700.874 uA  	100.0             
+1.15 	466.3 uA    	100.0             
+1.16 	310.272 uA  	100.0             
+1.17 	206.47 uA   	100.0             
+1.18 	137.402 uA  	100.0             
+1.19 	91.4424 uA  	100.0             
+1.20 	60.8572 uA  	100.0             
+1.21 	40.5026 uA  	100.0             
+1.22 	26.9562 uA  	100.0             
+1.23 	17.9407 uA  	100.0             
+1.24 	11.9404 uA  	100.0             
+1.25 	7.947 uA    	100.0             
+1.26 	5.28916 uA  	100.0             
+1.27 	3.52023 uA  	100.0             
+1.28 	2.34291 uA  	100.0	3.56533 uV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              2.550e-02       >       1.709e-05
+X1.X2._net502           2.550e-02       >       1.709e-05
+X1.X2.vg1               2.639e-03       >       2.640e-06
+X1.X2._net642           2.598e-03       >       2.645e-06
+X1.X2._net660           2.595e-03       >       2.645e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 2.550e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.709e-05 for this waveform.
+o A time-domain plot of the X1._net416 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[22/22] <GF_lib:SCFIFMs_EML:schematic>  RFfreq=2.5e+09  RFpower=28
+    RFpower=28           100.00% 1/1
+0.0*	9.58328 A   	100.0             
+1.0 	297.995 mA  	100.0             
+1.1 	177.418 mA  	100.0             
+1.2 	94.2189 mA  	100.0             
+1.3 	57.7022 mA  	100.0             
+1.4 	33.036 mA   	100.0             
+1.5 	21.9011 mA  	100.0             
+1.6 	11.9672 mA  	100.0             
+1.7 	8.31303 mA  	100.0             
+1.8*	4.36419 mA  	100.0             
+2.0 	16.3979 uA  	100.0             
+2.1 	115.93 nA   	100.0	428.225 nV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              1.036e-02       >       1.558e-05
+X1.X2._net502           1.036e-02       >       1.558e-05
+X1.X2._net660           2.184e-03       >       2.477e-06
+X1.X2._net628           2.184e-03       >       2.477e-06
+X1.X2._net642           2.183e-03       >       2.477e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 1.036e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.558e-05 for this waveform.
+o A time-domain plot of the N__17 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+SP SP1[1] <GF_lib:SCFIFMs_EML:schematic>   freq=(200 MHz->4 GHz)
+.......................................
+
+Resource usage:
+  Total stopwatch time     =     3.45 seconds.
+

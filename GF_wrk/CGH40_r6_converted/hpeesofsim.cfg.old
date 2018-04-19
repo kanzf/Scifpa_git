@@ -1,0 +1,4 @@
+DESIGN_KIT_MODEL_PATH=C:\Users\Administrator\CGH40_r6_converted\bin\win32_64_VS2008
+EESOF_MODEL_PATH=.:../userCompiledModel/lib.$SIMARCH:..:../networks:$HOME/hpeesof/circuit/lib.$SIMARCH:$HPEESOF_DIR/custom/circuit/lib.$SIMARCH:$HPEESOF_DIR/circuit/lib.$SIMARCH:%DESIGN_KIT_MODEL_PATH;{%DESIGN_KIT_MODEL_PATH}
+DESIGN_KIT_VERILOGA_PATH=C:\Users\Administrator\CGH40_r6_converted\veriloga
+DESIGN_KIT_SIM_FILE_PATH=C:\Users\Administrator\CGH40_r6_converted\circuit\data;C:\Users\Administrator\CGH40_r6_converted\circuit\models

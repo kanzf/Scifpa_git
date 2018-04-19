@@ -1,0 +1,19 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "GF_lib:SCFIFMs_Sche:emModel"
+  parameterNames = list("Substrate","MeshDensity")
+  parameterValues = list("definedInState","20")
+  topLevel design name = "GF_lib:SCFIFMs_EML:schematic"
+  instance name = "I__42.em_data"
+  processID = "1900@DESKTOP-ASTLMUG"
+  visible = TRUE
+Connected to external process by processID
+..handle = 17
+..pid = 1900@DESKTOP-ASTLMUG
+..name = hpeesofsim
+..disable simulation log popup
+..simulation M180118102310 started
+..simulation M180118102310 ended
+EM simulation finished successfully
+..new data added to EM model view
+..sending DONE to parent

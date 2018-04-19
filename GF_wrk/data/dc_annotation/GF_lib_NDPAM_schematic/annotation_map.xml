@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotation_files Version="1.0" Simulator="hpeesofsim" Time="周一 3月 19 09:25:53 2018">
+ <File name="annotation_1.xml">
+  <Controller name="HB1">
+   <P>RFfreq: 2.0000000000000000e+00</P>
+   <P>RFpower: 1.0000000000000000e+01</P>
+  </Controller>
+ </File>
+</annotation_files>

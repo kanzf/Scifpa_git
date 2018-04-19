@@ -1,0 +1,298 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 12
+    Number of nodes with no DC path to ground (topology corrected): 4
+
+
+CT Sweep1[1] <GF_lib:SCIMs_Sche:schematic>   RFfreq=(100e+06->4e+09)
+
+HB Sweep1[1].HB1[1/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=100e+06  RFpower=28
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 1122.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: Krylov (GS_GMRES).
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000305) OR UserValue > MaxRecommendValue(0.001905) for 'W3' in `Cros1'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.002000) < MinRecommendValue(0.000305) OR UserValue > MaxRecommendValue(0.001905) for 'W4' in `Cros1'
+
+    RFpower=28           100.00% 1/1
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[2/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=200e+06  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[3/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=300e+06  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[4/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=400e+06  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[5/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=500e+06  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[6/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=600e+06  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[7/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=700e+06  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[8/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=800e+06  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[9/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=900e+06  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[10/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[11/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1.1e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[12/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1.2e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[13/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1.3e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[14/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1.4e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[15/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1.5e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[16/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1.6e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[17/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1.7e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[18/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1.8e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[19/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=1.9e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[20/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[21/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2.1e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[22/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2.2e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[23/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2.3e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[24/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2.4e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[25/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2.5e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[26/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2.6e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[27/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2.7e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[28/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2.8e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[29/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=2.9e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[30/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+Warning detected by hpeesofsim during HB analysis 'HB1'.
+    In component `Tee2': (freq*H) > 0.4*Z_LOWEST (GHz*mm)
+
+Warning detected by hpeesofsim during HB analysis 'HB1'.
+    In component `Tee4': (freq*H) > 0.4*Z_LOWEST (GHz*mm)
+
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[31/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3.1e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[32/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3.2e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[33/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3.3e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[34/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3.4e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[35/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3.5e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[36/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3.6e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[37/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3.7e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+Warning detected by hpeesofsim during HB analysis 'HB1'.
+    In component `Tee64': (freq*H) > 0.4*Z_LOWEST (GHz*mm)
+
+Warning detected by hpeesofsim during HB analysis 'HB1'.
+    In component `Tee62': (freq*H) > 0.4*Z_LOWEST (GHz*mm)
+
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[38/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3.8e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[39/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=3.9e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+
+HB Sweep1[1].HB1[40/40] <GF_lib:SCIMs_Sche:schematic>  RFfreq=4e+09  RFpower=28
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=28           100.00% 1/1
+0 	0 A         	100.0             
+1 	0 A         	100.0            	  0	0.000e+00   
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression ` PDC=Is_l*Vs_l+Is_h*Vs_h+1e-20'
+        Is_high.i
+        Is_low.i
+        Vs_high
+        Vs_low
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression `Is_l=real(Is_low.i[0])'
+        Is_low.i
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression `Vs_l=real(Vs_low[0])'
+        Vs_low
+
+Resource usage:
+  Total stopwatch time     =     0.60 seconds.
+

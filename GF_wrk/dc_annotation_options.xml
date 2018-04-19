@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dc_annotation_options>
+ <options view="schematic" ToggleCurrent="true" library="GF_lib" ToggleVoltage="true" cell="Doherty_t"/>
+ <options view="schematic" ToggleCurrent="true" library="GF_lib" ToggleVoltage="true" cell="CONF_t"/>
+ <options view="schematic" analysis="SP1" UseFirstSweep="true" ToggleCurrent="false" library="GF_lib" SweepPoint="freq=1e+09" ToggleVoltage="false" SolutionFile="annotation_1.xml" cell="C_DPA"/>
+ <options view="schematic" ToggleCurrent="true" library="GF_lib" ToggleVoltage="true" cell="DPA_T"/>
+ <options view="schematic" ToggleCurrent="false" library="GF_lib" ToggleVoltage="false" cell="Peaking_PA"/>
+ <options view="schematic" ToggleCurrent="false" library="GF_lib" ToggleVoltage="false" cell="Doherty_t1"/>
+ <options view="schematic" ToggleCurrent="true" library="GF_lib" ToggleVoltage="true" cell="DPA_t2"/>
+ <options view="schematic" ToggleCurrent="true" library="GF_lib" ToggleVoltage="true" cell="PEAK_P"/>
+ <options view="schematic" ToggleCurrent="true" library="GF_lib" ToggleVoltage="true" cell="DPA_t3"/>
+ <options view="schematic" ToggleCurrent="true" library="GF_lib" ToggleVoltage="true" cell="DPA_t4"/>
+ <options view="schematic" ToggleCurrent="false" library="GF_lib" ToggleVoltage="false" cell="t4"/>
+ <options view="schematic" ToggleCurrent="true" library="GF_lib" cell="t3"/>
+ <options view="schematic" ToggleCurrent="true" library="GF_lib" ToggleVoltage="false" cell="F"/>
+</dc_annotation_options>

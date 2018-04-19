@@ -1,0 +1,72 @@
+create_constant_form("GRT31C5C1H683JA02","0:GRT31C5C1H683JA02, Infortainment for Automotive, C0G(-55to125[deg]), 50[V], 68000[pF], +/-5[%], 1[MHz]-6[GHz]:0",68,"0","GRT31C5C1H683JA02");
+create_constant_form("GRT31C5C1H823JA02","1:GRT31C5C1H823JA02, Infortainment for Automotive, C0G(-55to125[deg]), 50[V], 82000[pF], +/-5[%], 1[MHz]-6[GHz]:1",68,"1","GRT31C5C1H823JA02");
+create_constant_form("GRT31C5C1E104JA02","2:GRT31C5C1E104JA02, Infortainment for Automotive, C0G(-55to125[deg]), 25[V], 100000[pF], +/-5[%], 1[MHz]-6[GHz]:2",68,"2","GRT31C5C1E104JA02");
+create_constant_form("GRT31C5C1H104JA02","3:GRT31C5C1H104JA02, Infortainment for Automotive, C0G(-55to125[deg]), 50[V], 100000[pF], +/-5[%], 1[MHz]-6[GHz]:3",68,"3","GRT31C5C1H104JA02");
+create_constant_form("GRT31C5C1C124JA02","4:GRT31C5C1C124JA02, Infortainment for Automotive, C0G(-55to125[deg]), 16[V], 120000[pF], +/-5[%], 1[MHz]-6[GHz]:4",68,"4","GRT31C5C1C124JA02");
+create_constant_form("GRT31C5C1E124JA02","5:GRT31C5C1E124JA02, Infortainment for Automotive, C0G(-55to125[deg]), 25[V], 120000[pF], +/-5[%], 1[MHz]-6[GHz]:5",68,"5","GRT31C5C1E124JA02");
+create_constant_form("GRT31CC81H225KE01","6:GRT31CC81H225KE01, Infortainment for Automotive, X6S(-55to105[deg]), 50[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:6",68,"6","GRT31CC81H225KE01");
+create_constant_form("GRT31CR61H225KE01","7:GRT31CR61H225KE01, Infortainment for Automotive, X5R(-55to85[deg]), 50[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:7",68,"7","GRT31CR61H225KE01");
+create_constant_form("GRT31CR61E335KE01","8:GRT31CR61E335KE01, Infortainment for Automotive, X5R(-55to85[deg]), 25[V], 3300000[pF], +/-10[%], 100[Hz]-6[GHz]:8",68,"8","GRT31CR61E335KE01");
+create_constant_form("GRT31CC81C475KE01","9:GRT31CC81C475KE01, Infortainment for Automotive, X6S(-55to105[deg]), 16[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:9",68,"9","GRT31CC81C475KE01");
+create_constant_form("GRT31CC81C475ME01","10:GRT31CC81C475ME01, Infortainment for Automotive, X6S(-55to105[deg]), 16[V], 4700000[pF], +/-20[%], 100[Hz]-6[GHz]:10",68,"10","GRT31CC81C475ME01");
+create_constant_form("GRT31CC81E475KE01","11:GRT31CC81E475KE01, Infortainment for Automotive, X6S(-55to105[deg]), 25[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:11",68,"11","GRT31CC81E475KE01");
+create_constant_form("GRT31CR61C475KE01","12:GRT31CR61C475KE01, Infortainment for Automotive, X5R(-55to85[deg]), 16[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:12",68,"12","GRT31CR61C475KE01");
+create_constant_form("GRT31CR61C475ME01","13:GRT31CR61C475ME01, Infortainment for Automotive, X5R(-55to85[deg]), 16[V], 4700000[pF], +/-20[%], 100[Hz]-6[GHz]:13",68,"13","GRT31CR61C475ME01");
+create_constant_form("GRT31CR61E475KE01","14:GRT31CR61E475KE01, Infortainment for Automotive, X5R(-55to85[deg]), 25[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:14",68,"14","GRT31CR61E475KE01");
+create_constant_form("GRT31CC81A106KE01","15:GRT31CC81A106KE01, Infortainment for Automotive, X6S(-55to105[deg]), 10[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:15",68,"15","GRT31CC81A106KE01");
+create_constant_form("GRT31CC81A106ME01","16:GRT31CC81A106ME01, Infortainment for Automotive, X6S(-55to105[deg]), 10[V], 10000000[pF], +/-20[%], 100[Hz]-6[GHz]:16",68,"16","GRT31CC81A106ME01");
+create_constant_form("GRT31CR61A106KE01","17:GRT31CR61A106KE01, Infortainment for Automotive, X5R(-55to85[deg]), 10[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:17",68,"17","GRT31CR61A106KE01");
+create_constant_form("GRT31CR61C106KE01","18:GRT31CR61C106KE01, Infortainment for Automotive, X5R(-55to85[deg]), 16[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:18",68,"18","GRT31CR61C106KE01");
+
+create_form_set("GRT31_list" 
+,"GRT31C5C1H683JA02"
+,"GRT31C5C1H823JA02"
+,"GRT31C5C1E104JA02"
+,"GRT31C5C1H104JA02"
+,"GRT31C5C1C124JA02"
+,"GRT31C5C1E124JA02"
+,"GRT31CC81H225KE01"
+,"GRT31CR61H225KE01"
+,"GRT31CR61E335KE01"
+,"GRT31CC81C475KE01"
+,"GRT31CC81C475ME01"
+,"GRT31CC81E475KE01"
+,"GRT31CR61C475KE01"
+,"GRT31CR61C475ME01"
+,"GRT31CR61E475KE01"
+,"GRT31CC81A106KE01"
+,"GRT31CC81A106ME01"
+,"GRT31CR61A106KE01"
+,"GRT31CR61C106KE01"
+);
+
+create_compound_form("GRT31_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"GRT31_list",-1,prm("GRT31C5C1H683JA02")),
+create_parm("MIN","Minimum",32,"GRT31_list",-1,prm("GRT31C5C1H683JA02")),
+create_parm("MAX","Maximum",32,"GRT31_list",-1,prm("GRT31CR61C106KE01")));
+
+create_form_set("GRT31_list_opt","NULL" 
+,"GRT31C5C1H683JA02"
+,"GRT31C5C1H823JA02"
+,"GRT31C5C1E104JA02"
+,"GRT31C5C1H104JA02"
+,"GRT31C5C1C124JA02"
+,"GRT31C5C1E124JA02"
+,"GRT31CC81H225KE01"
+,"GRT31CR61H225KE01"
+,"GRT31CR61E335KE01"
+,"GRT31CC81C475KE01"
+,"GRT31CC81C475ME01"
+,"GRT31CC81E475KE01"
+,"GRT31CR61C475KE01"
+,"GRT31CR61C475ME01"
+,"GRT31CR61E475KE01"
+,"GRT31CC81A106KE01"
+,"GRT31CC81A106ME01"
+,"GRT31CR61A106KE01"
+,"GRT31CR61C106KE01"
+,"GRT31_compound"
+);
+
+
+

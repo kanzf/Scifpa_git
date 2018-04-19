@@ -1,0 +1,188 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in LinearCollapse '_2_' during analysis.
+    LinearCollapse is disabled because there is 'HB' analysis present.
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 2
+
+
+CT Sweep1[1] <GF_lib:DPA_Main:schematic>   RFfreq=(400e-03->2.8)
+
+HB Sweep1[1].HB1[1/25] <GF_lib:DPA_Main:schematic>  RFfreq=400e-03  RFpower=(11->30)
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 4543.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: Krylov (GS_GMRES).
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    In component `Tee4':W_widest > 5.0* W_narrowest
+
+    RFpower=11             0.00% 1/20
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	1.81899 pA  	100.0             
+1 	10.6581 fA  	100.0	11.5464 fV  	  1	6.264e-13   
+
+HB Sweep1[1].HB1[2/25] <GF_lib:DPA_Main:schematic>  RFfreq=500e-03  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	10.6581 fA  	100.0             
+1 	14.2109 fA  	100.0	12.4345 fV  	  1	3.867e-13   
+
+HB Sweep1[1].HB1[3/25] <GF_lib:DPA_Main:schematic>  RFfreq=600e-03  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	14.2109 fA  	100.0             
+1 	10.6581 fA  	100.0	9.76998 fV  	  1	1.091e-13   
+
+HB Sweep1[1].HB1[4/25] <GF_lib:DPA_Main:schematic>  RFfreq=700e-03  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	10.6581 fA  	100.0             
+1 	10.6581 fA  	100.0	7.99363 fV  	  1	2.129e-13   
+
+HB Sweep1[1].HB1[5/25] <GF_lib:DPA_Main:schematic>  RFfreq=800e-03  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	10.6581 fA  	100.0             
+1 	29.1038 pA  	100.0	6.21733 fV  	  1	6.856e-13   
+
+HB Sweep1[1].HB1[6/25] <GF_lib:DPA_Main:schematic>  RFfreq=900e-03  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	29.1038 pA  	100.0             
+1 	1.81899 pA  	100.0	17.6092 fV  	  1	5.899e-13   
+
+HB Sweep1[1].HB1[7/25] <GF_lib:DPA_Main:schematic>  RFfreq=1  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	1.81899 pA  	100.0             
+1 	29.1038 pA  	100.0	10.7608 fV  	  1	1.433e-13   
+
+HB Sweep1[1].HB1[8/25] <GF_lib:DPA_Main:schematic>  RFfreq=1.1  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	29.1038 pA  	100.0             
+1 	1.81899 pA  	100.0	11.1498 fV  	  1	5.728e-13   
+
+HB Sweep1[1].HB1[9/25] <GF_lib:DPA_Main:schematic>  RFfreq=1.2  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	1.81899 pA  	100.0             
+1 	29.1038 pA  	100.0	13.3227 fV  	  1	3.385e-13   
+
+HB Sweep1[1].HB1[10/25] <GF_lib:DPA_Main:schematic>  RFfreq=1.3  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	29.1038 pA  	100.0             
+1 	8.07991 fA  	100.0	8.48522 fV  	  1	1.192e-12   
+
+HB Sweep1[1].HB1[11/25] <GF_lib:DPA_Main:schematic>  RFfreq=1.4  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	8.07991 fA  	100.0             
+1 	1.81899 pA  	100.0	12.4345 fV  	  1	1.872e-13   
+
+HB Sweep1[1].HB1[12/25] <GF_lib:DPA_Main:schematic>  RFfreq=1.5  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	1.81899 pA  	100.0             
+1 	10.6581 fA  	100.0	5.32908 fV  	  1	4.115e-13   
+
+HB Sweep1[1].HB1[13/25] <GF_lib:DPA_Main:schematic>  RFfreq=1.6  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	10.6581 fA  	100.0             
+1 	29.1038 pA  	100.0	9.03608 fV  	  1	5.651e-13   
+
+HB Sweep1[1].HB1[14/25] <GF_lib:DPA_Main:schematic>  RFfreq=1.7  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+Warning detected by hpeesofsim during HB analysis 'HB1'.
+    In component `Tee4': (freq*H) > 0.4*Z_LOWEST (GHz*mm)
+
+0 	29.1038 pA  	100.0             
+1 	29.1038 pA  	100.0	11.1497 fV  	  1	1.480e-13   
+
+HB Sweep1[1].HB1[15/25] <GF_lib:DPA_Main:schematic>  RFfreq=1.8  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	29.1038 pA  	100.0             
+1 	1.81899 pA  	100.0	5.32937 fV  	  1	5.922e-13   
+
+HB Sweep1[1].HB1[16/25] <GF_lib:DPA_Main:schematic>  RFfreq=1.9  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	1.81899 pA  	100.0             
+1 	17.7636 fA  	100.0	14.2111 fV  	  1	6.731e-13   
+
+HB Sweep1[1].HB1[17/25] <GF_lib:DPA_Main:schematic>  RFfreq=2  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	17.7636 fA  	100.0             
+1 	1.81899 pA  	100.0	14.2109 fV  	  1	5.035e-13   
+
+HB Sweep1[1].HB1[18/25] <GF_lib:DPA_Main:schematic>  RFfreq=2.1  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	1.81899 pA  	100.0             
+1 	7.10543 fA  	100.0	8.14787 fV  	  1	8.459e-13   
+
+HB Sweep1[1].HB1[19/25] <GF_lib:DPA_Main:schematic>  RFfreq=2.2  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	7.10543 fA  	100.0             
+1 	29.1038 pA  	100.0	5.22627 fV  	  1	5.917e-13   
+
+HB Sweep1[1].HB1[20/25] <GF_lib:DPA_Main:schematic>  RFfreq=2.3  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	29.1038 pA  	100.0             
+1 	29.1038 pA  	100.0	11.1496 fV  	  1	2.673e-13   
+
+HB Sweep1[1].HB1[21/25] <GF_lib:DPA_Main:schematic>  RFfreq=2.4  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	29.1038 pA  	100.0             
+1 	1.81899 pA  	100.0	13.8138 fV  	  1	5.133e-13   
+
+HB Sweep1[1].HB1[22/25] <GF_lib:DPA_Main:schematic>  RFfreq=2.5  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	1.81899 pA  	100.0             
+1 	29.1038 pA  	100.0	10.6582 fV  	  1	1.559e-13   
+
+HB Sweep1[1].HB1[23/25] <GF_lib:DPA_Main:schematic>  RFfreq=2.6  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	29.1038 pA  	100.0             
+1 	29.1038 pA  	100.0	20.0312 fV  	  1	1.510e-13   
+
+HB Sweep1[1].HB1[24/25] <GF_lib:DPA_Main:schematic>  RFfreq=2.7  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	29.1038 pA  	100.0             
+1 	1.81899 pA  	100.0	12.5885 fV  	  1	4.917e-13   
+
+HB Sweep1[1].HB1[25/25] <GF_lib:DPA_Main:schematic>  RFfreq=2.8  RFpower=(11->30)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=11             0.00% 1/20
+0 	1.81899 pA  	100.0             
+1 	1.81899 pA  	100.0	10.6581 fV  	  1	3.199e-13   
+
+SP SP1[1] <GF_lib:DPA_Main:schematic>   freq=(400 MHz->2.4 GHz)
+.....................
+
+Resource usage:
+  Total stopwatch time     =     1.65 seconds.
+
