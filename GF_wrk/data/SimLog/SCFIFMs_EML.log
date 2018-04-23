@@ -1221,5 +1221,5 @@ SP SP1[1] <GF_lib:SCFIFMs_EML:schematic>   freq=(200 MHz->4 GHz)
 .......................................
 
 Resource usage:
-  Total stopwatch time     =     3.45 seconds.
+  Total stopwatch time     =     3.26 seconds.
 

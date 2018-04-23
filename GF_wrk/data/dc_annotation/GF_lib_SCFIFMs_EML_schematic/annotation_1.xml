@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DCOPData Simulator="hpeesofsim" Version="1.0" Time="周三 4月 18 10:54:10 2018">
+<DCOPData Version="1.0" Simulator="hpeesofsim" Time="周四 4月 19 09:21:58 2018">
  <Controller name="HB1">
   <SweepCondition>
    <P>RFfreq: 4.0000000000000000e+08</P>

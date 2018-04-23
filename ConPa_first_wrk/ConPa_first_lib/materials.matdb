@@ -1,0 +1,13 @@
+<!DOCTYPE Materials>
+<Materials>
+    <Conductors>
+        <Conductor real="5.8e7 Siemens/m" mur_imag="" name="cu" mur_real="1" parmtype="1" imag=""/>
+    </Conductors>
+    <Dielectrics>
+        <Dielectric mur_imag="" name="Alumina" mur_real="1" er_imag="" er_loss="" loss_type="1" er_real="9.6" lowfreq="1 KHz" highfreq="1 THz" valuefreq="1 GHz"/>
+        <Dielectric mur_imag="" name="RF35" mur_real="1" er_imag="" er_loss="0.0018" loss_type="1" er_real="3.48" lowfreq="1 KHz" highfreq="1 THz" valuefreq="2 GHz"/>
+        <Dielectric mur_imag="" name="Rogers_R04350" mur_real="1" er_imag="" er_loss="0.004" loss_type="1" er_real="3.66" lowfreq="1 KHz" highfreq="1 THz" valuefreq="10 GHz"/>
+    </Dielectrics>
+    <Semiconductors/>
+    <roughness/>
+</Materials>

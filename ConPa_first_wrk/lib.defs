@@ -1,0 +1,7 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+INCLUDE $HOME/Desktop/Desktop/14liyanghua/GF_wrk/murata_lib_ads2011later_16061e_static/lib.defs
+INCLUDE $HOME/Desktop/Desktop/14liyanghua/GF_wrk/CGH40_r6_converted/lib.defs
+INCLUDE H:/myfirstideal_wrk/myfirstideal_wrk/CGH40_r6_converted/lib.defs
+DEFINE ConPa_first_lib ConPa_first_lib
+ASSIGN ConPa_first_lib libMode shared

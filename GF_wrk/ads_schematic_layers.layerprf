@@ -1,4 +1,4 @@
 <!DOCTYPE DisplayAttributes>
 <Lpp_Differences_List>
-    <LPP layer="ads_instance" purpose="drawing" protect="0" visible="1"/>
+    <LPP protect="0" layer="ads_instance" purpose="drawing" visible="1"/>
 </Lpp_Differences_List>

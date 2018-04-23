@@ -129,14 +129,14 @@
   </pin>
   <pin>
     <name>P18</name>
-    <net>N__19</net>
+    <net>P18</net>
     <layout>
       <shape>
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.03280787444</x>
-          <y>0.01271486408</y>
+          <x>-0.01009396</x>
+          <y>0.00513969</y>
         </point>
       </shape>
     </layout>
@@ -163,22 +163,22 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.04959999732</x>
-          <y>-0.00899999978</y>
+          <x>0.0495999008</x>
+          <y>-0.008999982</y>
         </point>
       </shape>
     </layout>
   </pin>
   <pin>
     <name>P20</name>
-    <net>N__19</net>
+    <net>P18</net>
     <layout>
       <shape>
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.03280787444</x>
-          <y>0.01271486408</y>
+          <x>-0.01009396</x>
+          <y>0.00513969</y>
         </point>
       </shape>
     </layout>
@@ -219,8 +219,8 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>-0.01699999648</x>
-          <y>0.00179999894</y>
+          <x>-0.016999966</x>
+          <y>0.0017999964</y>
         </point>
       </shape>
     </layout>
@@ -233,8 +233,8 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.0397999966</x>
-          <y>0.00909999958</y>
+          <x>0.0397999458</x>
+          <y>0.0091000072</y>
         </point>
       </shape>
     </layout>
@@ -255,14 +255,14 @@
   </pin>
   <pin>
     <name>P6</name>
-    <net>N__43</net>
+    <net>P6</net>
     <layout>
       <shape>
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>-0.00921669226</x>
-          <y>0.00524348202</y>
+          <x>0.036193984</x>
+          <y>0.013248386</y>
         </point>
       </shape>
     </layout>
@@ -283,14 +283,14 @@
   </pin>
   <pin>
     <name>P8</name>
-    <net>N__43</net>
+    <net>P6</net>
     <layout>
       <shape>
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>-0.00921669226</x>
-          <y>0.00524348202</y>
+          <x>0.036193984</x>
+          <y>0.013248386</y>
         </point>
       </shape>
     </layout>

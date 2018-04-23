@@ -1,0 +1,1123 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Resistor `I__1.X1.X2.R2' is shorted.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Capacitor `I__1.X1.X2.C8' is shorted.
+
+Warning detected by hpeesofsim in LinearCollapse 'I__1._2_' during analysis.
+    LinearCollapse is disabled because there is 'HB' analysis present.
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+CT ParamSweep1[1] <GF_lib:HB2TonePAE_FPswp:schematic>   RFfreq=(700e+06->875e+06)
+
+HB ParamSweep1[1].HB1[1/8] <GF_lib:HB2TonePAE_FPswp:schematic>  RFfreq=700e+06  RFpower=(0->17)
+Pt DC convergence is used.
+    Number of tones:   2.
+    Number of frequencies:   35.
+    Number of time samples:  256.
+    Number of HB equations (problem size): 28290.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: Krylov (GS_GMRES).
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__1.I__36.Gap1'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__1.I__36.Gap2'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__1.I__36.Gap4'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__1.I__36.Gap3'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `I__1.I__36.Tee4'
+
+    RFpower=0              0.00% 1/13
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	131.398 nA  	100.0             
+1 	243.191 pA  	100.0            	  1	1.053e-03   
+2 	21.8279 pA  	100.0	179.796 nV  	  1	4.017e-04   
+    RFpower=2             11.76% 2/13
+0 	2.31865 mA  	100.0             
+1 	76.9325 nA  	100.0            	  1	4.431e-04   
+2 	170.043 pA  	100.0            	  1	1.356e-03   
+3 	29.1038 pA  	100.0	267.838 nV  	  1	5.056e-04   
+
+    RFpower=4             23.53% 3/13
+0 	2.919 mA    	100.0             
+1 	122.033 nA  	100.0            	  1	5.578e-04   
+2 	320.245 pA  	100.0            	  1	1.751e-03   
+3 	21.8279 pA  	100.0	269.641 nV  	  1	6.366e-04   
+
+    RFpower=6             35.29% 4/13
+0 	3.67481 mA  	100.0             
+1 	193.648 nA  	100.0            	  1	7.022e-04   
+2 	671.47 pA   	100.0            	  1	2.161e-03   
+3 	34.0554 pA  	100.0	361.786 nV  	  1	8.020e-04   
+
+    RFpower=8             47.06% 5/13
+0 	4.62631 mA  	100.0             
+1 	307.397 nA  	100.0            	  1	8.840e-04   
+2 	1.32892 nA  	100.0            	  1	2.733e-03   
+3 	29.1038 pA  	100.0            	  1	1.954e-03   
+4 	29.1039 pA  	100.0	177.336 nV  	  1	1.008e-03   
+
+    RFpower=10            58.82% 6/13
+0 	5.82418 mA  	100.0             
+1 	488.018 nA  	100.0            	  1	1.113e-03   
+2 	2.6842 nA   	100.0            	  1	3.428e-03   
+3 	14.5519 pA  	100.0            	  1	2.460e-03   
+4 	14.5519 pA  	100.0	177.51 nV   	  2	1.363e-06   
+
+    RFpower=11            64.71% 7/13
+0 	3.4553 mA   	100.0             
+1 	342.785 nA  	100.0            	  1	1.401e-03   
+2 	2.1178 nA   	100.0            	  1	3.845e-03   
+3 	51.4259 pA  	100.0            	  1	1.443e-03   
+4 	30.4538 pA  	100.0	177.428 nV  	  1	1.424e-03   
+
+    RFpower=12            70.59% 8/13
+0 	3.87691 mA  	100.0             
+1 	432.066 nA  	100.0            	  1	1.572e-03   
+2 	3.02365 nA  	100.0            	  1	4.299e-03   
+3 	43.9169 pA  	100.0            	  1	1.700e-03   
+4 	29.1039 pA  	100.0	2.00611 nV  	  2	1.416e-05   
+
+    RFpower=13            76.47% 9/13
+0 	4.34996 mA  	100.0             
+1 	544.699 nA  	100.0            	  1	1.764e-03   
+2 	4.32406 nA  	100.0            	  1	4.803e-03   
+3 	18.643 pA   	100.0            	  1	3.473e-03   
+4 	14.552 pA   	100.0	88.9847 nV  	  2	2.751e-06   
+
+    RFpower=14            82.35% 10/13
+0 	4.88074 mA  	100.0             
+1 	686.78 nA   	100.0            	  1	1.979e-03   
+2 	6.07819 nA  	100.0            	  1	5.407e-03   
+3 	29.6255 pA  	100.0            	  1	3.897e-03   
+4 	29.1039 pA  	100.0	2.78739 nV  	  2	2.652e-05   
+
+    RFpower=15            88.24% 11/13
+0 	5.47628 mA  	100.0             
+1 	865.987 nA  	100.0            	  1	2.221e-03   
+2 	8.8309 nA   	100.0            	  1	6.000e-03   
+3 	130.159 pA  	100.0            	  1	2.564e-03   
+4 	21.8279 pA  	100.0	177.733 nV  	  2	4.227e-06   
+
+    RFpower=16            94.12% 12/13
+0 	6.14449 mA  	100.0             
+1 	1.09238 uA  	100.0            	  1	2.492e-03   
+2 	12.3312 nA  	100.0            	  1	6.777e-03   
+3 	90.724 pA   	100.0            	  1	4.637e-03   
+4 	21.8279 pA  	100.0	177.666 nV  	  2	5.282e-06   
+
+    RFpower=17           100.00% 13/13
+0 	6.89423 mA  	100.0             
+1 	1.37838 uA  	100.0            	  1	2.795e-03   
+2 	17.346 nA   	100.0            	  1	7.630e-03   
+3 	21.8279 pA  	100.0            	  2	4.244e-05   
+4 	14.552 pA   	100.0	177.448 nV  	  2	6.815e-06   
+
+
+HB ParamSweep1[1].HB1[2/8] <GF_lib:HB2TonePAE_FPswp:schematic>  RFfreq=725e+06  RFpower=(0->17)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=0              0.00% 1/13
+0 	125.378 nA  	100.0             
+1 	211.759 pA  	100.0            	  1	8.523e-04   
+2 	14.5519 pA  	100.0	19.5848 nV  	  1	7.018e-04   
+    RFpower=2             11.76% 2/13
+0 	2.31865 mA  	100.0             
+1 	73.3892 nA  	100.0            	  1	4.085e-04   
+2 	157.255 pA  	100.0            	  1	1.069e-03   
+3 	14.5519 pA  	100.0	89.7708 nV  	  1	4.283e-04   
+
+    RFpower=4             23.53% 3/13
+0 	2.919 mA    	100.0             
+1 	116.441 nA  	100.0            	  1	5.143e-04   
+2 	287.545 pA  	100.0            	  1	1.400e-03   
+3 	21.8279 pA  	100.0	90.754 nV   	  1	5.398e-04   
+
+    RFpower=6             35.29% 4/13
+0 	3.67481 mA  	100.0             
+1 	184.742 nA  	100.0            	  1	6.475e-04   
+2 	603.916 pA  	100.0            	  1	1.725e-03   
+3 	16.8483 pA  	100.0	181.544 nV  	  1	6.796e-04   
+
+    RFpower=8             47.06% 5/13
+0 	4.62631 mA  	100.0             
+1 	293.237 nA  	100.0            	  1	8.151e-04   
+2 	1.15534 nA  	100.0            	  1	2.215e-03   
+3 	21.8279 pA  	100.0            	  1	1.763e-03   
+4 	29.1039 pA  	100.0	88.7015 nV  	  1	8.550e-04   
+
+    RFpower=10            58.82% 6/13
+0 	5.82418 mA  	100.0             
+1 	465.568 nA  	100.0            	  1	1.026e-03   
+2 	2.32759 nA  	100.0            	  1	2.780e-03   
+3 	30.0071 pA  	100.0            	  1	1.095e-03   
+4 	29.1038 pA  	100.0	177.43 nV   	  2	1.003e-06   
+
+    RFpower=11            64.71% 7/13
+0 	3.4553 mA   	100.0             
+1 	326.994 nA  	100.0            	  1	1.292e-03   
+2 	1.86954 nA  	100.0            	  1	3.094e-03   
+3 	47.8856 pA  	100.0            	  1	1.209e-03   
+4 	29.8968 pA  	100.0	177.412 nV  	  1	1.207e-03   
+
+    RFpower=12            70.59% 8/13
+0 	3.87691 mA  	100.0             
+1 	412.232 nA  	100.0            	  1	1.449e-03   
+2 	2.5772 nA   	100.0            	  1	3.512e-03   
+3 	29.1039 pA  	100.0            	  1	2.794e-03   
+4 	29.1038 pA  	100.0	88.7084 nV  	  2	1.579e-06   
+
+    RFpower=13            76.47% 9/13
+0 	4.34996 mA  	100.0             
+1 	519.543 nA  	100.0            	  1	1.626e-03   
+2 	3.84531 nA  	100.0            	  1	3.850e-03   
+3 	63.9049 pA  	100.0            	  1	1.547e-03   
+4 	14.552 pA   	100.0	2.3679 nV   	  2	9.619e-06   
+
+    RFpower=14            82.35% 10/13
+0 	4.88074 mA  	100.0             
+1 	655.085 nA  	100.0            	  1	1.825e-03   
+2 	5.32636 nA  	100.0            	  1	4.363e-03   
+3 	75.7577 pA  	100.0            	  1	1.781e-03   
+4 	29.1039 pA  	100.0	3.20265 nV  	  2	1.442e-05   
+
+    RFpower=15            88.24% 11/13
+0 	5.47628 mA  	100.0             
+1 	826.122 nA  	100.0            	  1	2.047e-03   
+2 	7.41229 nA  	100.0            	  1	4.933e-03   
+3 	47.6464 pA  	100.0            	  1	3.145e-03   
+4 	29.1038 pA  	100.0	89.325 nV   	  2	3.238e-06   
+
+    RFpower=16            94.12% 12/13
+0 	6.14449 mA  	100.0             
+1 	1.04201 uA  	100.0            	  1	2.297e-03   
+2 	10.4397 nA  	100.0            	  1	5.550e-03   
+3 	116.665 pA  	100.0            	  1	2.608e-03   
+4 	21.8279 pA  	100.0	354.873 nV  	  2	3.957e-06   
+
+    RFpower=17           100.00% 13/13
+0 	6.89423 mA  	100.0             
+1 	1.31459 uA  	100.0            	  1	2.577e-03   
+2 	14.9542 nA  	100.0            	  1	6.199e-03   
+3 	90.7771 pA  	100.0            	  1	4.665e-03   
+4 	14.5521 pA  	100.0	90.1864 nV  	  2	5.323e-06   
+
+
+HB ParamSweep1[1].HB1[3/8] <GF_lib:HB2TonePAE_FPswp:schematic>  RFfreq=750e+06  RFpower=(0->17)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=0              0.00% 1/13
+0 	118.486 nA  	100.0             
+1 	190.2 pA    	100.0            	  1	7.128e-04   
+2 	21.8279 pA  	100.0	178.288 nV  	  1	2.876e-04   
+    RFpower=2             11.76% 2/13
+0 	2.31865 mA  	100.0             
+1 	69.3802 nA  	100.0            	  1	3.775e-04   
+2 	116.597 pA  	100.0            	  1	9.769e-04   
+3 	15.4697 pA  	100.0	266.688 nV  	  1	3.620e-04   
+
+    RFpower=4             23.53% 3/13
+0 	2.919 mA    	100.0             
+1 	110.011 nA  	100.0            	  1	4.753e-04   
+2 	268.926 pA  	100.0            	  1	1.152e-03   
+3 	14.552 pA   	100.0	178.723 nV  	  1	4.558e-04   
+
+    RFpower=6             35.29% 4/13
+0 	3.67481 mA  	100.0             
+1 	174.564 nA  	100.0            	  1	5.983e-04   
+2 	556.694 pA  	100.0            	  1	1.426e-03   
+3 	14.5519 pA  	100.0	91.4569 nV  	  1	5.736e-04   
+
+    RFpower=8             47.06% 5/13
+0 	4.62631 mA  	100.0             
+1 	277.06 nA   	100.0            	  1	7.532e-04   
+2 	1.04054 nA  	100.0            	  1	1.855e-03   
+3 	29.1039 pA  	100.0            	  1	7.215e-04   
+4 	14.552 pA   	100.0	88.6832 nV  	  1	7.221e-04   
+
+    RFpower=10            58.82% 6/13
+0 	5.82418 mA  	100.0             
+1 	439.823 nA  	100.0            	  1	9.483e-04   
+2 	2.09008 nA  	100.0            	  1	2.331e-03   
+3 	28.2754 pA  	100.0            	  1	9.077e-04   
+4 	14.5519 pA  	100.0	88.7075 nV  	  1	9.087e-04   
+
+    RFpower=11            64.71% 7/13
+0 	3.4553 mA   	100.0             
+1 	308.969 nA  	100.0            	  1	1.194e-03   
+2 	1.62935 nA  	100.0            	  1	2.629e-03   
+3 	59.6074 pA  	100.0            	  1	1.019e-03   
+4 	14.552 pA   	100.0	266.018 nV  	  2	9.147e-07   
+
+    RFpower=12            70.59% 8/13
+0 	3.87691 mA  	100.0             
+1 	389.364 nA  	100.0            	  1	1.339e-03   
+2 	2.34599 nA  	100.0            	  1	2.926e-03   
+3 	100.399 pA  	100.0            	  1	1.143e-03   
+4 	14.552 pA   	100.0	266.082 nV  	  2	1.151e-06   
+
+    RFpower=13            76.47% 9/13
+0 	4.34996 mA  	100.0             
+1 	490.811 nA  	100.0            	  1	1.503e-03   
+2 	3.39244 nA  	100.0            	  1	3.250e-03   
+3 	23.3824 pA  	100.0            	  1	1.441e-03   
+4 	14.5519 pA  	100.0	1.11398 nV  	  2	8.682e-06   
+
+    RFpower=14            82.35% 10/13
+0 	4.88074 mA  	100.0             
+1 	618.843 nA  	100.0            	  1	1.686e-03   
+2 	4.64346 nA  	100.0            	  1	3.707e-03   
+3 	28.7789 pA  	100.0            	  1	1.868e-03   
+4 	14.552 pA   	100.0	88.735 nV   	  2	1.813e-06   
+
+    RFpower=15            88.24% 11/13
+0 	5.47628 mA  	100.0             
+1 	780.39 nA   	100.0            	  1	1.892e-03   
+2 	6.66258 nA  	100.0            	  1	4.134e-03   
+3 	36.3766 pA  	100.0            	  1	2.491e-03   
+4 	29.1039 pA  	100.0	177.449 nV  	  2	2.287e-06   
+
+    RFpower=16            94.12% 12/13
+0 	6.14449 mA  	100.0             
+1 	984.229 nA  	100.0            	  1	2.123e-03   
+2 	9.39042 nA  	100.0            	  1	4.650e-03   
+3 	72.0894 pA  	100.0            	  1	2.351e-03   
+4 	21.8279 pA  	100.0	89.396 nV   	  2	2.955e-06   
+
+    RFpower=17           100.00% 13/13
+0 	6.89423 mA  	100.0             
+1 	1.24138 uA  	100.0            	  1	2.382e-03   
+2 	13.468 nA   	100.0            	  1	5.188e-03   
+3 	55.1824 pA  	100.0            	  1	4.554e-03   
+4 	29.1038 pA  	100.0	266.128 nV  	  2	3.612e-06   
+
+
+HB ParamSweep1[1].HB1[4/8] <GF_lib:HB2TonePAE_FPswp:schematic>  RFfreq=775e+06  RFpower=(0->17)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=0              0.00% 1/13
+0 	111.361 nA  	100.0             
+1 	173.072 pA  	100.0            	  1	6.000e-04   
+2 	21.8279 pA  	100.0	11.1771 nV  	  1	6.032e-04   
+    RFpower=2             11.76% 2/13
+0 	2.31865 mA  	100.0             
+1 	65.1853 nA  	100.0            	  1	3.496e-04   
+2 	119.095 pA  	100.0            	  1	7.835e-04   
+3 	15.0282 pA  	100.0	266.541 nV  	  1	3.050e-04   
+
+    RFpower=4             23.53% 3/13
+0 	2.919 mA    	100.0             
+1 	103.427 nA  	100.0            	  1	4.401e-04   
+2 	231.913 pA  	100.0            	  1	9.998e-04   
+3 	14.5519 pA  	100.0	89.7344 nV  	  1	3.839e-04   
+
+    RFpower=6             35.29% 4/13
+0 	3.67481 mA  	100.0             
+1 	164.073 nA  	100.0            	  1	5.541e-04   
+2 	460.466 pA  	100.0            	  1	1.263e-03   
+3 	14.5519 pA  	100.0	90.8857 nV  	  1	4.822e-04   
+
+    RFpower=8             47.06% 5/13
+0 	4.62631 mA  	100.0             
+1 	260.327 nA  	100.0            	  1	6.975e-04   
+2 	941.841 pA  	100.0            	  1	1.572e-03   
+3 	21.8279 pA  	100.0            	  1	6.064e-04   
+4 	21.8279 pA  	100.0	177.376 nV  	  1	6.085e-04   
+
+    RFpower=10            58.82% 6/13
+0 	5.82418 mA  	100.0             
+1 	413.272 nA  	100.0            	  1	8.781e-04   
+2 	1.87981 nA  	100.0            	  1	1.981e-03   
+3 	29.1038 pA  	100.0            	  1	7.634e-04   
+4 	38.019 pA   	100.0	266.078 nV  	  1	7.662e-04   
+
+    RFpower=11            64.71% 7/13
+0 	3.4553 mA   	100.0             
+1 	290.264 nA  	100.0            	  1	1.106e-03   
+2 	1.44637 nA  	100.0            	  1	2.252e-03   
+3 	86.3867 pA  	100.0            	  1	8.585e-04   
+4 	29.1038 pA  	100.0	177.479 nV  	  1	8.593e-04   
+
+    RFpower=12            70.59% 8/13
+0 	3.87691 mA  	100.0             
+1 	365.821 nA  	100.0            	  1	1.240e-03   
+2 	2.15493 nA  	100.0            	  1	2.459e-03   
+3 	21.8279 pA  	100.0            	  1	9.515e-04   
+4 	47.9924 pA  	100.0	266.021 nV  	  1	9.641e-04   
+
+    RFpower=13            76.47% 9/13
+0 	4.34996 mA  	100.0             
+1 	461.174 nA  	100.0            	  1	1.392e-03   
+2 	2.9727 nA   	100.0            	  1	2.797e-03   
+3 	21.1994 pA  	100.0            	  1	1.119e-03   
+4 	21.8279 pA  	100.0	266.204 nV  	  2	1.032e-06   
+
+    RFpower=14            82.35% 10/13
+0 	4.88074 mA  	100.0             
+1 	581.256 nA  	100.0            	  1	1.562e-03   
+2 	4.29679 nA  	100.0            	  1	3.104e-03   
+3 	64.6937 pA  	100.0            	  1	1.209e-03   
+4 	29.1038 pA  	100.0	177.573 nV  	  2	1.301e-06   
+
+    RFpower=15            88.24% 11/13
+0 	5.47628 mA  	100.0             
+1 	732.973 nA  	100.0            	  1	1.752e-03   
+2 	6.05273 nA  	100.0            	  1	3.493e-03   
+3 	30.5367 pA  	100.0            	  1	1.871e-03   
+4 	21.8279 pA  	100.0	89.0512 nV  	  2	1.646e-06   
+
+    RFpower=16            94.12% 12/13
+0 	6.14449 mA  	100.0             
+1 	924.315 nA  	100.0            	  1	1.966e-03   
+2 	8.52039 nA  	100.0            	  1	3.932e-03   
+3 	24.8902 pA  	100.0            	  1	3.770e-03   
+4 	21.8279 pA  	100.0	1.90706 nV  	  2	1.335e-05   
+
+    RFpower=17           100.00% 13/13
+0 	6.89423 mA  	100.0             
+1 	1.16593 uA  	100.0            	  1	2.206e-03   
+2 	12.0558 nA  	100.0            	  1	4.416e-03   
+3 	39.6867 pA  	100.0            	  1	4.229e-03   
+4 	21.8279 pA  	100.0	266.098 nV  	  2	2.577e-06   
+
+
+HB ParamSweep1[1].HB1[5/8] <GF_lib:HB2TonePAE_FPswp:schematic>  RFfreq=800e+06  RFpower=(0->17)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=0              0.00% 1/13
+0 	104.399 nA  	100.0             
+1 	156.212 pA  	100.0            	  1	5.012e-04   
+2 	21.8279 pA  	100.0	89.2883 nV  	  1	2.031e-04   
+    RFpower=2             11.76% 2/13
+0 	2.31865 mA  	100.0             
+1 	61.0973 nA  	100.0            	  1	3.244e-04   
+2 	116.241 pA  	100.0            	  1	6.273e-04   
+3 	21.8279 pA  	100.0	177.776 nV  	  1	2.558e-04   
+
+    RFpower=4             23.53% 3/13
+0 	2.919 mA    	100.0             
+1 	96.9236 nA  	100.0            	  1	4.085e-04   
+2 	225.411 pA  	100.0            	  1	8.038e-04   
+3 	24.5175 pA  	100.0	355.538 nV  	  1	3.221e-04   
+
+    RFpower=6             35.29% 4/13
+0 	3.67481 mA  	100.0             
+1 	153.786 nA  	100.0            	  1	5.142e-04   
+2 	427.181 pA  	100.0            	  1	1.044e-03   
+3 	14.5519 pA  	100.0	90.4471 nV  	  1	4.043e-04   
+
+    RFpower=8             47.06% 5/13
+0 	4.62631 mA  	100.0             
+1 	244.046 nA  	100.0            	  1	6.474e-04   
+2 	844.982 pA  	100.0            	  1	1.323e-03   
+3 	38.8933 pA  	100.0            	  1	5.104e-04   
+4 	48.7487 pA  	100.0	443.414 nV  	  1	5.105e-04   
+
+    RFpower=10            58.82% 6/13
+0 	5.82418 mA  	100.0             
+1 	387.263 nA  	100.0            	  1	8.150e-04   
+2 	1.72121 nA  	100.0            	  1	1.648e-03   
+3 	25.3289 pA  	100.0            	  1	6.357e-04   
+4 	29.1038 pA  	100.0	177.371 nV  	  1	6.426e-04   
+
+    RFpower=11            64.71% 7/13
+0 	3.4553 mA   	100.0             
+1 	272.032 nA  	100.0            	  1	1.026e-03   
+2 	1.38709 nA  	100.0            	  1	1.826e-03   
+3 	14.552 pA   	100.0            	  1	2.021e-03   
+4 	21.8279 pA  	100.0	121.264 pV  	  2	2.942e-06   
+
+    RFpower=12            70.59% 8/13
+0 	3.87691 mA  	100.0             
+1 	342.822 nA  	100.0            	  1	1.151e-03   
+2 	1.86246 nA  	100.0            	  1	2.112e-03   
+3 	17.0715 pA  	100.0            	  1	7.839e-04   
+4 	29.1039 pA  	100.0	88.6891 nV  	  1	8.087e-04   
+
+    RFpower=13            76.47% 9/13
+0 	4.34996 mA  	100.0             
+1 	432.104 nA  	100.0            	  1	1.292e-03   
+2 	2.66596 nA  	100.0            	  1	2.355e-03   
+3 	36.9918 pA  	100.0            	  1	8.879e-04   
+4 	29.1038 pA  	100.0	88.8333 nV  	  1	9.084e-04   
+
+    RFpower=14            82.35% 10/13
+0 	4.88074 mA  	100.0             
+1 	544.635 nA  	100.0            	  1	1.449e-03   
+2 	3.82165 nA  	100.0            	  1	2.623e-03   
+3 	43.0274 pA  	100.0            	  1	9.827e-04   
+4 	14.5519 pA  	100.0	1.046 nV    	  2	4.381e-06   
+
+    RFpower=15            88.24% 11/13
+0 	5.47628 mA  	100.0             
+1 	686.657 nA  	100.0            	  1	1.626e-03   
+2 	5.39123 nA  	100.0            	  1	2.950e-03   
+3 	50.4274 pA  	100.0            	  1	1.098e-03   
+4 	29.1038 pA  	100.0	177.346 nV  	  2	1.126e-06   
+
+    RFpower=16            94.12% 12/13
+0 	6.14449 mA  	100.0             
+1 	865.98 nA   	100.0            	  1	1.824e-03   
+2 	7.62021 nA  	100.0            	  1	3.314e-03   
+3 	34.6315 pA  	100.0            	  1	1.904e-03   
+4 	14.5519 pA  	100.0	177.898 nV  	  2	1.424e-06   
+
+    RFpower=17           100.00% 13/13
+0 	6.89423 mA  	100.0             
+1 	1.09203 uA  	100.0            	  1	2.047e-03   
+2 	10.8929 nA  	100.0            	  1	3.699e-03   
+3 	44.6232 pA  	100.0            	  1	2.699e-03   
+4 	29.1039 pA  	100.0	2.80067 nV  	  2	1.204e-05   
+
+
+HB ParamSweep1[1].HB1[6/8] <GF_lib:HB2TonePAE_FPswp:schematic>  RFfreq=825e+06  RFpower=(0->17)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=0              0.00% 1/13
+0 	97.8292 nA  	100.0             
+1 	140.113 pA  	100.0            	  1	4.107e-04   
+2 	14.9545 pA  	100.0	355.133 nV  	  1	1.696e-04   
+    RFpower=2             11.76% 2/13
+0 	2.31865 mA  	100.0             
+1 	57.2761 nA  	100.0            	  1	3.022e-04   
+2 	104.343 pA  	100.0            	  1	5.136e-04   
+3 	29.1038 pA  	100.0	355.011 nV  	  1	2.135e-04   
+
+    RFpower=4             23.53% 3/13
+0 	2.919 mA    	100.0             
+1 	90.8327 nA  	100.0            	  1	3.804e-04   
+2 	190.565 pA  	100.0            	  1	6.845e-04   
+3 	29.1038 pA  	100.0	177.994 nV  	  1	2.688e-04   
+
+    RFpower=6             35.29% 4/13
+0 	3.67481 mA  	100.0             
+1 	144.103 nA  	100.0            	  1	4.789e-04   
+2 	366.641 pA  	100.0            	  1	8.828e-04   
+3 	29.1038 pA  	100.0	178.641 nV  	  1	3.384e-04   
+
+    RFpower=8             47.06% 5/13
+0 	4.62631 mA  	100.0             
+1 	228.607 nA  	100.0            	  1	6.029e-04   
+2 	770.698 pA  	100.0            	  1	1.077e-03   
+3 	21.8279 pA  	100.0	37.4606 nV  	  1	1.424e-03   
+
+    RFpower=10            58.82% 6/13
+0 	5.82418 mA  	100.0             
+1 	362.866 nA  	100.0            	  1	7.590e-04   
+2 	1.52407 nA  	100.0            	  1	1.366e-03   
+3 	29.1038 pA  	100.0            	  1	5.223e-04   
+4 	47.6457 pA  	100.0	354.677 nV  	  1	5.363e-04   
+
+    RFpower=11            64.71% 7/13
+0 	3.4553 mA   	100.0             
+1 	254.84 nA   	100.0            	  1	9.555e-04   
+2 	1.2395 nA   	100.0            	  1	1.502e-03   
+3 	21.8279 pA  	100.0	59.2705 nV  	  1	2.024e-03   
+
+    RFpower=12            70.59% 8/13
+0 	3.87691 mA  	100.0             
+1 	321.127 nA  	100.0            	  1	1.072e-03   
+2 	1.71423 nA  	100.0            	  1	1.710e-03   
+3 	21.8279 pA  	100.0            	  1	6.605e-04   
+4 	14.552 pA   	100.0	312.223 pV  	  2	2.490e-06   
+
+    RFpower=13            76.47% 9/13
+0 	4.34996 mA  	100.0             
+1 	404.739 nA  	100.0            	  1	1.203e-03   
+2 	2.40609 nA  	100.0            	  1	1.929e-03   
+3 	18.5412 pA  	100.0            	  1	7.225e-04   
+4 	33.7913 pA  	100.0	177.356 nV  	  1	7.575e-04   
+
+    RFpower=14            82.35% 10/13
+0 	4.88074 mA  	100.0             
+1 	510.149 nA  	100.0            	  1	1.350e-03   
+2 	3.4065 nA   	100.0            	  1	2.165e-03   
+3 	58.8624 pA  	100.0            	  1	8.346e-04   
+4 	37.9715 pA  	100.0	177.418 nV  	  1	8.499e-04   
+
+    RFpower=15            88.24% 11/13
+0 	5.47628 mA  	100.0             
+1 	643.234 nA  	100.0            	  1	1.514e-03   
+2 	4.76286 nA  	100.0            	  1	2.448e-03   
+3 	45.7052 pA  	100.0            	  1	9.261e-04   
+4 	29.1039 pA  	100.0	88.961 nV   	  1	9.546e-04   
+
+    RFpower=16            94.12% 12/13
+0 	6.14449 mA  	100.0             
+1 	810.964 nA  	100.0            	  1	1.699e-03   
+2 	6.90199 nA  	100.0            	  1	2.708e-03   
+3 	52.7751 pA  	100.0            	  1	1.040e-03   
+4 	14.552 pA   	100.0	266.179 nV  	  2	9.554e-07   
+
+    RFpower=17           100.00% 13/13
+0 	6.89423 mA  	100.0             
+1 	1.02269 uA  	100.0            	  1	1.906e-03   
+2 	9.68294 nA  	100.0            	  1	3.058e-03   
+3 	23.3101 pA  	100.0            	  1	3.998e-03   
+4 	14.552 pA   	100.0	88.717 nV   	  2	1.206e-06   
+
+
+HB ParamSweep1[1].HB1[7/8] <GF_lib:HB2TonePAE_FPswp:schematic>  RFfreq=850e+06  RFpower=(0->17)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=0              0.00% 1/13
+0 	91.774 nA   	100.0             
+1 	125.068 pA  	100.0            	  1	3.274e-04   
+2 	29.1038 pA  	100.0	177.694 nV  	  1	1.406e-04   
+    RFpower=2             11.76% 2/13
+0 	2.31865 mA  	100.0             
+1 	53.7295 nA  	100.0            	  1	2.836e-04   
+2 	93.2012 pA  	100.0            	  1	4.091e-04   
+3 	18.2052 pA  	100.0	354.937 nV  	  1	1.770e-04   
+
+    RFpower=4             23.53% 3/13
+0 	2.919 mA    	100.0             
+1 	85.2348 nA  	100.0            	  1	3.570e-04   
+2 	147.254 pA  	100.0            	  1	6.038e-04   
+3 	29.1038 pA  	100.0	6.65707 nV  	  1	1.033e-03   
+
+    RFpower=6             35.29% 4/13
+0 	3.67481 mA  	100.0             
+1 	135.203 nA  	100.0            	  1	4.495e-04   
+2 	351.485 pA  	100.0            	  1	6.737e-04   
+3 	28.9009 pA  	100.0	355.708 nV  	  1	2.805e-04   
+
+    RFpower=8             47.06% 5/13
+0 	4.62631 mA  	100.0             
+1 	214.523 nA  	100.0            	  1	5.659e-04   
+2 	675.344 pA  	100.0            	  1	8.712e-04   
+3 	21.8279 pA  	100.0	179.364 nV  	  1	3.539e-04   
+
+    RFpower=10            58.82% 6/13
+0 	5.82418 mA  	100.0             
+1 	340.469 nA  	100.0            	  1	7.124e-04   
+2 	1.38405 nA  	100.0            	  1	1.079e-03   
+3 	45.8277 pA  	100.0            	  1	4.456e-04   
+4 	14.5519 pA  	100.0	88.7695 nV  	  1	4.446e-04   
+
+    RFpower=11            64.71% 7/13
+0 	3.4553 mA   	100.0             
+1 	239.132 nA  	100.0            	  1	8.969e-04   
+2 	1.07731 nA  	100.0            	  1	1.221e-03   
+3 	52.2219 pA  	100.0	358.09 nV   	  1	4.989e-04   
+
+    RFpower=12            70.59% 8/13
+0 	3.87691 mA  	100.0             
+1 	301.359 nA  	100.0            	  1	1.006e-03   
+2 	1.47952 nA  	100.0            	  1	1.398e-03   
+3 	14.7786 pA  	100.0            	  1	5.813e-04   
+4 	29.0509 pA  	100.0	177.398 nV  	  1	5.597e-04   
+
+    RFpower=13            76.47% 9/13
+0 	4.34996 mA  	100.0             
+1 	379.825 nA  	100.0            	  1	1.129e-03   
+2 	2.13302 nA  	100.0            	  1	1.549e-03   
+3 	50.0755 pA  	100.0            	  1	6.310e-04   
+4 	48.9565 pA  	100.0	266.067 nV  	  1	6.280e-04   
+
+    RFpower=14            82.35% 10/13
+0 	4.88074 mA  	100.0             
+1 	478.77 nA   	100.0            	  1	1.267e-03   
+2 	3.08937 nA  	100.0            	  1	1.712e-03   
+3 	19.8724 pA  	100.0            	  1	8.047e-04   
+4 	29.1038 pA  	100.0	721.863 pV  	  2	1.212e-05   
+
+    RFpower=15            88.24% 11/13
+0 	5.47628 mA  	100.0             
+1 	603.608 nA  	100.0            	  1	1.421e-03   
+2 	4.27598 nA  	100.0            	  1	1.950e-03   
+3 	43.6742 pA  	100.0            	  1	8.417e-04   
+4 	20.6029 pA  	100.0	88.7313 nV  	  1	7.907e-04   
+
+    RFpower=16            94.12% 12/13
+0 	6.14449 mA  	100.0             
+1 	761.15 nA   	100.0            	  1	1.595e-03   
+2 	6.10084 nA  	100.0            	  1	2.178e-03   
+3 	93.0783 pA  	100.0            	  1	9.216e-04   
+4 	46.4135 pA  	100.0	177.46 nV   	  1	8.869e-04   
+
+    RFpower=17           100.00% 13/13
+0 	6.89423 mA  	100.0             
+1 	960.06 nA   	100.0            	  1	1.789e-03   
+2 	8.53256 nA  	100.0            	  1	2.465e-03   
+3 	58.2602 pA  	100.0            	  1	1.312e-03   
+4 	52.12 pA    	100.0	177.399 nV  	  1	9.955e-04   
+
+
+HB ParamSweep1[1].HB1[8/8] <GF_lib:HB2TonePAE_FPswp:schematic>  RFfreq=875e+06  RFpower=(0->17)
+    The general solver is used for HB Krylov preconditioning.
+    RFpower=0              0.00% 1/13
+0 	86.2727 nA  	100.0             
+1 	111.362 pA  	100.0            	  1	2.608e-04   
+2 	21.8279 pA  	100.0	3.68526 nV  	  1	6.852e-04   
+    RFpower=2             11.76% 2/13
+0 	2.31865 mA  	100.0             
+1 	50.503 nA   	100.0            	  1	2.717e-04   
+2 	78.9303 pA  	100.0            	  1	3.376e-04   
+3 	21.8279 pA  	100.0	2.70377 nV  	  1	8.490e-04   
+
+    RFpower=4             23.53% 3/13
+0 	2.919 mA    	100.0             
+1 	80.1053 nA  	100.0            	  1	3.420e-04   
+2 	159.875 pA  	100.0            	  1	4.209e-04   
+3 	22.1147 pA  	100.0	355.096 nV  	  1	1.831e-04   
+
+    RFpower=6             35.29% 4/13
+0 	3.67481 mA  	100.0             
+1 	127.077 nA  	100.0            	  1	4.305e-04   
+2 	338.164 pA  	100.0            	  1	5.089e-04   
+3 	20.8899 pA  	100.0	266.875 nV  	  1	2.305e-04   
+
+    RFpower=8             47.06% 5/13
+0 	4.62631 mA  	100.0             
+1 	201.664 nA  	100.0            	  1	5.420e-04   
+2 	597.075 pA  	100.0            	  1	7.005e-04   
+3 	14.552 pA   	100.0	21.4077 nV  	  1	1.657e-03   
+
+    RFpower=10            58.82% 6/13
+0 	5.82418 mA  	100.0             
+1 	320.112 nA  	100.0            	  1	6.824e-04   
+2 	1.21549 nA  	100.0            	  1	8.708e-04   
+3 	21.8279 pA  	100.0	91.9282 nV  	  1	3.749e-04   
+
+    RFpower=11            64.71% 7/13
+0 	3.4553 mA   	100.0             
+1 	224.879 nA  	100.0            	  1	8.590e-04   
+2 	929.754 pA  	100.0            	  1	9.987e-04   
+3 	14.5519 pA  	100.0	91.2184 nV  	  1	4.169e-04   
+
+    RFpower=12            70.59% 8/13
+0 	3.87691 mA  	100.0             
+1 	283.414 nA  	100.0            	  1	9.638e-04   
+2 	1.29257 nA  	100.0            	  1	1.135e-03   
+3 	14.552 pA   	100.0	92.4561 nV  	  1	4.748e-04   
+
+    RFpower=13            76.47% 9/13
+0 	4.34996 mA  	100.0             
+1 	357.197 nA  	100.0            	  1	1.081e-03   
+2 	1.87065 nA  	100.0            	  1	1.253e-03   
+3 	29.1038 pA  	100.0            	  1	5.494e-04   
+4 	29.1039 pA  	100.0	88.744 nV   	  1	5.158e-04   
+
+    RFpower=14            82.35% 10/13
+0 	4.88074 mA  	100.0             
+1 	450.225 nA  	100.0            	  1	1.213e-03   
+2 	2.66919 nA  	100.0            	  1	1.398e-03   
+3 	21.8279 pA  	100.0            	  1	3.308e-03   
+4 	29.1038 pA  	100.0	88.6583 nV  	  1	5.793e-04   
+
+    RFpower=15            88.24% 11/13
+0 	5.47628 mA  	100.0             
+1 	567.659 nA  	100.0            	  1	1.361e-03   
+2 	3.81723 nA  	100.0            	  1	1.557e-03   
+3 	98.519 pA   	100.0            	  1	6.570e-04   
+4 	39.7626 pA  	100.0	177.617 nV  	  1	6.495e-04   
+
+    RFpower=16            94.12% 12/13
+0 	6.14449 mA  	100.0             
+1 	715.887 nA  	100.0            	  1	1.528e-03   
+2 	5.26876 nA  	100.0            	  1	1.781e-03   
+3 	70.3383 pA  	100.0            	  1	7.705e-04   
+4 	44.674 pA   	100.0	177.413 nV  	  1	7.295e-04   
+
+    RFpower=17           100.00% 13/13
+0 	6.89423 mA  	100.0             
+1 	902.842 nA  	100.0            	  1	1.714e-03   
+2 	7.58484 nA  	100.0            	  1	1.975e-03   
+3 	26.2113 pA  	100.0            	  1	1.639e-03   
+4 	25.2062 pA  	100.0	89.0402 nV  	  1	8.164e-04   
+
+
+CT I__1.Sweep1[1] <GF_lib:HB2TonePAE_FPswp:schematic>   I__1.RF=(400e-03->3.2)
+
+HB I__1.Sweep1[1].I__1.HB1[1/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=400e-03  I__1.pavs=28
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 4510.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: Krylov (GS_GMRES).
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+Warning detected by hpeesofsim during HB analysis `I__1.HB1'.
+    For source `PORT1', (1 x freq[2])=8.50005e+08 Hz is 5.0005e+07 Hz 
+        away from the closest analysis frequency at 8e+08 Hz.
+        The maximum allowed frequency difference is 800 Hz.
+        This spectral component is turned off for this simulation.
+Warning detected by hpeesofsim during HB analysis `I__1.HB1'.
+    For source `PORT1', (1 x freq[1])=8.49995e+08 Hz is 4.9995e+07 Hz 
+        away from the closest analysis frequency at 8e+08 Hz.
+        The maximum allowed frequency difference is 800 Hz.
+        This spectral component is turned off for this simulation.
+    I__1.pavs=28           100.00% 1/1
+0 	85.3776 mA  	100.0             
+1 	832.286 nA  	100.0            	  1	1.853e-03   
+2 	55.284 pA   	100.0            	  1	6.820e-07   
+3 	29.1038 pA  	100.0	91.9945 nV  	  1	5.984e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[2/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=450e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+Warning detected by hpeesofsim during HB analysis `I__1.HB1'.
+    For source `PORT1', (1 x freq[2])=8.50005e+08 Hz is 4.9995e+07 Hz 
+        away from the closest analysis frequency at 9e+08 Hz.
+        The maximum allowed frequency difference is 900 Hz.
+        This spectral component is turned off for this simulation.
+Warning detected by hpeesofsim during HB analysis `I__1.HB1'.
+    For source `PORT1', (1 x freq[1])=8.49995e+08 Hz is 5.0005e+07 Hz 
+        away from the closest analysis frequency at 9e+08 Hz.
+        The maximum allowed frequency difference is 900 Hz.
+        This spectral component is turned off for this simulation.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	21.8279 pA  	100.0	177.335 nV  	  1	9.809e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[3/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=500e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	21.8279 pA  	100.0	88.6607 nV  	  1	8.123e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[4/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=550e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	14.5519 pA  	100.0	88.6756 nV  	  1	1.780e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[5/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=600e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	88.6653 nV  	  1	8.708e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[6/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=650e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	21.8279 pA  	100.0	8.02501 pV  	  1	1.139e-07   
+
+HB I__1.Sweep1[1].I__1.HB1[7/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=700e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	21.8279 pA  	100.0	177.342 nV  	  1	1.254e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[8/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=750e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	14.5519 pA  	100.0	88.6707 nV  	  1	9.242e-13   
+
+HB I__1.Sweep1[1].I__1.HB1[9/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=800e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	177.339 nV  	  1	5.929e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[10/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=850e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	177.333 nV  	  1	7.051e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[11/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=900e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	266 nV      	  1	5.894e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[12/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=950e-03  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	88.6675 nV  	  1	2.122e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[13/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	177.332 nV  	  1	1.762e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[14/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.05  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	21.8279 pA  	100.0	13.0598 pV  	  1	1.998e-07   
+
+HB I__1.Sweep1[1].I__1.HB1[15/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.1  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	14.5519 pA  	100.0	177.338 nV  	  1	6.021e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[16/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.15  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	29.1038 pA  	100.0	354.672 nV  	  1	1.215e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[17/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.2  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	21.8279 pA  	100.0	354.672 nV  	  1	1.171e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[18/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.25  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	29.1038 pA  	100.0	88.6674 nV  	  1	2.483e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[19/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.3  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	29.1038 pA  	100.0	265.996 nV  	  1	2.313e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[20/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.35  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	29.1038 pA  	100.0	354.662 nV  	  1	4.746e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[21/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.4  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	21.8279 pA  	100.0	354.66 nV   	  1	7.382e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[22/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.45  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	14.5519 pA  	100.0	266.001 nV  	  1	1.852e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[23/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.5  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	30.6322 pV  	  1	7.925e-09   
+
+HB I__1.Sweep1[1].I__1.HB1[24/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.55  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	13.7869 pV  	  1	1.182e-07   
+
+HB I__1.Sweep1[1].I__1.HB1[25/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.6  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	21.8279 pA  	100.0	266.007 nV  	  1	1.051e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[26/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.65  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	21.8279 pA  	100.0	265.995 nV  	  1	1.687e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[27/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.7  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	29.1038 pA  	100.0	88.6661 nV  	  1	4.034e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[28/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.75  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	29.1038 pA  	100.0	177.331 nV  	  1	5.011e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[29/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.8  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	21.8279 pA  	100.0	11.6547 pV  	  1	9.301e-08   
+
+HB I__1.Sweep1[1].I__1.HB1[30/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.85  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	14.5519 pA  	100.0	24.0722 pV  	  1	3.540e-08   
+
+HB I__1.Sweep1[1].I__1.HB1[31/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.9  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	88.6655 nV  	  1	1.284e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[32/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=1.95  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	266.007 nV  	  1	1.965e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[33/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	354.664 nV  	  1	3.961e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[34/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.05  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	29.1038 pA  	100.0	265.995 nV  	  1	9.514e-13   
+
+HB I__1.Sweep1[1].I__1.HB1[35/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.1  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	21.8279 pA  	100.0	88.6634 nV  	  1	3.367e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[36/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.15  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	14.5519 pA  	100.0	43.6306 pV  	  1	7.685e-08   
+
+HB I__1.Sweep1[1].I__1.HB1[37/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.2  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	36.38 pV    	  1	6.689e-09   
+
+HB I__1.Sweep1[1].I__1.HB1[38/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.25  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	88.6691 nV  	  1	1.842e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[39/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.3  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	177.345 nV  	  1	3.697e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[40/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.35  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	177.342 nV  	  1	4.512e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[41/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.4  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	29.1042 pV  	  1	1.483e-07   
+
+HB I__1.Sweep1[1].I__1.HB1[42/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.45  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	29.1038 pA  	100.0	88.6627 nV  	  1	1.573e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[43/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.5  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	21.8279 pA  	100.0	88.6653 nV  	  1	6.203e-13   
+
+HB I__1.Sweep1[1].I__1.HB1[44/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.55  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	14.5519 pA  	100.0	21.828 pV   	  1	5.595e-09   
+
+HB I__1.Sweep1[1].I__1.HB1[45/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.6  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	14.5521 pV  	  1	7.835e-09   
+
+HB I__1.Sweep1[1].I__1.HB1[46/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.65  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	21.8279 pA  	100.0	21.8281 pV  	  1	6.697e-08   
+
+HB I__1.Sweep1[1].I__1.HB1[47/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.7  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	29.1038 pA  	100.0	14.5521 pV  	  1	1.757e-07   
+
+HB I__1.Sweep1[1].I__1.HB1[48/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.75  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	29.1038 pA  	100.0	354.676 nV  	  1	1.159e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[49/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.8  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	21.8279 pA  	100.0	443.332 nV  	  1	1.156e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[50/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.85  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	29.1038 pA  	100.0	177.335 nV  	  1	3.863e-12   
+
+HB I__1.Sweep1[1].I__1.HB1[51/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.9  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	14.5519 pA  	100.0	88.6686 nV  	  1	5.058e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[52/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=2.95  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	29.1038 pA  	100.0	88.6643 nV  	  1	7.917e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[53/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=3  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	29.1038 pA  	100.0             
+1 	21.8279 pA  	100.0	177.338 nV  	  1	3.723e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[54/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=3.05  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	21.8279 pA  	100.0	88.6661 nV  	  1	4.396e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[55/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=3.1  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	21.8279 pA  	100.0             
+1 	14.5519 pA  	100.0	88.67 nV    	  1	1.967e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[56/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=3.15  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.5519 pA  	100.0             
+1 	14.5519 pA  	100.0	88.6707 nV  	  1	3.084e-11   
+
+HB I__1.Sweep1[1].I__1.HB1[57/57] <GF_lib:HB2TonePAE_FPswp:schematic>  I__1.RF=3.2  I__1.pavs=28
+    The general solver is used for HB Krylov preconditioning.
+    I__1.pavs=28           100.00% 1/1
+0 	14.552 pA   	100.0             
+1 	21.8279 pA  	100.0	88.6649 nV  	  1	6.347e-12   
+
+SP I__1.SP1[1] <GF_lib:HB2TonePAE_FPswp:schematic>   freq=(400 MHz->3.4 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Resource usage:
+  Total stopwatch time     =     5.26 seconds.
+

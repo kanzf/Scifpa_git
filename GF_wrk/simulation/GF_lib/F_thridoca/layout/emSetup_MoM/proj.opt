@@ -1,6 +1,6 @@
 simulationMode 1;
 # simDir "G:\scifpa_git\Scifpa_git\GF_wrk\simulation\GF_lib\F_thridoca\layout\emSetup_MoM";
-# simTag "M180418191706";
+# simTag "M180420100126";
 logFile "proj.log";
 processPriority Normal;
 mesh_reduction ON;

@@ -26,7 +26,7 @@ scaleX 1.000000
 scaleY 1.000000
 toArcRadius 3.000000
 miterVertexLength 10.000000
-portOrientation -90.000000
+portOrientation 10000.000000
 plottingDepth 10
 bboxColor 3
 selectColor 99
@@ -36,8 +36,8 @@ pinSize 5.000000
 teeColor 3
 teeSize 5.000000
 portColor 5
-backgroundColor 0
-foregroundColor 41
+backgroundColor 105
+foregroundColor 0
 globalArcResolution 5.000000
 selectFilter 9727
 selectMode 1
@@ -53,8 +53,8 @@ majorGridDisplayX 100
 majorGridDisplayY 100
 majorGridDisplayOn 1
 gridDisplayMode 0
-gridSnapOn 0
-gridSnapMode 7
+gridSnapOn 1
+gridSnapMode 87
 gridColor 104
 windowLLX -200.000000
 windowLLY -200.000000
@@ -139,7 +139,7 @@ genericArtworkSize 40.000000
 plotLessThanMinPixels 1
 plotDepthForLessThanMinPixels 2
 newRouteAroundInstText 0
-dsePrefLayoutLayer default
+dsePrefLayoutLayer cond:drawing
 dveSortMode 0
 newRouteAroundInstSym 1
 onscreenCoordMode 2

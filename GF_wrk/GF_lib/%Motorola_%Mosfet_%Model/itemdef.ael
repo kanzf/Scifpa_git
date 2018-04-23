@@ -1,2 +1,0 @@
-// Copyright 2010 - 2013 Keysight Technologies, Inc   
-create_item("Motorola_Mosfet_Model","Motorola_Mosfet_Model","X",16,-1,NULL,"Component Parameters",NULL,"%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","Motorola_Mosfet_Model","%t%b%r%38?%:\n%39?all_parm%A%:%30?%s%:%k%?[%1i]%;=%s%;%;%;%e%e%;","SYM_HP_MOS",3,NULL,0);

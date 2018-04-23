@@ -1,0 +1,17 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack BAL_TYPE="NONE" BAL_NUM="0">
+        <material materialname="AIR" BAL_TYPE="INHERIT" BAL_NUM="0"/>
+        <interface materialname="PERFECT_CONDUCTOR" thick="0" groundplane="1" BAL_TYPE="NONE" thickunit="micron" BAL_NUM="0"/>
+        <material materialname="RF35" thick="30" BAL_TYPE="INHERIT" thickunit="mil" BAL_NUM="0"/>
+        <interface materialname="" thick="" BAL_TYPE="INHERIT" thickunit="micron" BAL_NUM="0"/>
+        <material materialname="AIR" BAL_TYPE="INHERIT" BAL_NUM="0"/>
+    </stack>
+    <layers>
+        <layer materialname="PERFECT_CONDUCTOR" index="1" angle="90" sheet="1" thick="0" layer="1" precedence="1" toprough="" negative="0" thickunit="micron" subtype="0" bottomrough="" expand="0" pinsOnly="0"/>
+    </layers>
+    <vias>
+        <via materialname="PERFECT_CONDUCTOR" platingenabled="0" index2="1" rough="" platingthicknessunit="micron" layer="5" precedence="0" platingthickness="" subtype="0" platingdielectricmaterial="AIR" index1="0"/>
+    </vias>
+    <substrates/>
+</SubstrateModel>

@@ -1,0 +1,1209 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Resistor `I__14.X1.X2.R2' is shorted.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Capacitor `I__14.X1.X2.C8' is shorted.
+
+Warning detected by hpeesofsim in LinearCollapse 'I__14._2_' during analysis.
+    LinearCollapse is disabled because there is 'HB' analysis present.
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+CT ParamSweep1[1] <GF_lib:HB1TonePAE_FPswp:schematic>   RFfreq=(710e+06->850e+06)
+
+HB ParamSweep1[1].HB1[1/8] <GF_lib:HB1TonePAE_FPswp:schematic>  RFfreq=710e+06  RFpower=(0->17)
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  32.
+    Number of HB equations (HB problem size): 4488.
+    Number of SS/noise equations (SS/noise problem size): 8976.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__14.I__36.Gap1'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__14.I__36.Gap2'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.003000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__14.I__36.Gap4'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.002286) for 'W' in `I__14.I__36.Gap3'
+
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(0.008000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `I__14.I__36.Tee4'
+
+    RFpower=0              0.00% 1/18
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	690.056 uA  	100.0             
+1.0 	1.69262 uA  	100.0             
+1.1 	7.91598 nA  	100.0	89.7489 nV   
+.    RFpower=1              5.88% 2/18
+0.0 	43.5711 uA  	100.0             
+0.1 	1.17841 uA  	100.0             
+0.2 	14.3483 nA  	100.0             
+
+.    RFpower=2             11.76% 3/18
+0.0 	48.8875 uA  	100.0             
+0.1 	1.50001 uA  	100.0             
+0.2 	21.3465 nA  	100.0             
+
+.    RFpower=3             17.65% 4/18
+0.0 	54.8527 uA  	100.0             
+0.1 	1.90642 uA  	100.0             
+0.2 	31.7561 nA  	100.0             
+
+.    RFpower=4             23.53% 5/18
+0.0 	61.5458 uA  	100.0             
+0.1 	2.41666 uA  	100.0             
+0.2 	47.1634 nA  	100.0             
+0.3 	994.814 pA  	100.0             
+
+.    RFpower=5             29.41% 6/18
+0.0 	69.0555 uA  	100.0             
+0.1 	3.05134 uA  	100.0             
+0.2 	69.7746 nA  	100.0             
+0.3 	1.68778 nA  	100.0             
+
+.    RFpower=6             35.29% 7/18
+0.0 	77.4815 uA  	100.0             
+0.1 	3.83166 uA  	100.0             
+0.2 	102.521 nA  	100.0             
+0.3 	2.85076 nA  	100.0             
+
+.    RFpower=7             41.18% 8/18
+0.0 	86.9357 uA  	100.0             
+0.1 	4.77301 uA  	100.0             
+0.2 	149.022 nA  	100.0             
+0.3 	4.76753 nA  	100.0             
+
+.    RFpower=8             47.06% 9/18
+0.0 	97.5434 uA  	100.0             
+0.1 	5.87977 uA  	100.0             
+0.2 	213.203 nA  	100.0             
+0.3 	8.04392 nA  	100.0             
+
+.    RFpower=9             52.94% 10/18
+0.0 	109.446 uA  	100.0             
+0.1 	7.13435 uA  	100.0             
+0.2 	299.075 nA  	100.0             
+0.3 	13.4412 nA  	100.0             
+
+.    RFpower=10            58.82% 11/18
+0.0 	122.8 uA    	100.0             
+0.1 	8.49386 uA  	100.0             
+0.2 	419.412 nA  	100.0             
+0.3 	21.8328 nA  	100.0             
+
+.    RFpower=11            64.71% 12/18
+0.0 	137.784 uA  	100.0             
+0.1 	9.95475 uA  	100.0             
+0.2 	581.721 nA  	100.0             
+0.3 	34.1077 nA  	100.0             
+
+.    RFpower=12            70.59% 13/18
+0.0 	173.048 uA  	100.0             
+0.1 	11.3429 uA  	100.0             
+0.2 	779.81 nA   	100.0             
+0.3 	50.7008 nA  	100.0             
+
+.    RFpower=13            76.47% 14/18
+0.0 	218.451 uA  	100.0             
+0.1 	12.4619 uA  	100.0             
+0.2 	994.064 nA  	100.0             
+0.3 	73.6599 nA  	100.0             
+
+.    RFpower=14            82.35% 15/18
+0.0 	12.7719 mA  	100.0             
+0.1 	777.17 uA   	100.0             
+0.2 	51.9653 uA  	100.0             
+0.3 	4.15929 uA  	100.0             
+0.4 	313.391 nA  	100.0             
+0.5 	22.2152 nA  	100.0             
+
+.    RFpower=15            88.24% 16/18
+0.0 	7.74615 mA  	100.0             
+0.1 	966.141 uA  	100.0             
+0.2 	73.3911 uA  	100.0             
+0.3 	6.02089 uA  	100.0             
+0.4 	454.569 nA  	100.0             
+0.5 	37.784 nA   	100.0             
+
+.    RFpower=16            94.12% 17/18
+0.0 	7.86198 mA  	100.0             
+0.1 	1.05753 mA  	100.0             
+0.2 	91.8437 uA  	100.0             
+0.3 	9.05499 uA  	100.0             
+0.4 	864.672 nA  	100.0             
+0.5 	84.0709 nA  	100.0             
+
+.    RFpower=17           100.00% 18/18
+0.0 	5.94988 mA  	100.0             
+0.1 	1.28644 mA  	100.0             
+0.2 	133.742 uA  	100.0             
+0.3 	14.8452 uA  	100.0             
+0.4 	1.57446 uA  	100.0             
+0.5 	169.348 nA  	100.0             
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+I__14.X1._net415        3.506e-03       >       1.211e-06
+I__14.X1.X2._net502     3.506e-03       >       1.211e-06
+I__14.X1.X2.vg1         2.630e-04       >       1.560e-06
+I__14.X1.X2._net642     2.561e-04       >       1.558e-06
+I__14.X1.X2._net628     2.561e-04       >       1.558e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 3.506e-03 @ waveform I__14.X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.211e-06 for this waveform.
+o A time-domain plot of the N__13 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB ParamSweep1[1].HB1[2/8] <GF_lib:HB1TonePAE_FPswp:schematic>  RFfreq=730e+06  RFpower=(0->17)
+    RFpower=0              0.00% 1/18
+0.0*	38.4499 mA  	100.0             
+        Newton iteration failed, damping activated
+1.0*	945.954 mA  	 25.0             
+2.0*	37.3951 mA  	 25.0             
+3.0*	61.064 mA   	 50.0             
+4.0*	31.2973 mA  	100.0             
+5.0 	3.32516 mA  	100.0             
+5.1 	718.139 uA  	100.0             
+5.2 	159.46 uA   	100.0             
+5.3 	33.1946 uA  	100.0             
+5.4 	6.07903 uA  	100.0             
+5.5 	968.959 nA  	100.0             
+5.6 	133.728 nA  	100.0             
+5.7 	16.8206 nA  	100.0	165.873 nV   
+.    RFpower=1              5.88% 2/18
+0.0 	43.5711 uA  	100.0             
+0.1 	1.1629 uA   	100.0             
+0.2 	13.8734 nA  	100.0             
+
+.    RFpower=2             11.76% 3/18
+0.0 	48.8875 uA  	100.0             
+0.1 	1.483 uA    	100.0             
+0.2 	20.7024 nA  	100.0             
+
+.    RFpower=3             17.65% 4/18
+0.0 	54.8527 uA  	100.0             
+0.1 	1.88923 uA  	100.0             
+0.2 	30.9184 nA  	100.0             
+
+.    RFpower=4             23.53% 5/18
+0.0 	61.5458 uA  	100.0             
+0.1 	2.40197 uA  	100.0             
+0.2 	46.1457 nA  	100.0             
+0.3 	993.035 pA  	100.0             
+
+.    RFpower=5             29.41% 6/18
+0.0 	69.0555 uA  	100.0             
+0.1 	3.04395 uA  	100.0             
+0.2 	68.6879 nA  	100.0             
+0.3 	1.68359 nA  	100.0             
+
+.    RFpower=6             35.29% 7/18
+0.0 	77.4815 uA  	100.0             
+0.1 	3.8383 uA   	100.0             
+0.2 	101.687 nA  	100.0             
+0.3 	2.83946 nA  	100.0             
+
+.    RFpower=7             41.18% 8/18
+0.0 	86.9357 uA  	100.0             
+0.1 	4.80464 uA  	100.0             
+0.2 	149.171 nA  	100.0             
+0.3 	4.78494 nA  	100.0             
+
+.    RFpower=8             47.06% 9/18
+0.0 	97.5434 uA  	100.0             
+0.1 	5.95164 uA  	100.0             
+0.2 	215.79 nA   	100.0             
+0.3 	7.97629 nA  	100.0             
+
+.    RFpower=9             52.94% 10/18
+0.0 	109.446 uA  	100.0             
+0.1 	7.26527 uA  	100.0             
+0.2 	305.904 nA  	100.0             
+0.3 	13.0185 nA  	100.0             
+
+.    RFpower=10            58.82% 11/18
+0.0 	122.8 uA    	100.0             
+0.1 	8.71309 uA  	100.0             
+0.2 	421.561 nA  	100.0             
+0.3 	21.4549 nA  	100.0             
+
+.    RFpower=11            64.71% 12/18
+0.0 	137.784 uA  	100.0             
+0.1 	10.2059 uA  	100.0             
+0.2 	575.639 nA  	100.0             
+0.3 	34.2468 nA  	100.0             
+
+.    RFpower=12            70.59% 13/18
+0.0 	175.239 uA  	100.0             
+0.1 	11.6563 uA  	100.0             
+0.2 	781.972 nA  	100.0             
+0.3 	52.0673 nA  	100.0             
+
+.    RFpower=13            76.47% 14/18
+0.0 	222.181 uA  	100.0             
+0.1 	12.993 uA   	100.0             
+0.2 	1.02078 uA  	100.0             
+0.3 	74.3824 nA  	100.0             
+
+.    RFpower=14            82.35% 15/18
+0.0 	12.8203 mA  	100.0             
+0.1 	598.874 uA  	100.0             
+0.2 	38.2587 uA  	100.0             
+0.3 	3.26532 uA  	100.0             
+0.4 	257.071 nA  	100.0             
+0.5 	19.1756 nA  	100.0             
+
+.    RFpower=15            88.24% 16/18
+0.0 	7.53298 mA  	100.0             
+0.1 	951.945 uA  	100.0             
+0.2 	71.4371 uA  	100.0             
+0.3 	5.69621 uA  	100.0             
+0.4 	431.537 nA  	100.0             
+0.5 	35.665 nA   	100.0             
+
+.    RFpower=16            94.12% 17/18
+0.0 	8.9092 mA   	100.0             
+0.1 	1.06686 mA  	100.0             
+0.2 	93.4295 uA  	100.0             
+0.3 	8.78256 uA  	100.0             
+0.4 	803.884 nA  	100.0             
+0.5 	76.0716 nA  	100.0             
+
+.    RFpower=17           100.00% 18/18
+0.0 	5.70995 mA  	100.0             
+0.1 	1.33031 mA  	100.0             
+0.2 	131.936 uA  	100.0             
+0.3 	13.9364 uA  	100.0             
+0.4 	1.39345 uA  	100.0             
+0.5 	148.872 nA  	100.0             
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+I__14.X1._net415        3.469e-03       >       1.210e-06
+I__14.X1.X2._net502     3.469e-03       >       1.210e-06
+I__14.X1.X2.vg1         2.609e-04       >       1.561e-06
+I__14.X1.X2._net642     2.514e-04       >       1.559e-06
+I__14.X1.X2._net628     2.514e-04       >       1.559e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 3.469e-03 @ waveform I__14.X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.210e-06 for this waveform.
+o A time-domain plot of the N__13 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB ParamSweep1[1].HB1[3/8] <GF_lib:HB1TonePAE_FPswp:schematic>  RFfreq=750e+06  RFpower=(0->17)
+    RFpower=0              0.00% 1/18
+0.0*	38.4499 mA  	100.0             
+        Newton iteration failed, damping activated
+1.0*	917.331 mA  	 25.0             
+2.0*	39.6276 mA  	 25.0             
+3.0*	57.1755 mA  	 50.0             
+4.0*	29.3472 mA  	100.0             
+5.0 	3.31859 mA  	100.0             
+5.1 	719.548 uA  	100.0             
+5.2 	160.514 uA  	100.0             
+5.3 	32.4151 uA  	100.0             
+5.4 	5.64431 uA  	100.0             
+5.5 	888.268 nA  	100.0             
+5.6 	118.032 nA  	100.0             
+5.7 	16.5799 nA  	100.0	142.042 nV   
+.    RFpower=1              5.88% 2/18
+0.0 	43.5711 uA  	100.0             
+0.1 	1.13391 uA  	100.0             
+0.2 	13.1692 nA  	100.0             
+
+.    RFpower=2             11.76% 3/18
+0.0 	48.8875 uA  	100.0             
+0.1 	1.44822 uA  	100.0             
+0.2 	19.6997 nA  	100.0             
+
+.    RFpower=3             17.65% 4/18
+0.0 	54.8527 uA  	100.0             
+0.1 	1.84853 uA  	100.0             
+0.2 	29.5219 nA  	100.0             
+
+.    RFpower=4             23.53% 5/18
+0.0 	61.5458 uA  	100.0             
+0.1 	2.35615 uA  	100.0             
+0.2 	44.2579 nA  	100.0             
+0.3 	964.96 pA   	100.0             
+
+.    RFpower=5             29.41% 6/18
+0.0 	69.0555 uA  	100.0             
+0.1 	2.9956 uA   	100.0             
+0.2 	66.2522 nA  	100.0             
+0.3 	1.64878 nA  	100.0             
+
+.    RFpower=6             35.29% 7/18
+0.0 	77.4815 uA  	100.0             
+0.1 	3.79318 uA  	100.0             
+0.2 	98.7804 nA  	100.0             
+0.3 	2.80725 nA  	100.0             
+
+.    RFpower=7             41.18% 8/18
+0.0 	86.9357 uA  	100.0             
+0.1 	4.77378 uA  	100.0             
+0.2 	146.187 nA  	100.0             
+0.3 	4.7414 nA   	100.0             
+
+.    RFpower=8             47.06% 9/18
+0.0 	97.5434 uA  	100.0             
+0.1 	5.95442 uA  	100.0             
+0.2 	213.762 nA  	100.0             
+0.3 	7.89631 nA  	100.0             
+
+.    RFpower=9             52.94% 10/18
+0.0 	109.446 uA  	100.0             
+0.1 	7.33327 uA  	100.0             
+0.2 	307.016 nA  	100.0             
+0.3 	13.055 nA   	100.0             
+
+.    RFpower=10            58.82% 11/18
+0.0 	122.8 uA    	100.0             
+0.1 	8.87286 uA  	100.0             
+0.2 	429.815 nA  	100.0             
+0.3 	21.0284 nA  	100.0             
+
+.    RFpower=11            64.71% 12/18
+0.0 	137.784 uA  	100.0             
+0.1 	10.4771 uA  	100.0             
+0.2 	580.857 nA  	100.0             
+0.3 	33.4241 nA  	100.0             
+
+.    RFpower=12            70.59% 13/18
+0.0 	174.634 uA  	100.0             
+0.1 	11.9967 uA  	100.0             
+0.2 	771.289 nA  	100.0             
+0.3 	52.1101 nA  	100.0             
+
+.    RFpower=13            76.47% 14/18
+0.0 	223.009 uA  	100.0             
+0.1 	13.2999 uA  	100.0             
+0.2 	1.02365 uA  	100.0             
+0.3 	76.517 nA   	100.0             
+
+.    RFpower=14            82.35% 15/18
+0.0 	11.786 mA   	100.0             
+0.1 	469.967 uA  	100.0             
+0.2 	31.0882 uA  	100.0             
+0.3 	2.96217 uA  	100.0             
+0.4 	257.538 nA  	100.0             
+0.5 	20.4089 nA  	100.0             
+
+.    RFpower=15            88.24% 16/18
+0.0 	9.59488 mA  	100.0             
+0.1 	947.893 uA  	100.0             
+0.2 	70.4628 uA  	100.0             
+0.3 	5.37209 uA  	100.0             
+0.4 	407.433 nA  	100.0             
+0.5 	33.3022 nA  	100.0             
+
+.    RFpower=16            94.12% 17/18
+0.0 	12.119 mA   	100.0             
+0.1 	1.16119 mA  	100.0             
+0.2 	98.5927 uA  	100.0             
+0.3 	9.32961 uA  	100.0             
+0.4 	832.585 nA  	100.0             
+0.5 	79.6181 nA  	100.0             
+
+.    RFpower=17           100.00% 18/18
+0.0 	12.0264 mA  	100.0             
+0.1 	1.26049 mA  	100.0             
+0.2 	110.332 uA  	100.0             
+0.3 	11.1877 uA  	100.0             
+0.4 	1.15761 uA  	100.0             
+0.5 	119.933 nA  	100.0             
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+I__14.X1._net415        3.310e-03       >       1.208e-06
+I__14.X1.X2._net502     3.310e-03       >       1.208e-06
+I__14.X1.X2.vg1         2.560e-04       >       1.561e-06
+I__14.X1.X2._net642     2.437e-04       >       1.558e-06
+I__14.X1.X2._net628     2.437e-04       >       1.558e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 3.310e-03 @ waveform I__14.X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.208e-06 for this waveform.
+o A time-domain plot of the N__13 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB ParamSweep1[1].HB1[4/8] <GF_lib:HB1TonePAE_FPswp:schematic>  RFfreq=770e+06  RFpower=(0->17)
+    RFpower=0              0.00% 1/18
+0.0*	38.4499 mA  	100.0             
+        Newton iteration failed, damping activated
+1.0*	915.925 mA  	 25.0             
+2.0*	36.0743 mA  	 25.0             
+3.0*	56.6682 mA  	 50.0             
+4.0*	29.0399 mA  	100.0             
+5.0 	3.23963 mA  	100.0             
+5.1 	699.019 uA  	100.0             
+5.2 	159.278 uA  	100.0             
+5.3 	30.351 uA   	100.0             
+5.4 	5.31267 uA  	100.0             
+5.5 	769.026 nA  	100.0             
+5.6 	99.2655 nA  	100.0             
+5.7 	15.249 nA   	100.0	134.47 nV    
+.    RFpower=1              5.88% 2/18
+0.0 	43.5711 uA  	100.0             
+0.1 	1.10605 uA  	100.0             
+0.2 	13.02 nA    	100.0             
+
+.    RFpower=2             11.76% 3/18
+0.0 	48.8875 uA  	100.0             
+0.1 	1.41276 uA  	100.0             
+0.2 	19.4142 nA  	100.0             
+
+.    RFpower=3             17.65% 4/18
+0.0 	54.8527 uA  	100.0             
+0.1 	1.80262 uA  	100.0             
+0.2 	28.9338 nA  	100.0             
+
+.    RFpower=4             23.53% 5/18
+0.0 	61.5458 uA  	100.0             
+0.1 	2.29546 uA  	100.0             
+0.2 	43.0204 nA  	100.0             
+0.3 	914.956 pA  	100.0             
+
+.    RFpower=5             29.41% 6/18
+0.0 	69.0555 uA  	100.0             
+0.1 	2.91342 uA  	100.0             
+0.2 	63.682 nA   	100.0             
+0.3 	1.57469 nA  	100.0             
+
+.    RFpower=6             35.29% 7/18
+0.0 	77.4815 uA  	100.0             
+0.1 	3.70066 uA  	100.0             
+0.2 	94.2864 nA  	100.0             
+0.3 	2.70522 nA  	100.0             
+
+.    RFpower=7             41.18% 8/18
+0.0 	86.9357 uA  	100.0             
+0.1 	4.67949 uA  	100.0             
+0.2 	140.495 nA  	100.0             
+0.3 	4.61933 nA  	100.0             
+
+.    RFpower=8             47.06% 9/18
+0.0 	97.5434 uA  	100.0             
+0.1 	5.87309 uA  	100.0             
+0.2 	207.565 nA  	100.0             
+0.3 	7.79566 nA  	100.0             
+
+.    RFpower=9             52.94% 10/18
+0.0 	109.446 uA  	100.0             
+0.1 	7.2916 uA   	100.0             
+0.2 	301.91 nA   	100.0             
+0.3 	12.9059 nA  	100.0             
+
+.    RFpower=10            58.82% 11/18
+0.0 	122.8 uA    	100.0             
+0.1 	8.91492 uA  	100.0             
+0.2 	429.23 nA   	100.0             
+0.3 	20.9035 nA  	100.0             
+
+.    RFpower=11            64.71% 12/18
+0.0 	137.784 uA  	100.0             
+0.1 	10.6697 uA  	100.0             
+0.2 	591 nA      	100.0             
+0.3 	33.0595 nA  	100.0             
+
+.    RFpower=12            70.59% 13/18
+0.0 	171.489 uA  	100.0             
+0.1 	12.4008 uA  	100.0             
+0.2 	778.879 nA  	100.0             
+0.3 	50.7621 nA  	100.0             
+
+.    RFpower=13            76.47% 14/18
+0.0 	220.471 uA  	100.0             
+0.1 	13.8443 uA  	100.0             
+0.2 	1.00693 uA  	100.0             
+0.3 	76.7529 nA  	100.0             
+
+.    RFpower=14            82.35% 15/18
+0.0 	11.1121 mA  	100.0             
+0.1 	497.467 uA  	100.0             
+0.2 	34.2031 uA  	100.0             
+0.3 	2.96443 uA  	100.0             
+0.4 	249.439 nA  	100.0             
+0.5 	19.9037 nA  	100.0             
+
+.    RFpower=15            88.24% 16/18
+0.0 	8.06629 mA  	100.0             
+0.1 	999.827 uA  	100.0             
+0.2 	70.1965 uA  	100.0             
+0.3 	5.69866 uA  	100.0             
+0.4 	402.857 nA  	100.0             
+0.5 	33.4011 nA  	100.0             
+
+.    RFpower=16            94.12% 17/18
+0.0 	9.48012 mA  	100.0             
+0.1 	1.005 mA    	100.0             
+0.2 	100.545 uA  	100.0             
+0.3 	9.59991 uA  	100.0             
+0.4 	900.559 nA  	100.0             
+0.5 	86.3796 nA  	100.0             
+
+.    RFpower=17           100.00% 18/18
+0.0 	6.77548 mA  	100.0             
+0.1 	1.17876 mA  	100.0             
+0.2 	123.703 uA  	100.0             
+0.3 	12.8397 uA  	100.0             
+0.4 	1.30794 uA  	100.0             
+0.5 	139.472 nA  	100.0             
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+I__14.X1._net415        3.271e-03       >       1.204e-06
+I__14.X1.X2._net502     3.271e-03       >       1.204e-06
+I__14.X1.X2.vg1         2.558e-04       >       1.560e-06
+I__14.X1.X2._net628     2.396e-04       >       1.558e-06
+I__14.X1.X2._net660     2.396e-04       >       1.558e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 3.271e-03 @ waveform I__14.X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.204e-06 for this waveform.
+o A time-domain plot of the N__13 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB ParamSweep1[1].HB1[5/8] <GF_lib:HB1TonePAE_FPswp:schematic>  RFfreq=790e+06  RFpower=(0->17)
+    RFpower=0              0.00% 1/18
+0.0*	38.4499 mA  	100.0             
+        Newton iteration failed, damping activated
+1.0*	924.409 mA  	 25.0             
+2.0*	35.6153 mA  	 25.0             
+3.0*	60.7956 mA  	 50.0             
+4.0*	31.2708 mA  	100.0             
+5.0 	3.34515 mA  	100.0             
+5.1 	675.945 uA  	100.0             
+5.2 	154.875 uA  	100.0             
+5.3 	28.9494 uA  	100.0             
+5.4 	4.816 uA    	100.0             
+5.5 	673.994 nA  	100.0             
+5.6 	85.0822 nA  	100.0             
+5.7 	15.6411 nA  	100.0	130.85 nV    
+.    RFpower=1              5.88% 2/18
+0.0 	43.5711 uA  	100.0             
+0.1 	1.07695 uA  	100.0             
+0.2 	12.6936 nA  	100.0             
+
+.    RFpower=2             11.76% 3/18
+0.0 	48.8875 uA  	100.0             
+0.1 	1.37839 uA  	100.0             
+0.2 	19.0131 nA  	100.0             
+
+.    RFpower=3             17.65% 4/18
+0.0 	54.8527 uA  	100.0             
+0.1 	1.76352 uA  	100.0             
+0.2 	28.4802 nA  	100.0             
+
+.    RFpower=4             23.53% 5/18
+0.0 	61.5458 uA  	100.0             
+0.1 	2.25277 uA  	100.0             
+0.2 	42.5958 nA  	100.0             
+0.3 	868.15 pA   	100.0             
+
+.    RFpower=5             29.41% 6/18
+0.0 	69.0555 uA  	100.0             
+0.1 	2.86987 uA  	100.0             
+0.2 	63.4697 nA  	100.0             
+0.3 	1.48173 nA  	100.0             
+
+.    RFpower=6             35.29% 7/18
+0.0 	77.4815 uA  	100.0             
+0.1 	3.64024 uA  	100.0             
+0.2 	93.9362 nA  	100.0             
+0.3 	2.54608 nA  	100.0             
+
+.    RFpower=7             41.18% 8/18
+0.0 	86.9357 uA  	100.0             
+0.1 	4.58796 uA  	100.0             
+0.2 	137.548 nA  	100.0             
+0.3 	4.39298 nA  	100.0             
+
+.    RFpower=8             47.06% 9/18
+0.0 	97.5434 uA  	100.0             
+0.1 	5.72994 uA  	100.0             
+0.2 	200.391 nA  	100.0             
+0.3 	7.50866 nA  	100.0             
+
+.    RFpower=9             52.94% 10/18
+0.0 	109.446 uA  	100.0             
+0.1 	7.15108 uA  	100.0             
+0.2 	291.298 nA  	100.0             
+0.3 	12.6241 nA  	100.0             
+
+.    RFpower=10            58.82% 11/18
+0.0 	122.8 uA    	100.0             
+0.1 	8.82601 uA  	100.0             
+0.2 	420.345 nA  	100.0             
+0.3 	20.6883 nA  	100.0             
+
+.    RFpower=11            64.71% 12/18
+0.0 	137.784 uA  	100.0             
+0.1 	10.6942 uA  	100.0             
+0.2 	589.372 nA  	100.0             
+0.3 	32.7161 nA  	100.0             
+
+.    RFpower=12            70.59% 13/18
+0.0 	169.806 uA  	100.0             
+0.1 	12.6306 uA  	100.0             
+0.2 	794.108 nA  	100.0             
+0.3 	50.4782 nA  	100.0             
+
+.    RFpower=13            76.47% 14/18
+0.0 	216.4 uA    	100.0             
+0.1 	14.4013 uA  	100.0             
+0.2 	1.01438 uA  	100.0             
+0.3 	75.0162 nA  	100.0             
+
+.    RFpower=14            82.35% 15/18
+0.0 	10.3558 mA  	100.0             
+0.1 	756.95 uA   	100.0             
+0.2 	55.4471 uA  	100.0             
+0.3 	4.88011 uA  	100.0             
+0.4 	406.659 nA  	100.0             
+0.5 	32.8177 nA  	100.0             
+
+.    RFpower=15            88.24% 16/18
+0.0 	6.45334 mA  	100.0             
+0.1 	951.08 uA   	100.0             
+0.2 	65.7856 uA  	100.0             
+0.3 	5.30208 uA  	100.0             
+0.4 	370.626 nA  	100.0             
+0.5 	30.7418 nA  	100.0             
+
+.    RFpower=16            94.12% 17/18
+0.0 	6.94799 mA  	100.0             
+0.1 	1.02118 mA  	100.0             
+0.2 	85.1478 uA  	100.0             
+0.3 	8.17661 uA  	100.0             
+0.4 	742.067 nA  	100.0             
+0.5 	70.5918 nA  	100.0             
+
+.    RFpower=17           100.00% 18/18
+0.0 	5.85943 mA  	100.0             
+0.1 	1.25365 mA  	100.0             
+0.2 	133.879 uA  	100.0             
+0.3 	14.3986 uA  	100.0             
+0.4 	1.51122 uA  	100.0             
+0.5 	159.34 nA   	100.0             
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+I__14.X1._net415        3.342e-03       >       1.200e-06
+I__14.X1.X2._net502     3.342e-03       >       1.200e-06
+I__14.X1.X2.vg1         2.594e-04       >       1.559e-06
+I__14.X1.X2._net628     2.384e-04       >       1.556e-06
+I__14.X1.X2._net660     2.384e-04       >       1.556e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 3.342e-03 @ waveform I__14.X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.200e-06 for this waveform.
+o A time-domain plot of the N__13 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB ParamSweep1[1].HB1[6/8] <GF_lib:HB1TonePAE_FPswp:schematic>  RFfreq=810e+06  RFpower=(0->17)
+    RFpower=0              0.00% 1/18
+0.0*	38.4499 mA  	100.0             
+        Newton iteration failed, damping activated
+1.0*	977.68 mA   	 25.0             
+2.0*	33.0081 mA  	 25.0             
+3.0*	60.3958 mA  	 50.0             
+4.0*	31.067 mA   	100.0             
+5.0 	3.35452 mA  	100.0             
+5.1 	671.04 uA   	100.0             
+5.2 	146.786 uA  	100.0             
+5.3 	27.2458 uA  	100.0             
+5.4 	4.29664 uA  	100.0             
+5.5 	567.267 nA  	100.0             
+5.6 	74.0113 nA  	100.0             
+5.7 	14.6173 nA  	100.0	121.2 nV     
+.    RFpower=1              5.88% 2/18
+0.0 	43.5711 uA  	100.0             
+0.1 	1.07206 uA  	100.0             
+0.2 	12.4409 nA  	100.0             
+
+.    RFpower=2             11.76% 3/18
+0.0 	48.8875 uA  	100.0             
+0.1 	1.36409 uA  	100.0             
+0.2 	18.486 nA   	100.0             
+
+.    RFpower=3             17.65% 4/18
+0.0 	54.8527 uA  	100.0             
+0.1 	1.7321 uA   	100.0             
+0.2 	27.6197 nA  	100.0             
+
+.    RFpower=4             23.53% 5/18
+0.0 	61.5458 uA  	100.0             
+0.1 	2.19851 uA  	100.0             
+0.2 	41.5268 nA  	100.0             
+0.3 	828.32 pA   	100.0             
+
+.    RFpower=5             29.41% 6/18
+0.0 	69.0555 uA  	100.0             
+0.1 	2.80843 uA  	100.0             
+0.2 	62.2651 nA  	100.0             
+0.3 	1.42462 nA  	100.0             
+
+.    RFpower=6             35.29% 7/18
+0.0 	77.4815 uA  	100.0             
+0.1 	3.57168 uA  	100.0             
+0.2 	92.8474 nA  	100.0             
+0.3 	2.44391 nA  	100.0             
+
+.    RFpower=7             41.18% 8/18
+0.0 	86.9357 uA  	100.0             
+0.1 	4.51351 uA  	100.0             
+0.2 	137.191 nA  	100.0             
+0.3 	4.16438 nA  	100.0             
+
+.    RFpower=8             47.06% 9/18
+0.0 	97.5434 uA  	100.0             
+0.1 	5.66956 uA  	100.0             
+0.2 	199.899 nA  	100.0             
+0.3 	7.06751 nA  	100.0             
+
+.    RFpower=9             52.94% 10/18
+0.0 	109.446 uA  	100.0             
+0.1 	7.04167 uA  	100.0             
+0.2 	287.007 nA  	100.0             
+0.3 	12.0606 nA  	100.0             
+
+.    RFpower=10            58.82% 11/18
+0.0 	122.8 uA    	100.0             
+0.1 	8.62101 uA  	100.0             
+0.2 	406.718 nA  	100.0             
+0.3 	20.1245 nA  	100.0             
+
+.    RFpower=11            64.71% 12/18
+0.0 	137.784 uA  	100.0             
+0.1 	10.5624 uA  	100.0             
+0.2 	576.642 nA  	100.0             
+0.3 	32.4764 nA  	100.0             
+
+.    RFpower=12            70.59% 13/18
+0.0 	169.653 uA  	100.0             
+0.1 	12.6583 uA  	100.0             
+0.2 	793.774 nA  	100.0             
+0.3 	49.9956 nA  	100.0             
+
+.    RFpower=13            76.47% 14/18
+0.0 	216.598 uA  	100.0             
+0.1 	14.7125 uA  	100.0             
+0.2 	1.04027 uA  	100.0             
+0.3 	74.6321 nA  	100.0             
+
+.    RFpower=14            82.35% 15/18
+0.0 	8.92166 mA  	100.0             
+0.1 	743.456 uA  	100.0             
+0.2 	56.3526 uA  	100.0             
+0.3 	4.98882 uA  	100.0             
+0.4 	430.867 nA  	100.0             
+0.5 	34.7645 nA  	100.0             
+
+.    RFpower=15            88.24% 16/18
+0.0 	7.31586 mA  	100.0             
+0.1 	917.515 uA  	100.0             
+0.2 	62.5262 uA  	100.0             
+0.3 	4.95256 uA  	100.0             
+0.4 	344.248 nA  	100.0             
+0.5 	28.272 nA   	100.0             
+
+.    RFpower=16            94.12% 17/18
+0.0 	8.07744 mA  	100.0             
+0.1 	1.11998 mA  	100.0             
+0.2 	86.1069 uA  	100.0             
+0.3 	8.10596 uA  	100.0             
+0.4 	722.165 nA  	100.0             
+0.5 	67.7224 nA  	100.0             
+
+.    RFpower=17           100.00% 18/18
+0.0 	5.64521 mA  	100.0             
+0.1 	1.26082 mA  	100.0             
+0.2 	121.847 uA  	100.0             
+0.3 	12.4563 uA  	100.0             
+0.4 	1.22468 uA  	100.0             
+0.5 	126.599 nA  	100.0             
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+I__14.X1._net415        3.329e-03       >       1.195e-06
+I__14.X1.X2._net502     3.329e-03       >       1.195e-06
+I__14.X1.X2.vg1         2.541e-04       >       1.557e-06
+I__14.X1.X2._net628     2.305e-04       >       1.555e-06
+I__14.X1.X2._net660     2.305e-04       >       1.555e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 3.329e-03 @ waveform I__14.X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.195e-06 for this waveform.
+o A time-domain plot of the N__13 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB ParamSweep1[1].HB1[7/8] <GF_lib:HB1TonePAE_FPswp:schematic>  RFfreq=830e+06  RFpower=(0->17)
+    RFpower=0              0.00% 1/18
+0.0*	38.4499 mA  	100.0             
+        Newton iteration failed, damping activated
+1.0*	887.724 mA  	 25.0             
+2.0*	39.1214 mA  	 25.0             
+3.0*	60.0219 mA  	 50.0             
+4.0*	30.7721 mA  	100.0             
+5.0 	3.19748 mA  	100.0             
+5.1 	667.501 uA  	100.0             
+5.2 	140.412 uA  	100.0             
+5.3 	25.0117 uA  	100.0             
+5.4 	3.7481 uA   	100.0             
+5.5 	495.479 nA  	100.0             
+5.6 	69.1366 nA  	100.0             
+5.7 	13.5384 nA  	100.0	102.067 nV   
+.    RFpower=1              5.88% 2/18
+0.0 	43.5711 uA  	100.0             
+0.1 	1.08864 uA  	100.0             
+0.2 	12.2155 nA  	100.0             
+
+.    RFpower=2             11.76% 3/18
+0.0 	48.8875 uA  	100.0             
+0.1 	1.38707 uA  	100.0             
+0.2 	18.2011 nA  	100.0             
+
+.    RFpower=3             17.65% 4/18
+0.0 	54.8527 uA  	100.0             
+0.1 	1.76455 uA  	100.0             
+0.2 	27.1277 nA  	100.0             
+
+.    RFpower=4             23.53% 5/18
+0.0 	61.5458 uA  	100.0             
+0.1 	2.23881 uA  	100.0             
+0.2 	40.385 nA   	100.0             
+0.3 	775.437 pA  	100.0             
+
+.    RFpower=5             29.41% 6/18
+0.0 	69.0555 uA  	100.0             
+0.1 	2.82894 uA  	100.0             
+0.2 	60.2025 nA  	100.0             
+0.3 	1.34312 nA  	100.0             
+
+.    RFpower=6             35.29% 7/18
+0.0 	77.4815 uA  	100.0             
+0.1 	3.55297 uA  	100.0             
+0.2 	90.3856 nA  	100.0             
+0.3 	2.32403 nA  	100.0             
+
+.    RFpower=7             41.18% 8/18
+0.0 	86.9357 uA  	100.0             
+0.1 	4.44173 uA  	100.0             
+0.2 	134.673 nA  	100.0             
+0.3 	4.00181 nA  	100.0             
+
+.    RFpower=8             47.06% 9/18
+0.0 	97.5434 uA  	100.0             
+0.1 	5.58983 uA  	100.0             
+0.2 	198.257 nA  	100.0             
+0.3 	6.82118 nA  	100.0             
+
+.    RFpower=9             52.94% 10/18
+0.0 	109.446 uA  	100.0             
+0.1 	6.94739 uA  	100.0             
+0.2 	286.665 nA  	100.0             
+0.3 	11.4284 nA  	100.0             
+
+.    RFpower=10            58.82% 11/18
+0.0 	122.8 uA    	100.0             
+0.1 	8.55371 uA  	100.0             
+0.2 	405.081 nA  	100.0             
+0.3 	19.1348 nA  	100.0             
+
+.    RFpower=11            64.71% 12/18
+0.0 	137.784 uA  	100.0             
+0.1 	10.3494 uA  	100.0             
+0.2 	563.146 nA  	100.0             
+0.3 	31.5366 nA  	100.0             
+
+.    RFpower=12            70.59% 13/18
+0.0 	168.332 uA  	100.0             
+0.1 	12.497 uA   	100.0             
+0.2 	778.445 nA  	100.0             
+0.3 	49.7935 nA  	100.0             
+
+.    RFpower=13            76.47% 14/18
+0.0 	215.857 uA  	100.0             
+0.1 	14.7785 uA  	100.0             
+0.2 	1.0463 uA   	100.0             
+0.3 	74.2285 nA  	100.0             
+
+.    RFpower=14            82.35% 15/18
+0.0 	8.10265 mA  	100.0             
+0.1 	658.386 uA  	100.0             
+0.2 	49.0489 uA  	100.0             
+0.3 	4.28385 uA  	100.0             
+0.4 	364.073 nA  	100.0             
+0.5 	30.4952 nA  	100.0             
+
+.    RFpower=15            88.24% 16/18
+0.0 	9.66614 mA  	100.0             
+0.1 	1.19686 mA  	100.0             
+0.2 	77.7577 uA  	100.0             
+0.3 	5.19475 uA  	100.0             
+0.4 	325.831 nA  	100.0             
+0.5 	23.0374 nA  	100.0             
+
+.    RFpower=16            94.12% 17/18
+0.0 	13.4983 mA  	100.0             
+0.1 	1.05885 mA  	100.0             
+0.2 	102.461 uA  	100.0             
+0.3 	9.56472 uA  	100.0             
+0.4 	879.899 nA  	100.0             
+0.5 	81.9609 nA  	100.0             
+
+.    RFpower=17           100.00% 18/18
+0.0 	10.5425 mA  	100.0             
+0.1 	1.20834 mA  	100.0             
+0.2 	105.84 uA   	100.0             
+0.3 	10.9042 uA  	100.0             
+0.4 	1.06308 uA  	100.0             
+0.5 	108.068 nA  	100.0             
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+I__14.X1._net415        3.288e-03       >       1.191e-06
+I__14.X1.X2._net502     3.288e-03       >       1.191e-06
+I__14.X1.X2.vg1         2.505e-04       >       1.555e-06
+I__14.X1.X2._net628     2.254e-04       >       1.553e-06
+I__14.X1.X2._net660     2.254e-04       >       1.553e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 3.288e-03 @ waveform I__14.X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.191e-06 for this waveform.
+o A time-domain plot of the N__13 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB ParamSweep1[1].HB1[8/8] <GF_lib:HB1TonePAE_FPswp:schematic>  RFfreq=850e+06  RFpower=(0->17)
+    RFpower=0              0.00% 1/18
+0.0*	38.4499 mA  	100.0             
+        Newton iteration failed, damping activated
+1.0*	866.061 mA  	 25.0             
+2.0*	36.7358 mA  	 25.0             
+3.0*	54.3131 mA  	 50.0             
+4.0*	27.8238 mA  	100.0             
+5.0 	3.17073 mA  	100.0             
+5.1 	648.099 uA  	100.0             
+5.2 	134.232 uA  	100.0             
+5.3 	22.7831 uA  	100.0             
+5.4 	3.2018 uA   	100.0             
+5.5 	422.104 nA  	100.0             
+5.6 	61.3254 nA  	100.0             
+5.7 	12.1085 nA  	100.0	89.487 nV    
+.    RFpower=1              5.88% 2/18
+0.0 	43.5711 uA  	100.0             
+0.1 	1.09563 uA  	100.0             
+0.2 	11.8512 nA  	100.0             
+
+.    RFpower=2             11.76% 3/18
+0.0 	48.8875 uA  	100.0             
+0.1 	1.39745 uA  	100.0             
+0.2 	17.7005 nA  	100.0             
+
+.    RFpower=3             17.65% 4/18
+0.0 	54.8527 uA  	100.0             
+0.1 	1.78036 uA  	100.0             
+0.2 	26.4621 nA  	100.0             
+
+.    RFpower=4             23.53% 5/18
+0.0 	61.5458 uA  	100.0             
+0.1 	2.26344 uA  	100.0             
+0.2 	39.5478 nA  	100.0             
+0.3 	722.431 pA  	100.0             
+
+.    RFpower=5             29.41% 6/18
+0.0 	69.0555 uA  	100.0             
+0.1 	2.86795 uA  	100.0             
+0.2 	58.979 nA   	100.0             
+0.3 	1.24884 nA  	100.0             
+
+.    RFpower=6             35.29% 7/18
+0.0 	77.4815 uA  	100.0             
+0.1 	3.61536 uA  	100.0             
+0.2 	87.5562 nA  	100.0             
+0.3 	2.1691 nA   	100.0             
+
+.    RFpower=7             41.18% 8/18
+0.0 	86.9357 uA  	100.0             
+0.1 	4.52362 uA  	100.0             
+0.2 	130.299 nA  	100.0             
+0.3 	3.77185 nA  	100.0             
+
+.    RFpower=8             47.06% 9/18
+0.0 	97.5434 uA  	100.0             
+0.1 	5.59986 uA  	100.0             
+0.2 	193.64 nA   	100.0             
+0.3 	6.50691 nA  	100.0             
+
+.    RFpower=9             52.94% 10/18
+0.0 	109.446 uA  	100.0             
+0.1 	6.89621 uA  	100.0             
+0.2 	283.313 nA  	100.0             
+0.3 	11.0626 nA  	100.0             
+
+.    RFpower=10            58.82% 11/18
+0.0 	122.8 uA    	100.0             
+0.1 	8.49871 uA  	100.0             
+0.2 	405.158 nA  	100.0             
+0.3 	18.3745 nA  	100.0             
+
+.    RFpower=11            64.71% 12/18
+0.0 	137.784 uA  	100.0             
+0.1 	10.2586 uA  	100.0             
+0.2 	562.472 nA  	100.0             
+0.3 	29.9503 nA  	100.0             
+
+.    RFpower=12            70.59% 13/18
+0.0 	165.391 uA  	100.0             
+0.1 	12.2464 uA  	100.0             
+0.2 	764.89 nA   	100.0             
+0.3 	48.4609 nA  	100.0             
+
+.    RFpower=13            76.47% 14/18
+0.0 	213.717 uA  	100.0             
+0.1 	14.6109 uA  	100.0             
+0.2 	1.03188 uA  	100.0             
+0.3 	74.2733 nA  	100.0             
+
+.    RFpower=14            82.35% 15/18
+0.0 	6.69918 mA  	100.0             
+0.1 	741.749 uA  	100.0             
+0.2 	58.4785 uA  	100.0             
+0.3 	5.24062 uA  	100.0             
+0.4 	459.743 nA  	100.0             
+0.5 	39.7324 nA  	100.0             
+
+.    RFpower=15            88.24% 16/18
+0.0 	9.86719 mA  	100.0             
+0.1 	1.2681 mA   	100.0             
+0.2 	65.0628 uA  	100.0             
+0.3 	4.94375 uA  	100.0             
+0.4 	248.423 nA  	100.0             
+
+.    RFpower=16            94.12% 17/18
+0.0 	7.33691 mA  	100.0             
+0.1 	967.914 uA  	100.0             
+0.2 	92.858 uA   	100.0             
+0.3 	8.82038 uA  	100.0             
+0.4 	841.433 nA  	100.0             
+0.5 	79.1227 nA  	100.0             
+
+.    RFpower=17           100.00% 18/18
+0.0 	11.8621 mA  	100.0             
+0.1 	1.32768 mA  	100.0             
+0.2 	106.715 uA  	100.0             
+0.3 	11.2412 uA  	100.0             
+0.4 	1.0438 uA   	100.0             
+0.5 	106.123 nA  	100.0             
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+I__14.X1._net415        3.302e-03       >       1.185e-06
+I__14.X1.X2._net502     3.302e-03       >       1.185e-06
+I__14.X1.X2.vg1         2.512e-04       >       1.553e-06
+I__14.X1.X2._net628     2.274e-04       >       1.551e-06
+I__14.X1.X2._net660     2.274e-04       >       1.551e-06
+
+o Number of waveforms violating the HB truncation error check:
+        8 out of 10 waveforms.
+o Estimated max HB truncation error: 3.302e-03 @ waveform I__14.X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.185e-06 for this waveform.
+o A time-domain plot of the N__13 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+SP I__14.SP1[1] <GF_lib:HB1TonePAE_FPswp:schematic>   freq=(400 MHz->3.4 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Resource usage:
+  Total stopwatch time     =     4.92 seconds.
+

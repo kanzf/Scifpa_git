@@ -1,0 +1,9 @@
+<!DOCTYPE DisplayAttributes>
+<Lpp_Differences_List>
+    <LPP layer="cond" mode="2" purpose="drawing"/>
+    <LPP fill="83" rgb="16777215" layer="default" mode="1" purpose="drawing"/>
+    <LPP layer="hole" mode="2" purpose="drawing"/>
+    <LPP protect="0" layer="momentum_box" purpose="drawing"/>
+    <LPP protect="0" rgb="13156532" layer="momentum_ref_offset" purpose="drawing"/>
+    <LPP layer="silk_screen2" purpose="drawing" visible="1"/>
+</Lpp_Differences_List>

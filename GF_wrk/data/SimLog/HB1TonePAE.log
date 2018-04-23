@@ -1,0 +1,58 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+
+HB HB1[1] <GF_lib:HB1TonePAE:schematic>
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  32.
+    Number of HB equations (HB problem size): 781.
+    Number of SS/noise equations (SS/noise problem size): 1562.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	2.71155 A   	100.0             
+1.0 	182.729 mA  	100.0             
+1.1 	47.473 mA   	100.0             
+1.2 	29.3471 mA  	100.0             
+1.3 	12.7679 mA  	100.0             
+1.4 	4.76998 mA  	100.0             
+1.5 	1.71212 mA  	100.0             
+1.6 	604.536 uA  	100.0             
+1.7 	469.81 uA   	100.0             
+1.8*	209.731 uA  	100.0             
+2.0 	6.15429 nA  	100.0             
+2.1 	510.548 fA  	100.0	3.4787 pV    
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.X2.HPMOS1.d          3.176e-03       >       4.171e-06
+X1.X2.HPMOS1.Vdsm       2.915e-03       >       4.138e-06
+X1.X2.HPMOS1.Vgsm       1.258e-03       >       1.664e-06
+X1.X2.HPMOS1.g          1.240e-03       >       1.713e-06
+X1.X2.HPMOS1.s          5.029e-05       >       1.081e-06
+
+o Number of waveforms violating the HB truncation error check:
+        5 out of 5 waveforms.
+o Estimated max HB truncation error: 3.176e-03 @ waveform X1.X2.HPMOS1.d .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 4.171e-06 for this waveform.
+o A time-domain plot of the N__2 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+Resource usage:
+  Total stopwatch time     =     1.44 seconds.
+
